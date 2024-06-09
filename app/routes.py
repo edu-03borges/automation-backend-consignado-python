@@ -1,9 +1,9 @@
 from flask import request, jsonify, current_app as app
-from app import db
 import threading
 from app.automation.webdriver_chrome import webdriver_chrome
 from app.db.models import TbCampaigns, TbInstances
 from app.utils import split_into_parts
+from app import db
 import json
 import uuid
 
