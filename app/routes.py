@@ -3,15 +3,9 @@ from app import db
 import threading
 from app.automation.webdriver_chrome import webdriver_chrome
 from app.db.models import TbCampaigns, TbInstances
+from app.utils import split_into_parts
 import json
 import uuid
-
-def split_into_parts(array, num_parts):
-    part_size = len(array) // num_parts
-    parts = [array[i * part_size: (i + 1) * part_size] for i in range(num_parts)]
-    parts[-1].extend(array[num_parts * part_size:])
-
-    return parts
 
 @app.route('/start', methods=['POST'])
 def start_simulation():

@@ -1,0 +1,19 @@
+# Dependencies and AdonisJS build
+__pycache__
+build
+dist
+tmp
+
+# Secrets
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Build tools specific
+run.spec
+
+# Editors specific
+.fleet
+.idea
+.vscode
