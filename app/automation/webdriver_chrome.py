@@ -9,6 +9,7 @@ import random
 import json
 from app.db.models import TbCampaigns, TbInstances
 from app import db
+import re
 
 TIME_WAIT = 20
 
@@ -55,6 +56,7 @@ def webdriver_chrome(flask_app, login, senha, id_instance, array_documents, new_
             WebDriverWait(page, 1000).until(EC.url_to_be('https://meu.bancomercantil.com.br/dashboard'))
 
             array_consult = []
+            guarantee_value = 0
             index = 0
 
             for document in array_documents:
@@ -126,11 +128,25 @@ def webdriver_chrome(flask_app, login, senha, id_instance, array_documents, new_
                         EC.visibility_of_element_located((By.XPATH, '/html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a'))
                     ).click()
 
+                    # Captura o valor garantia antes da simulação
+                    guarantee_value_element = WebDriverWait(page, TIME_WAIT).until(
+                        EC.visibility_of_element_located((By.XPATH, '/html/body/app-root/div/app-main-layout/main/app-fgts/div/div/mat-card[2]/mat-card-content/div/ul/li/div/div/strong'))
+                    )
+  
+                    guarantee_value_before_simulation = guarantee_value_element.text
+                    pattern_guarantee = guarantee_value_before_simulation.replace(",", ".").replace("R$", "").replace(" ", "")
+
+                    guarantee_value = float(pattern_guarantee)
+
+                    if guarantee_value < 150:
+                        error = "Saldo insuficiente para simular"
+                        raise Exception(error)
+
                     # Clica em iniciar
                     WebDriverWait(page, TIME_WAIT).until(
                         EC.visibility_of_element_located((By.XPATH, '/html/body/app-root/div/app-main-layout/main/app-fgts/div/div/mat-card[2]/mat-card-content/div/ul/li/a'))
                     ).click()
-
+  
                     # Clica em simular
                     element = WebDriverWait(page, TIME_WAIT).until(
                         EC.visibility_of_element_located((By.CSS_SELECTOR, 'button.mat-focus-indicator.pcb-button'))
@@ -147,27 +163,32 @@ def webdriver_chrome(flask_app, login, senha, id_instance, array_documents, new_
                     )
 
                     # Obtém o texto dos elementos
-                    valor_garantia_disponivel = div_taxa_media.text
+                    valor_garantia = div_taxa_media.text
                     valor_liberado = div_valor_liberado.text
 
                     # Retorna os valores
                     obj = {
                         "cpf": document['cpf'],
-                        "valor_garantia": valor_garantia_disponivel,
+                        "valor_garantia": valor_garantia,
                         "valor_liberado": valor_liberado,
                         "erro": "" 
                     }
                     
                     array_consult.append(obj)
-                except:
-                    body_text = page.find_element(By.TAG_NAME, "body").text
+                except error:
+                    print(error)
+                    body_text = page.find_element(By.TAG_NAME, "body").text.lower()
 
-                    if "Cliente não autorizou a instituição a realizar a operação fiduciária" in body_text:
+                    if "Cliente não autorizou a instituição a realizar a operação fiduciária".lower() in body_text:
                         error = "Cliente não autorizou a instituição a realizar a operação fiduciária"
+                    if "Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a constratação.".lower() in body_text:
+                        error = "Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a constratação."
+                    if "De acordo com as politicas do banco Mercantil, não é possível digitar uma operação para o CPF informado.".lower() in body_text:
+                        error = "De acordo com as politicas do banco Mercantil, não é possível digitar uma operação para o CPF informado."
 
                     obj = {
                         "cpf": document['cpf'],
-                        "valor_garantia": 0,
+                        "valor_garantia": guarantee_value,
                         "valor_liberado": 0,
                         "erro": error 
                     }
