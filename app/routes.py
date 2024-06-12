@@ -1,6 +1,6 @@
 from flask import request, jsonify, current_app as app
 import threading
-from app.automation.webdriver_chrome import webdriver_chrome
+from app.automation.webdriver_chrome_mercantil import webdriver_chrome_mercantil
 from app.db.models import TbCampaigns, TbInstances
 from app.utils import split_into_parts
 from app import db
@@ -40,7 +40,7 @@ def start_simulation():
         db.session.commit()
         
         # Inicia a função em um novo thread
-        threading.Thread(target=webdriver_chrome, args=(app._get_current_object(), instance['user'], instance['password'], instanceSelect.id, split_parts[index], new_campaign.id)).start()
+        threading.Thread(target=webdriver_chrome_mercantil, args=(app._get_current_object(), instance['user'], instance['password'], data['company'], instanceSelect.id, split_parts[index], new_campaign.id)).start()
 
         index += 1
     return jsonify({"message": "Simulação iniciada"}), 200
