@@ -11,8 +11,8 @@ app = create_app()
 
 if __name__ == '__main__':
 
-    # Art2=text2art("BOT",font='block',chr_ignore=True)
-    # print(Art2)
+    Art2=text2art("BOT",font='block',chr_ignore=True)
+    print(Art2)
 
     print("Server: " + Fore.GREEN + 'Online')
 
