@@ -23,9 +23,8 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
     with flask_app.app_context():
 
         instance = db.session.query(TbInstances).filter_by(id=id_instance).first()
-
-        campaign = db.session.query(TbCampaigns).filter_by(id=new_campaign_id).first()
-
+        db.session.refresh(instance)
+        
         # Configura o serviço do ChromeDriver
         service = Service(ChromeDriverManager().install())
 
@@ -59,16 +58,22 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
             formatted_date = current_datetime.strftime("%d/%m/%Y %H:%M:%S")
 
             array_consult = []
-            name = ""
-            phone = ""
-            guarantee_value = 0
-            released_value = 0
             index = 0
 
             for document in array_documents:
                 try:
+                    
+                    name = ""
+                    phone = ""
+                    guarantee_value = 0
+                    released_value = 0
+                    status = "Ocorreu uma falha na consulta aos dados do cliente"
+
+                    campaign = db.session.query(TbCampaigns).filter_by(id=new_campaign_id).first()
+                    db.session.refresh(campaign)
 
                     if index == 100:
+
                         if campaign.query_data:
                             if isinstance(campaign.query_data, list):
                                 existing_json = campaign.query_data
@@ -84,12 +89,6 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                         campaign.records_consulted = campaign.records_consulted + index
 
                         db.session.commit()
-
-                        array_consult = []
-                        index = 0
-
-                    status = "Ocorreu uma falha na consulta aos dados do cliente"
-                    index += 1
 
                     # Vai para a página de dashboard
                     page.get('https://meu.bancomercantil.com.br/simular-proposta')
@@ -222,9 +221,10 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
 
                     array_consult.append(obj_error)
                     continue
-            
-        except Exception as e:
+                finally:
+                  index += 1
 
+        except Exception as e:
             instance.status = "LIVRE"
             campaign.status = "CANCELADA"
 
@@ -232,6 +232,9 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
             
         finally:
             # Final da automação
+            campaign = db.session.query(TbCampaigns).filter_by(id=new_campaign_id).first()
+            db.session.refresh(campaign)
+
             if campaign.status != "CANCELADA":
                 if campaign.query_data:
                     if isinstance(campaign.query_data, list):
