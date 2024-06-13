@@ -11,7 +11,7 @@ import json
 from app.db.models import TbCampaigns, TbInstances
 from app import db
 
-TIME_WAIT = 30
+TIME_WAIT = 20
 
 def type_like_human(element, text, min_delay=0.1, max_delay=0.3):
     for char in text:
@@ -72,7 +72,7 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                     campaign = db.session.query(TbCampaigns).filter_by(id=new_campaign_id).first()
                     db.session.refresh(campaign)
 
-                    if index == 100:
+                    if index == 10:
 
                         if campaign.query_data:
                             if isinstance(campaign.query_data, list):
@@ -121,7 +121,9 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                     ).click()
 
                     # Digita o cpf
-                    page.find_element(By.XPATH, '//*[@id="mat-input-1"]').send_keys(document['cpf'])
+                    WebDriverWait(page, TIME_WAIT).until(
+                        EC.visibility_of_element_located((By.XPATH, '//*[@id="mat-input-1"]'))
+                    ).send_keys(document['cpf'])
 
                     # Clica em consultar
                     WebDriverWait(page, TIME_WAIT).until(
@@ -132,13 +134,8 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                     WebDriverWait(page, TIME_WAIT).until(
                         EC.visibility_of_element_located((By.XPATH, '/html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a'))
                     ).click()
-                    
-                    # Captura o nome
-                    name_div = WebDriverWait(page, TIME_WAIT).until(
-                        EC.visibility_of_element_located((By.XPATH, '/html/body/app-root/div/app-main-layout/main/app-fgts/div/app-container-header/div/mat-card/mat-card-header/div/mat-card-subtitle/span[1]'))
-                    )
-                    
-                    name = name_div.text
+
+                    WebDriverWait(page, TIME_WAIT).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
 
                     # Captura o telefone
                     phone_div = WebDriverWait(page, TIME_WAIT).until(
@@ -146,6 +143,13 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                     )
                     
                     phone = phone_div.text.replace("Telefone : ", "")
+
+                    # Captura o nome
+                    name_div = WebDriverWait(page, TIME_WAIT).until(
+                        EC.visibility_of_element_located((By.XPATH, '/html/body/app-root/div/app-main-layout/main/app-fgts/div/app-container-header/div/mat-card/mat-card-header/div/mat-card-subtitle/span[1]'))
+                    )
+                    
+                    name = name_div.text
 
                     # Captura o valor garantia antes da simulação
                     guarantee_value_element = WebDriverWait(page, TIME_WAIT).until(
@@ -167,10 +171,10 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                     ).click()
   
                     # Clica em simular
-                    element = WebDriverWait(page, TIME_WAIT).until(
+                    element_simulation = WebDriverWait(page, TIME_WAIT).until(
                         EC.visibility_of_element_located((By.CSS_SELECTOR, 'button.mat-focus-indicator.pcb-button'))
                     )
-                    page.execute_script("arguments[0].click();", element)
+                    page.execute_script("arguments[0].click();", element_simulation)
 
                     # Pega os valores simulados
                     div_guarantee_value = WebDriverWait(page, TIME_WAIT).until(
@@ -201,12 +205,12 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                 except Exception as e:
                     body_text = page.find_element(By.TAG_NAME, "body").text.lower()
 
-                    if "Cliente não autorizou a instituição a realizar a operação fiduciária".lower() in body_text:
-                        status = "Cliente não autorizou a instituição a realizar a operação fiduciária"
-                    if "Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a constratação.".lower() in body_text:
-                        status = "Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a constratação."
-                    if "De acordo com as politicas do banco Mercantil, não é possível digitar uma operação para o CPF informado.".lower() in body_text:
-                        status = "De acordo com as politicas do banco Mercantil, não é possível digitar uma operação para o CPF informado."
+                    if "Cliente não autorizou a instituição a realizar a operação fiduciária.".lower() in body_text:
+                        status = "Cliente não autorizou a instituição a realizar a operação fiduciária."
+                    if "Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a contratação.".lower() in body_text:
+                        status = "Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a contratação. Entre em contato com o setor de FGTS da Caixa."                     
+                    if "De acordo com as politicas do banco Mercantil, não é possivel digitar uma operação para o cpf informado.".lower() in body_text:
+                        status = "De acordo com as politicas do banco Mercantil, não é possivel digitar uma operação para o cpf informado."                     
 
                     obj_error = {
                         "company": company,
@@ -225,6 +229,12 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                   index += 1
 
         except Exception as e:
+            instance = db.session.query(TbInstances).filter_by(id=id_instance).first()
+            db.session.refresh(instance)
+
+            campaign = db.session.query(TbCampaigns).filter_by(id=new_campaign_id).first()
+            db.session.refresh(campaign)
+
             instance.status = "LIVRE"
             campaign.status = "CANCELADA"
 
@@ -232,6 +242,9 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
             
         finally:
             # Final da automação
+            instance = db.session.query(TbInstances).filter_by(id=id_instance).first()
+            db.session.refresh(instance)
+        
             campaign = db.session.query(TbCampaigns).filter_by(id=new_campaign_id).first()
             db.session.refresh(campaign)
 

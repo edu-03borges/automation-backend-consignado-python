@@ -6,6 +6,7 @@ from app.utils import split_into_parts
 from app import db
 import json
 import uuid
+import time
 
 @app.route('/start', methods=['POST'])
 def start_simulation():
@@ -40,6 +41,7 @@ def start_simulation():
         db.session.commit()
         
         # Inicia a função em um novo thread
+        time.sleep(2)
         threading.Thread(target=webdriver_chrome_mercantil, args=(app._get_current_object(), instance['user'], instance['password'], data['company'], instanceSelect.id, split_parts[index], new_campaign.id)).start()
 
         index += 1
