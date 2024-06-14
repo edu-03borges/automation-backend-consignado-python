@@ -74,22 +74,24 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
 
                     if index == 10:
 
-                        if campaign.query_data:
-                            if isinstance(campaign.query_data, list):
-                                existing_json = campaign.query_data
-                            else:
-                                existing_json = json.loads(campaign.query_data)
-                        else:
-                            existing_json = []
+                      if campaign.query_data:
+                          if isinstance(campaign.query_data, list):
+                              existing_json = campaign.query_data
+                          else:
+                              existing_json = json.loads(campaign.query_data)
+                      else:
+                          existing_json = []
 
-                        new_json = array_consult
-                        combined_json = existing_json + new_json
-                        campaign.query_data = json.dumps(combined_json)
+                      new_json = array_consult
+                      combined_json = existing_json + new_json
+                      campaign.query_data = json.dumps(combined_json)
 
-                        campaign.records_consulted = campaign.records_consulted + index
+                      campaign.records_consulted = campaign.records_consulted + index
 
-                        db.session.commit()
-
+                      db.session.commit()
+                      
+                      index = 0
+                      
                     # Vai para a página de dashboard
                     page.get('https://meu.bancomercantil.com.br/simular-proposta')
 
@@ -207,10 +209,14 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
 
                     if "Cliente não autorizou a instituição a realizar a operação fiduciária.".lower() in body_text:
                         status = "Cliente não autorizou a instituição a realizar a operação fiduciária."
-                    if "Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a contratação.".lower() in body_text:
+                    elif "Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a contratação.".lower() in body_text:
                         status = "Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a contratação. Entre em contato com o setor de FGTS da Caixa."                     
-                    if "De acordo com as politicas do banco Mercantil, não é possivel digitar uma operação para o cpf informado.".lower() in body_text:
+                    elif "De acordo com as politicas do banco Mercantil, não é possivel digitar uma operação para o cpf informado.".lower() in body_text:
                         status = "De acordo com as politicas do banco Mercantil, não é possivel digitar uma operação para o cpf informado."                     
+                    elif "Valor da Operação menor que o Valor Mínimo para Emprestimo do Produto/Convenio.".lower() in body_text:
+                        status = "Valor da Operação menor que o Valor Mínimo para Emprestimo do Produto/Convenio."      
+                    elif "CPF inválido".lower() in body_text:
+                        status = "CPF inválido"      
 
                     obj_error = {
                         "company": company,
