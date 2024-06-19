@@ -11,3 +11,4 @@ gunicorn
 waitress
 art
 colorama
+fake_useragent
