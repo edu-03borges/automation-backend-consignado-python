@@ -203,6 +203,9 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                     elif "Código 03 - Dados inconsistentes na validação do reCAPTCHA. Tente novamente.".lower() in body_text:
                         index -= 1
                         break
+                    elif "Por favor, tente novamente mais tarde!".lower() in body_text:
+                        index -= 1
+                        break
 
                     obj_error = {
                         "company": company,

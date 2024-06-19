@@ -58,7 +58,6 @@ def start_simulation():
         instanceSelect.status = "EM USO"
         db.session.commit()
         
-        time.sleep(0.1)
         # Inicia a função em um novo thread
         threading.Thread(target=webdriver_chrome_mercantil, args=(app._get_current_object(), instance['user'], instance['password'], campaign.company, instanceSelect.id, split_parts[index], campaign.id)).start()
 
