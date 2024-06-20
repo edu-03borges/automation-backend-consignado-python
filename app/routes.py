@@ -25,6 +25,7 @@ def start_simulation():
       db.session.refresh(campaign)
 
       campaign.instances = json.dumps(data['instances'])
+      campaign.status = "PROCESSANDO"
       db.session.commit()
 
       array_response = find_differences(campaign.file_data, campaign.query_data)
