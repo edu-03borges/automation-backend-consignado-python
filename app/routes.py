@@ -23,8 +23,8 @@ def start_simulation():
     if data['continue']:
       campaign = db.session.query(TbCampaigns).filter_by(uuid=data['uuid']).first()
       db.session.refresh(campaign)
-    
-      campaign.count = 0
+
+      campaign.instances = json.dumps(data['instances'])
       db.session.commit()
 
       array_response = find_differences(campaign.file_data, campaign.query_data)
