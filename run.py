@@ -1,5 +1,4 @@
 from app import create_app
-from app.ngrok import ngrok
 from waitress import serve
 from dotenv import load_dotenv
 from art import *
@@ -19,8 +18,6 @@ if __name__ == '__main__':
 
     port = int(os.getenv('FLASK_RUN_PORT', 5000))
     host = os.getenv('FLASK_RUN_HOST', 'localhost')
-
-    # ngrok.ngrok_http(port)
 
     # Desenvolvimento
     # app.run(debug=False, host=host, port=port)

@@ -11,7 +11,6 @@ import json
 from app.db.models import TbCampaigns, TbInstances
 from app import db
 from contextlib import contextmanager
-from fake_useragent import UserAgent
 
 TIME_WAIT = 35  # Aumentar o tempo de espera
 MAX_RETRIES = 3  # Máximo de tentativas para encontrar um elemento
@@ -32,8 +31,6 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
 
         # Configura as opções do Chrome
         options = webdriver.ChromeOptions()
-        ua = UserAgent()
-        user_agent = ua.random
 
         options.add_argument('--disable-blink-features=AutomationControlled')
         options.add_argument('--disable-infobars')
