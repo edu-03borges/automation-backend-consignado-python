@@ -186,7 +186,7 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                     campaign = db.session.query(TbCampaigns).filter_by(id=id_campaign).first()
                     db.session.refresh(campaign)
 
-                    if index >= 1:
+                    if index >= 10:
                         append_to_campaign_data(db.session, campaign, array_consult)
                         array_consult = []
                         index = 0
