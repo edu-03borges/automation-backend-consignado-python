@@ -13,19 +13,19 @@ def start_simulation():
 
     data = request.json
 
-    required_fields = ['continue']
+    required_fields = ['continue', 'instances']
     if not all(field in data for field in required_fields):
         return jsonify({"error": "Missing required fields"}), 400
     
     array_response = []
     campaign = TbCampaigns()
+    instances = data['instances']
 
     if data['continue']:
       campaign = db.session.query(TbCampaigns).filter_by(uuid=data['uuid']).first()
       db.session.refresh(campaign)
 
-      campaign.instances = json.dumps(data['instances'])
-      campaign.status = "PROCESSANDO"
+      # campaign.status = "PROCESSANDO"
       db.session.commit()
 
       array_response = find_differences(campaign.file_data, campaign.query_data)
@@ -37,9 +37,7 @@ def start_simulation():
           name=data['name'],
           company=data['company'],
           records=data['records'],
-          file_data=data['file_data'],
-          instances=json.dumps(data['instances']),
-          count=0
+          file_data=data['file_data']
       )
 
       db.session.add(new_campaign)
@@ -48,11 +46,11 @@ def start_simulation():
 
       campaign = new_campaign
     
-    split_parts = split_into_parts(array_response, len(campaign.instances))
+    split_parts = split_into_parts(array_response, len(instances))
 
     index = 0
 
-    for instance in campaign.instances:
+    for instance in instances:
 
         instanceSelect = db.session.query(TbInstances).filter_by(id=instance['id']).first()
 

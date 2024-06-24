@@ -12,8 +12,6 @@ class TbCampaigns(db.Model):
     file_data = db.Column(db.String, nullable=True)
     query_data = db.Column(db.String, nullable=True)
     records_consulted = db.Column(db.Integer, nullable=True, default=0)
-    count = db.Column(db.Integer, nullable=True, default=0)
-    instances = db.Column(db.String, nullable=True)
     created_at = db.Column(db.DateTime, nullable=True, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, nullable=True, default=datetime.utcnow, onupdate=datetime.utcnow)
 
