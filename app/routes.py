@@ -8,9 +8,18 @@ import json
 import uuid
 import time
 
+@app.before_request
+def before_request():
+    # Abre a sessão do banco de dados antes de cada requisição
+    db.session()
+
+@app.teardown_request
+def teardown_request(exception=None):
+    # Fecha a sessão do banco de dados após cada requisição
+    db.session.remove()
+
 @app.route('/start', methods=['POST'])
 def start_simulation():
-
     data = request.json
 
     required_fields = ['continue', 'instances']
@@ -61,6 +70,7 @@ def start_simulation():
         threading.Thread(target=webdriver_chrome_mercantil, args=(app._get_current_object(), instance['user'], instance['password'], campaign.company, instanceSelect.id, split_parts[index], campaign.id)).start()
 
         index += 1
+    
     return jsonify({"message": "Simulação iniciada"}), 200
 
 if __name__ == '__main__':

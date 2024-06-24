@@ -1,0 +1,331 @@
+2024-06-24 15:22:37,268 - INFO - Filling in login details
+2024-06-24 15:22:37,306 - INFO - Typed text 'LEV.RODIMARFERMB' into element <selenium.webdriver.remote.webelement.WebElement (session="ec26c1c547f3ea9d34aadb76d6ddf369", element="f.C241DCB9FD71CEDFE41FE250D0F00995.d.55465E65968C6368FC92B793E9C900D7.e.5")>
+2024-06-24 15:22:41,456 - INFO - Typed text 'qNdl1P9F' into element <selenium.webdriver.remote.webelement.WebElement (session="ec26c1c547f3ea9d34aadb76d6ddf369", element="f.C241DCB9FD71CEDFE41FE250D0F00995.d.55465E65968C6368FC92B793E9C900D7.e.3")>
+2024-06-24 15:22:43,554 - INFO - Waiting for the dashboard page to load
+2024-06-24 15:23:01,538 - INFO - Navigating to the dashboard page
+2024-06-24 15:23:06,456 - INFO - Selecting agreement
+2024-06-24 15:23:06,633 - INFO - Selecting institution
+2024-06-24 15:23:07,789 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:23:07,972 - INFO - Selecting state
+2024-06-24 15:23:08,154 - INFO - Entering CPF for document: 99330334091
+2024-06-24 15:23:10,539 - INFO - Clicking on consult button
+2024-06-24 15:23:10,601 - INFO - Clicking on new operation button
+2024-06-24 15:23:14,317 - INFO - Capturing phone number
+2024-06-24 15:23:15,903 - INFO - Capturing name
+2024-06-24 15:23:15,962 - INFO - Capturing initial guarantee value
+2024-06-24 15:23:51,470 - ERROR - Error list: TimeoutException
+2024-06-24 15:23:51,521 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-24 15:23:51,521 - ERROR - Error while processing document 99330334091, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-24 15:23:51,521 - INFO - Appending error object for document: 99330334091
+2024-06-24 15:23:51,667 - INFO - Processed document 99330334091, index: 1
+2024-06-24 15:23:52,424 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '99330334091', 'name': 'Ronaldo Queiroz da Cruz', 'phone': '(54) 99631-2406', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-06-24 15:23:52,875 - INFO - Navigating to the dashboard page
+2024-06-24 15:23:57,475 - INFO - Selecting agreement
+2024-06-24 15:23:57,643 - INFO - Selecting institution
+2024-06-24 15:23:58,743 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:23:58,994 - INFO - Selecting state
+2024-06-24 15:23:59,256 - INFO - Entering CPF for document: 13099483990
+2024-06-24 15:24:00,942 - INFO - Clicking on consult button
+2024-06-24 15:24:01,061 - INFO - Clicking on new operation button
+2024-06-24 15:24:06,830 - INFO - Capturing phone number
+2024-06-24 15:24:09,419 - INFO - Capturing name
+2024-06-24 15:24:09,450 - INFO - Capturing initial guarantee value
+2024-06-24 15:24:22,439 - INFO - Clicking on start button
+2024-06-24 15:24:22,538 - INFO - Clicking on simulate button
+2024-06-24 15:24:27,116 - INFO - Capturing guarantee value
+2024-06-24 15:24:27,154 - INFO - Capturing available value
+2024-06-24 15:25:02,361 - ERROR - Error list: TimeoutException
+2024-06-24 15:25:02,477 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-24 15:25:02,477 - ERROR - Error while processing document 13099483990, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-24 15:25:02,477 - INFO - Appending error object for document: 13099483990
+2024-06-24 15:25:02,477 - INFO - Processed document 13099483990, index: 1
+2024-06-24 15:25:03,279 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '13099483990', 'name': 'Ramon Silveira Mendes', 'phone': '(48) 99679-7251', 'guarantee_value': 'R$ 282,31', 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-06-24 15:25:03,722 - INFO - Navigating to the dashboard page
+2024-06-24 15:25:06,830 - INFO - Selecting agreement
+2024-06-24 15:25:07,013 - INFO - Selecting institution
+2024-06-24 15:25:08,109 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:25:08,435 - INFO - Selecting state
+2024-06-24 15:25:12,062 - INFO - Entering CPF for document: 95115609991
+2024-06-24 15:25:15,213 - INFO - Clicking on consult button
+2024-06-24 15:25:15,321 - INFO - Clicking on new operation button
+2024-06-24 15:25:19,014 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:25:19,220 - INFO - Capturing phone number
+2024-06-24 15:25:20,785 - INFO - Capturing name
+2024-06-24 15:25:20,817 - INFO - Capturing initial guarantee value
+2024-06-24 15:25:31,360 - INFO - Clicking on start button
+2024-06-24 15:25:31,427 - INFO - Clicking on simulate button
+2024-06-24 15:25:35,961 - INFO - Capturing guarantee value
+2024-06-24 15:25:35,999 - INFO - Capturing available value
+2024-06-24 15:25:37,591 - INFO - Appending success object for document: 95115609991
+2024-06-24 15:25:37,591 - INFO - Processed document 95115609991, index: 1
+2024-06-24 15:25:38,346 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '95115609991', 'name': 'Geovane Fernandes', 'phone': '(48) 99654-0862', 'guarantee_value': 'R$ 338,15', 'released_value': 'R$ 131,52', 'consultation_date': '24/06/2024 15:23:00', 'status': 'Sucesso'}]
+2024-06-24 15:25:38,655 - INFO - Navigating to the dashboard page
+2024-06-24 15:25:42,377 - INFO - Selecting agreement
+2024-06-24 15:25:42,595 - INFO - Selecting institution
+2024-06-24 15:25:46,978 - INFO - Selecting state
+2024-06-24 15:25:47,256 - INFO - Entering CPF for document: 08093166920
+2024-06-24 15:25:49,603 - INFO - Clicking on consult button
+2024-06-24 15:25:49,710 - INFO - Clicking on new operation button
+2024-06-24 15:25:52,941 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:25:53,248 - INFO - Capturing phone number
+2024-06-24 15:25:54,818 - INFO - Capturing name
+2024-06-24 15:25:54,850 - INFO - Capturing initial guarantee value
+2024-06-24 15:26:30,257 - ERROR - Error list: TimeoutException
+2024-06-24 15:26:30,308 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:26:30,308 - ERROR - Error while processing document 08093166920, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:26:30,309 - INFO - Appending error object for document: 08093166920
+2024-06-24 15:26:30,309 - INFO - Processed document 08093166920, index: 1
+2024-06-24 15:26:31,134 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '08093166920', 'name': 'Fernando de Oliveira Dutra', 'phone': '(48) 99810-5527', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-06-24 15:26:31,438 - INFO - Navigating to the dashboard page
+2024-06-24 15:26:35,602 - INFO - Selecting agreement
+2024-06-24 15:26:39,030 - INFO - Selecting institution
+2024-06-24 15:26:40,110 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:26:41,171 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:26:42,073 - INFO - Selecting state
+2024-06-24 15:26:42,352 - INFO - Entering CPF for document: 43619965803
+2024-06-24 15:26:44,564 - INFO - Clicking on consult button
+2024-06-24 15:26:44,667 - INFO - Clicking on new operation button
+2024-06-24 15:26:48,813 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:26:49,429 - INFO - Capturing phone number
+2024-06-24 15:26:50,999 - INFO - Capturing name
+2024-06-24 15:26:51,041 - INFO - Capturing initial guarantee value
+2024-06-24 15:27:26,528 - ERROR - Error list: TimeoutException
+2024-06-24 15:27:26,575 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:27:26,575 - ERROR - Error while processing document 43619965803, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:27:26,575 - INFO - Appending error object for document: 43619965803
+2024-06-24 15:27:26,575 - INFO - Processed document 43619965803, index: 1
+2024-06-24 15:27:27,331 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '43619965803', 'name': 'Marcos Felipe Ferreira', 'phone': '(19) 98741-8195', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-06-24 15:27:27,635 - INFO - Navigating to the dashboard page
+2024-06-24 15:27:32,008 - INFO - Selecting agreement
+2024-06-24 15:27:32,225 - INFO - Selecting institution
+2024-06-24 15:27:33,355 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:27:33,650 - INFO - Selecting state
+2024-06-24 15:27:33,818 - INFO - Entering CPF for document: 10132361906
+2024-06-24 15:27:36,248 - INFO - Clicking on consult button
+2024-06-24 15:27:36,316 - INFO - Clicking on new operation button
+2024-06-24 15:27:41,026 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:27:41,084 - INFO - Capturing phone number
+2024-06-24 15:27:42,696 - INFO - Capturing name
+2024-06-24 15:27:42,767 - INFO - Capturing initial guarantee value
+2024-06-24 15:28:18,042 - ERROR - Error list: TimeoutException
+2024-06-24 15:28:18,098 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:28:18,098 - ERROR - Error while processing document 10132361906, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:28:18,098 - INFO - Appending error object for document: 10132361906
+2024-06-24 15:28:18,098 - INFO - Processed document 10132361906, index: 1
+2024-06-24 15:28:18,848 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '10132361906', 'name': 'Jefferson Moreira Paes', 'phone': '(47) 99133-0782', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-06-24 15:28:19,151 - INFO - Navigating to the dashboard page
+2024-06-24 15:28:24,023 - INFO - Selecting agreement
+2024-06-24 15:28:24,195 - INFO - Selecting institution
+2024-06-24 15:28:25,300 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:28:25,595 - INFO - Selecting state
+2024-06-24 15:28:25,765 - INFO - Entering CPF for document: 10272447501
+2024-06-24 15:28:28,076 - INFO - Clicking on consult button
+2024-06-24 15:28:28,140 - INFO - Clicking on new operation button
+2024-06-24 15:28:32,391 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:28:32,464 - INFO - Capturing phone number
+2024-06-24 15:28:35,136 - INFO - Capturing name
+2024-06-24 15:28:35,212 - INFO - Capturing initial guarantee value
+2024-06-24 15:28:55,255 - INFO - Clicking on start button
+2024-06-24 15:28:55,326 - INFO - Clicking on simulate button
+2024-06-24 15:28:57,447 - INFO - Capturing guarantee value
+2024-06-24 15:28:57,505 - INFO - Capturing available value
+2024-06-24 15:28:59,687 - INFO - Appending success object for document: 10272447501
+2024-06-24 15:28:59,687 - INFO - Processed document 10272447501, index: 1
+2024-06-24 15:29:00,450 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '10272447501', 'name': 'Larissa Santos de Santana', 'phone': '(71) 99933-8201', 'guarantee_value': 'R$ 261,93', 'released_value': 'R$ 161,35', 'consultation_date': '24/06/2024 15:23:00', 'status': 'Sucesso'}]
+2024-06-24 15:29:00,921 - INFO - Navigating to the dashboard page
+2024-06-24 15:29:05,293 - INFO - Selecting agreement
+2024-06-24 15:29:05,453 - INFO - Selecting institution
+2024-06-24 15:29:06,519 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:29:06,788 - INFO - Selecting state
+2024-06-24 15:29:06,946 - INFO - Entering CPF for document: 95689648434
+2024-06-24 15:29:08,569 - INFO - Clicking on consult button
+2024-06-24 15:29:08,632 - INFO - Clicking on new operation button
+2024-06-24 15:29:12,307 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:29:13,300 - INFO - Capturing phone number
+2024-06-24 15:29:14,872 - INFO - Capturing name
+2024-06-24 15:29:14,914 - INFO - Capturing initial guarantee value
+2024-06-24 15:29:50,089 - ERROR - Error list: TimeoutException
+2024-06-24 15:29:50,146 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-24 15:29:50,146 - ERROR - Error while processing document 95689648434, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-24 15:29:50,146 - INFO - Appending error object for document: 95689648434
+2024-06-24 15:29:50,147 - INFO - Processed document 95689648434, index: 1
+2024-06-24 15:29:50,899 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '95689648434', 'name': 'Givaldo Silvestre Buriti', 'phone': '(38) 99213-4284', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-06-24 15:29:51,197 - INFO - Navigating to the dashboard page
+2024-06-24 15:29:54,620 - INFO - Selecting agreement
+2024-06-24 15:29:54,852 - INFO - Selecting institution
+2024-06-24 15:29:56,014 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:29:56,246 - INFO - Selecting state
+2024-06-24 15:29:56,487 - INFO - Entering CPF for document: 07641844901
+2024-06-24 15:29:58,530 - INFO - Clicking on consult button
+2024-06-24 15:29:58,599 - INFO - Clicking on new operation button
+2024-06-24 15:30:04,857 - INFO - Capturing phone number
+2024-06-24 15:30:39,998 - ERROR - Error list: TimeoutException
+2024-06-24 15:30:40,050 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:30:40,050 - ERROR - Error while processing document 07641844901, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:30:40,050 - INFO - Appending error object for document: 07641844901
+2024-06-24 15:30:40,050 - INFO - Processed document 07641844901, index: 1
+2024-06-24 15:30:40,808 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '07641844901', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-06-24 15:30:41,110 - INFO - Navigating to the dashboard page
+2024-06-24 15:30:44,886 - INFO - Selecting agreement
+2024-06-24 15:30:45,041 - INFO - Selecting institution
+2024-06-24 15:30:46,134 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:30:46,465 - INFO - Selecting state
+2024-06-24 15:30:46,670 - INFO - Entering CPF for document: 00027653226
+2024-06-24 15:30:48,990 - INFO - Clicking on consult button
+2024-06-24 15:30:52,052 - INFO - Clicking on new operation button
+2024-06-24 15:30:55,704 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:30:55,824 - INFO - Capturing phone number
+2024-06-24 15:30:58,443 - INFO - Capturing name
+2024-06-24 15:30:58,472 - INFO - Capturing initial guarantee value
+2024-06-24 15:31:33,480 - ERROR - Error list: TimeoutException
+2024-06-24 15:31:33,530 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:31:33,530 - ERROR - Error while processing document 00027653226, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:31:33,530 - INFO - Appending error object for document: 00027653226
+2024-06-24 15:31:33,530 - INFO - Processed document 00027653226, index: 1
+2024-06-24 15:31:34,278 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '00027653226', 'name': 'Jucileide Sousa dos Santos', 'phone': '(48) 99813-5451', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-06-24 15:31:34,576 - INFO - Navigating to the dashboard page
+2024-06-24 15:31:38,454 - INFO - Selecting agreement
+2024-06-24 15:31:38,606 - INFO - Selecting institution
+2024-06-24 15:31:39,747 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:31:39,987 - INFO - Selecting state
+2024-06-24 15:31:40,163 - INFO - Entering CPF for document: 04751551906
+2024-06-24 15:31:45,571 - INFO - Clicking on consult button
+2024-06-24 15:31:45,661 - INFO - Clicking on new operation button
+2024-06-24 15:31:49,284 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:31:49,574 - INFO - Capturing phone number
+2024-06-24 15:31:51,128 - INFO - Capturing name
+2024-06-24 15:31:51,151 - INFO - Capturing initial guarantee value
+2024-06-24 15:32:26,475 - ERROR - Error list: TimeoutException
+2024-06-24 15:32:26,519 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:32:26,519 - ERROR - Error while processing document 04751551906, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:32:26,519 - INFO - Appending error object for document: 04751551906
+2024-06-24 15:32:26,519 - INFO - Processed document 04751551906, index: 1
+2024-06-24 15:32:27,279 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '04751551906', 'name': 'Leandro Adao Berlet', 'phone': '(49) 99924-2822', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-06-24 15:32:27,577 - INFO - Navigating to the dashboard page
+2024-06-24 15:32:32,288 - INFO - Selecting agreement
+2024-06-24 15:32:35,392 - INFO - Selecting institution
+2024-06-24 15:32:36,482 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:32:36,786 - INFO - Selecting state
+2024-06-24 15:32:37,010 - INFO - Entering CPF for document: 11958929930
+2024-06-24 15:32:38,759 - INFO - Clicking on consult button
+2024-06-24 15:32:38,850 - INFO - Clicking on new operation button
+2024-06-24 15:32:42,478 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:32:43,070 - INFO - Capturing phone number
+2024-06-24 15:32:44,667 - INFO - Capturing name
+2024-06-24 15:32:44,690 - INFO - Capturing initial guarantee value
+2024-06-24 15:32:45,926 - INFO - Clicking on start button
+2024-06-24 15:32:45,990 - INFO - Clicking on simulate button
+2024-06-24 15:32:47,554 - INFO - Capturing guarantee value
+2024-06-24 15:32:47,579 - INFO - Capturing available value
+2024-06-24 15:32:49,147 - INFO - Appending success object for document: 11958929930
+2024-06-24 15:32:49,147 - INFO - Processed document 11958929930, index: 1
+2024-06-24 15:32:49,893 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '11958929930', 'name': 'Leonardo Rossetti Locks', 'phone': '(48) 99952-4920', 'guarantee_value': 'R$ 230,56', 'released_value': 'R$ 154,09', 'consultation_date': '24/06/2024 15:23:00', 'status': 'Sucesso'}]
+2024-06-24 15:32:50,299 - INFO - Navigating to the dashboard page
+2024-06-24 15:32:54,954 - INFO - Selecting agreement
+2024-06-24 15:32:57,701 - INFO - Selecting institution
+2024-06-24 15:32:58,781 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:32:59,023 - INFO - Selecting state
+2024-06-24 15:32:59,241 - INFO - Entering CPF for document: 07813819918
+2024-06-24 15:33:02,422 - INFO - Clicking on consult button
+2024-06-24 15:33:02,515 - INFO - Clicking on new operation button
+2024-06-24 15:33:06,205 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:33:06,549 - INFO - Capturing phone number
+2024-06-24 15:33:08,105 - INFO - Capturing name
+2024-06-24 15:33:08,129 - INFO - Capturing initial guarantee value
+2024-06-24 15:33:43,589 - ERROR - Error list: TimeoutException
+2024-06-24 15:33:43,631 - INFO - Determined status: Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a contratação. Entre em contato com o setor de FGTS da Caixa.
+2024-06-24 15:33:43,631 - ERROR - Error while processing document 07813819918, Status: Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a contratação. Entre em contato com o setor de FGTS da Caixa.
+2024-06-24 15:33:43,631 - INFO - Appending error object for document: 07813819918
+2024-06-24 15:33:43,631 - INFO - Processed document 07813819918, index: 1
+2024-06-24 15:33:44,378 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '07813819918', 'name': 'Muriel Rodrigues da Cunha', 'phone': '(48) 99964-8694', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Mudanças cadastrais na conta do FGTS foram realizadas, que impedem a contratação. Entre em contato com o setor de FGTS da Caixa.'}]
+2024-06-24 15:33:44,676 - INFO - Navigating to the dashboard page
+2024-06-24 15:33:49,150 - INFO - Selecting agreement
+2024-06-24 15:33:51,583 - INFO - Selecting institution
+2024-06-24 15:33:52,693 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:33:53,004 - INFO - Selecting state
+2024-06-24 15:33:53,223 - INFO - Entering CPF for document: 07344999226
+2024-06-24 15:33:55,174 - INFO - Clicking on consult button
+2024-06-24 15:33:55,264 - INFO - Clicking on new operation button
+2024-06-24 15:33:58,920 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:33:59,026 - INFO - Capturing phone number
+2024-06-24 15:34:00,579 - INFO - Capturing name
+2024-06-24 15:34:00,603 - INFO - Capturing initial guarantee value
+2024-06-24 15:34:12,401 - INFO - Clicking on start button
+2024-06-24 15:34:14,278 - INFO - Clicking on simulate button
+2024-06-24 15:34:15,926 - INFO - Capturing guarantee value
+2024-06-24 15:34:15,955 - INFO - Capturing available value
+2024-06-24 15:34:17,578 - INFO - Appending success object for document: 07344999226
+2024-06-24 15:34:17,578 - INFO - Processed document 07344999226, index: 1
+2024-06-24 15:34:18,325 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '07344999226', 'name': 'Wescley da Silva Oliveira', 'phone': '(48) 99672-2283', 'guarantee_value': 'R$ 149,24', 'released_value': 'R$ 108,43', 'consultation_date': '24/06/2024 15:23:00', 'status': 'Sucesso'}]
+2024-06-24 15:34:18,726 - INFO - Navigating to the dashboard page
+2024-06-24 15:34:23,560 - INFO - Selecting agreement
+2024-06-24 15:34:25,766 - INFO - Selecting institution
+2024-06-24 15:34:26,858 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:34:27,164 - INFO - Selecting state
+2024-06-24 15:34:27,382 - INFO - Entering CPF for document: 04149367361
+2024-06-24 15:34:30,124 - INFO - Clicking on consult button
+2024-06-24 15:34:30,217 - INFO - Clicking on new operation button
+2024-06-24 15:34:33,426 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:34:33,835 - INFO - Capturing phone number
+2024-06-24 15:34:35,391 - INFO - Capturing name
+2024-06-24 15:34:35,414 - INFO - Capturing initial guarantee value
+2024-06-24 15:34:44,450 - ERROR - Error list: Exception
+2024-06-24 15:34:44,500 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-24 15:34:44,500 - ERROR - Error while processing document 04149367361, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-24 15:34:44,500 - INFO - Appending error object for document: 04149367361
+2024-06-24 15:34:44,501 - INFO - Processed document 04149367361, index: 1
+2024-06-24 15:34:45,360 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '04149367361', 'name': 'Francisco Wilton Gomes da Silva', 'phone': '(88) 99210-4600', 'guarantee_value': 11.16, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-06-24 15:34:45,662 - INFO - Navigating to the dashboard page
+2024-06-24 15:34:50,454 - INFO - Selecting agreement
+2024-06-24 15:34:51,632 - INFO - Selecting institution
+2024-06-24 15:34:53,906 - INFO - Selecting state
+2024-06-24 15:34:54,126 - INFO - Entering CPF for document: 65939964915
+2024-06-24 15:34:55,513 - INFO - Clicking on consult button
+2024-06-24 15:34:55,602 - INFO - Clicking on new operation button
+2024-06-24 15:34:59,272 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:34:59,357 - INFO - Capturing phone number
+2024-06-24 15:35:00,945 - INFO - Capturing name
+2024-06-24 15:35:00,970 - INFO - Capturing initial guarantee value
+2024-06-24 15:35:13,470 - INFO - Clicking on start button
+2024-06-24 15:35:15,147 - INFO - Clicking on simulate button
+2024-06-24 15:35:16,792 - INFO - Capturing guarantee value
+2024-06-24 15:35:16,815 - INFO - Capturing available value
+2024-06-24 15:35:18,367 - INFO - Appending success object for document: 65939964915
+2024-06-24 15:35:18,367 - INFO - Processed document 65939964915, index: 1
+2024-06-24 15:35:19,117 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '65939964915', 'name': 'David Martins Medeiros', 'phone': '(48) 99956-4888', 'guarantee_value': 'R$ 330,18', 'released_value': 'R$ 134,11', 'consultation_date': '24/06/2024 15:23:00', 'status': 'Sucesso'}]
+2024-06-24 15:35:19,417 - INFO - Navigating to the dashboard page
+2024-06-24 15:35:22,730 - INFO - Selecting agreement
+2024-06-24 15:35:22,956 - INFO - Selecting institution
+2024-06-24 15:35:26,241 - INFO - Selecting state
+2024-06-24 15:35:26,458 - INFO - Entering CPF for document: 04025617080
+2024-06-24 15:35:28,662 - INFO - Clicking on consult button
+2024-06-24 15:35:28,750 - INFO - Clicking on new operation button
+2024-06-24 15:35:31,858 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:35:32,898 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-24 15:35:33,067 - INFO - Capturing phone number
+2024-06-24 15:35:35,702 - INFO - Capturing name
+2024-06-24 15:35:35,784 - INFO - Capturing initial guarantee value
+2024-06-24 15:36:10,960 - ERROR - Error list: TimeoutException
+2024-06-24 15:36:11,010 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:36:11,010 - ERROR - Error while processing document 04025617080, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-24 15:36:11,010 - INFO - Appending error object for document: 04025617080
+2024-06-24 15:36:11,010 - INFO - Processed document 04025617080, index: 1
+2024-06-24 15:36:12,024 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '04025617080', 'name': 'Joao Vitor Correa Bressan', 'phone': '(48) 99815-6946', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '24/06/2024 15:23:00', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-06-24 15:36:12,441 - INFO - Navigating to the dashboard page
+2024-06-24 15:36:16,752 - INFO - Selecting agreement
+2024-06-24 15:36:20,270 - INFO - Selecting institution
+2024-06-24 15:36:21,362 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-24 15:36:21,758 - INFO - Selecting state
+2024-06-24 15:36:22,087 - INFO - Entering CPF for document: 09890428989
+2024-06-24 15:36:24,340 - INFO - Clicking on consult button
+2024-06-24 15:36:24,690 - INFO - Clicking on new operation button
+2024-06-24 15:36:28,290 - ERROR - Error list: NoSuchWindowException
+2024-06-24 15:36:28,292 - INFO - Processed document 09890428989, index: 0
+2024-06-24 15:36:28,293 - CRITICAL - Critical error in main process
+2024-06-24 15:36:28,293 - ERROR - Error: NoSuchWindowException
+2024-06-24 15:36:28,879 - INFO - Set instance status to LIVRE for instance ID: 3
+2024-06-24 15:36:29,029 - INFO - Database commit completed
+2024-06-24 15:36:31,220 - INFO - Closed Selenium page
+2024-06-24 15:36:31,220 - INFO - Database session closed
+2024-06-24 15:36:35,293 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014A1AB51190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ec26c1c547f3ea9d34aadb76d6ddf369
+2024-06-24 15:36:39,356 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014A1AB2D490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ec26c1c547f3ea9d34aadb76d6ddf369

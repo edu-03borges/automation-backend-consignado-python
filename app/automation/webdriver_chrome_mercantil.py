@@ -31,11 +31,8 @@ def type_like_human(element, text, min_delay=0.1, max_delay=0.3):
         element.send_keys(char)
         time.sleep(random.uniform(min_delay, max_delay))
 
-def append_to_campaign_data(id_campaign, array_consult):
-    logging.info(f"Appending data to campaign {id_campaign}: {array_consult}")
-
-    campaign = db.session.query(TbCampaigns).filter_by(id=id_campaign).first()
-    db.session.refresh(campaign)
+def append_to_campaign_data(session, campaign, array_consult):
+    logging.info(f"Appending data to campaign: {array_consult}")
 
     if campaign.query_data:
         if isinstance(campaign.query_data, list):
@@ -50,9 +47,9 @@ def append_to_campaign_data(id_campaign, array_consult):
     campaign.query_data = json.dumps(combined_json)
 
     campaign.records_consulted = len(json.loads(campaign.query_data))
-    db.session.commit()
+    session.commit()
 
-def handle_selenium_exception(page, exception, instance, id_campaign):
+def handle_selenium_exception(session, page, exception, instance, id_campaign):
     error_name = type(exception).__name__
     logging.error(f"Error: {error_name}")
 
@@ -60,37 +57,36 @@ def handle_selenium_exception(page, exception, instance, id_campaign):
     logging.info(f"Set instance status to LIVRE for instance ID: {instance.id}")
 
     if error_name != "NoSuchWindowException":
-        campaign = db.session.query(TbCampaigns).filter_by(id=id_campaign).first()
+        campaign = session.query(TbCampaigns).filter_by(id=id_campaign).first()
         campaign.status = "CANCELADA"
         logging.info(f"Set campaign status to CANCELADA for campaign ID: {id_campaign}")
 
-    db.session.commit()
+    session.commit()
     logging.info("Database commit completed")
 
     page.quit()
     logging.info("Closed Selenium page")
 
-def finalize_campaign(instance, id_campaign, array_consult):
+def finalize_campaign(session, instance, id_campaign, array_consult):
     logging.info(f"Finalizing campaign {id_campaign} with data: {array_consult}")
 
     instance.status = "LIVRE"
     db.session.commit()
 
-    campaign = db.session.query(TbCampaigns).filter_by(id=id_campaign).first()
-    db.session.refresh(campaign)
+    campaign = session.query(TbCampaigns).filter_by(id=id_campaign).first()
+    session.refresh(campaign)
 
-    append_to_campaign_data(id_campaign, array_consult)
+    append_to_campaign_data(session, campaign, array_consult)
 
     if len(json.loads(campaign.query_data)) == campaign.records:
         campaign.status = "CONCLUÍDA"
     else:
         campaign.status = "PARCIAL"
 
-    db.session.commit()
+    session.commit()
 
 def determine_status(page):
     body_text = page.find_element(By.TAG_NAME, "body").text.lower()
-    logging.info(f"Body text: {body_text}")
 
     if (
         "cliente não autorizou a instituição a realizar a operação fiduciária.".lower()
@@ -190,8 +186,8 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                     campaign = db.session.query(TbCampaigns).filter_by(id=id_campaign).first()
                     db.session.refresh(campaign)
 
-                    if index == 10:
-                        append_to_campaign_data(id_campaign, array_consult)
+                    if index >= 1:
+                        append_to_campaign_data(db.session, campaign, array_consult)
                         array_consult = []
                         index = 0
 
@@ -325,10 +321,12 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
 
                     logging.info(f"Appending success object for document: {document['cpf']}")
                     array_consult.append(obj_success)
-
-                    success = True
+                    index += 1
 
                 except Exception as e:
+                    error_name = type(e).__name__
+                    logging.error(f"Error list: {error_name}")
+
                     status = status = determine_status(page)
                     logging.error(f"Error while processing document {document['cpf']}, Status: {status}")
 
@@ -345,19 +343,23 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
 
                     logging.info(f"Appending error object for document: {document['cpf']}")
                     array_consult.append(obj_error)
+                    index += 1
+                    
+                    db.session.rollback()
                     continue
                 finally:
-                    index += 1
                     logging.info(f"Processed document {document['cpf']}, index: {index}")
+
+            success = True
 
         except Exception as e:
             logging.critical(f"Critical error in main process")
-            handle_selenium_exception(page, e, instance, id_campaign)
+            handle_selenium_exception(db.session, page, e, instance, id_campaign)
 
         finally:
             if success:
                 logging.info("Finalizing campaign")
-                finalize_campaign(instance, id_campaign, array_consult)
+                finalize_campaign(db.session, instance, id_campaign, array_consult)
 
             db.session.close()
             logging.info("Database session closed")
