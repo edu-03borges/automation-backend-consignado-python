@@ -17,3 +17,6 @@ run.spec
 .fleet
 .idea
 .vscode
+
+# My
+app.log

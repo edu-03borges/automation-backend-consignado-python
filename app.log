@@ -329,3 +329,533 @@
 2024-06-24 15:36:31,220 - INFO - Database session closed
 2024-06-24 15:36:35,293 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014A1AB51190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ec26c1c547f3ea9d34aadb76d6ddf369
 2024-06-24 15:36:39,356 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014A1AB2D490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ec26c1c547f3ea9d34aadb76d6ddf369
+2024-06-25 09:39:15,480 - INFO - Serving on http://[::1]:5000
+2024-06-25 09:39:15,481 - INFO - Serving on http://127.0.0.1:5000
+2024-06-25 09:40:38,709 - INFO - Starting webdriver_chrome_mercantil context
+2024-06-25 09:40:40,194 - INFO - ====== WebDriver manager ======
+2024-06-25 09:40:41,023 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 09:40:41,174 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 09:40:41,236 - INFO - There is no [win64] chromedriver "126.0.6478.126" for browser google-chrome "126.0.6478" in cache
+2024-06-25 09:40:41,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 09:40:41,394 - INFO - WebDriver version 126.0.6478.126 selected
+2024-06-25 09:40:41,397 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-06-25 09:40:41,397 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-06-25 09:40:41,509 - INFO - Driver downloading response is 200
+2024-06-25 09:40:41,672 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 09:40:41,858 - INFO - Driver has been saved in cache [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126]
+2024-06-25 09:40:48,768 - INFO - Navigating to the login page
+2024-06-25 09:40:50,452 - INFO - Filling in login details
+2024-06-25 09:40:50,485 - INFO - Typed text 'LEV.RODIMARFERMB' into element <selenium.webdriver.remote.webelement.WebElement (session="2cc95ce8c93b77ea5faea1409c661169", element="f.E3F512AAB372BD63FE8CE9B4E6C9667C.d.65E08537C070DD0992C6358D45235A66.e.7")>
+2024-06-25 09:40:53,958 - INFO - Typed text 'qNdl1P9F' into element <selenium.webdriver.remote.webelement.WebElement (session="2cc95ce8c93b77ea5faea1409c661169", element="f.E3F512AAB372BD63FE8CE9B4E6C9667C.d.65E08537C070DD0992C6358D45235A66.e.2")>
+2024-06-25 09:40:55,727 - INFO - Waiting for the dashboard page to load
+2024-06-25 09:41:02,487 - INFO - Navigating to the dashboard page
+2024-06-25 09:41:08,161 - INFO - Selecting agreement
+2024-06-25 09:41:09,415 - INFO - Selecting institution
+2024-06-25 09:41:10,480 - INFO - Selecting state
+2024-06-25 09:41:10,732 - INFO - Entering CPF for document: 11367527902
+2024-06-25 09:41:12,955 - INFO - Clicking on consult button
+2024-06-25 09:41:13,048 - INFO - Clicking on new operation button
+2024-06-25 09:41:16,519 - INFO - Capturing phone number
+2024-06-25 09:41:17,571 - INFO - Capturing name
+2024-06-25 09:41:17,602 - INFO - Capturing initial guarantee value
+2024-06-25 09:41:52,977 - ERROR - Error list: TimeoutException
+2024-06-25 09:41:53,036 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:41:53,036 - ERROR - Error while processing document 11367527902, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:41:53,036 - INFO - Appending error object for document: 11367527902
+2024-06-25 09:41:53,178 - INFO - Processed document 11367527902, index: 1
+2024-06-25 09:41:54,162 - INFO - Navigating to the dashboard page
+2024-06-25 09:41:56,866 - INFO - Selecting agreement
+2024-06-25 09:41:58,762 - INFO - Selecting institution
+2024-06-25 09:42:00,328 - INFO - Selecting state
+2024-06-25 09:42:00,538 - INFO - Entering CPF for document: 01030218927
+2024-06-25 09:42:03,643 - INFO - Clicking on consult button
+2024-06-25 09:42:03,735 - INFO - Clicking on new operation button
+2024-06-25 09:42:38,859 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 09:43:14,023 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 09:43:49,136 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 09:43:49,147 - INFO - Capturing phone number
+2024-06-25 09:44:24,209 - ERROR - Error list: TimeoutException
+2024-06-25 09:44:24,257 - INFO - Determined status: De acordo com as politicas do banco Mercantil, não é possivel digitar uma operação para o cpf informado.
+2024-06-25 09:44:24,257 - ERROR - Error while processing document 01030218927, Status: De acordo com as politicas do banco Mercantil, não é possivel digitar uma operação para o cpf informado.
+2024-06-25 09:44:24,257 - INFO - Appending error object for document: 01030218927
+2024-06-25 09:44:24,397 - INFO - Processed document 01030218927, index: 2
+2024-06-25 09:44:25,390 - INFO - Navigating to the dashboard page
+2024-06-25 09:44:34,915 - INFO - Selecting agreement
+2024-06-25 09:44:35,124 - INFO - Selecting institution
+2024-06-25 09:44:36,194 - INFO - Selecting state
+2024-06-25 09:44:36,919 - INFO - Entering CPF for document: 33171048809
+2024-06-25 09:44:38,408 - INFO - Clicking on consult button
+2024-06-25 09:44:38,516 - INFO - Clicking on new operation button
+2024-06-25 09:44:41,585 - INFO - Capturing phone number
+2024-06-25 09:44:42,133 - INFO - Capturing name
+2024-06-25 09:44:42,154 - INFO - Capturing initial guarantee value
+2024-06-25 09:45:17,605 - ERROR - Error list: TimeoutException
+2024-06-25 09:45:17,647 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:45:17,647 - ERROR - Error while processing document 33171048809, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:45:17,647 - INFO - Appending error object for document: 33171048809
+2024-06-25 09:45:17,791 - INFO - Processed document 33171048809, index: 3
+2024-06-25 09:45:18,769 - INFO - Navigating to the dashboard page
+2024-06-25 09:45:21,632 - INFO - Selecting agreement
+2024-06-25 09:45:23,396 - INFO - Selecting institution
+2024-06-25 09:45:24,439 - INFO - Selecting state
+2024-06-25 09:45:24,668 - INFO - Entering CPF for document: 06474296917
+2024-06-25 09:45:26,101 - INFO - Clicking on consult button
+2024-06-25 09:45:26,234 - INFO - Clicking on new operation button
+2024-06-25 09:45:29,383 - INFO - Capturing phone number
+2024-06-25 09:45:30,423 - INFO - Capturing name
+2024-06-25 09:45:30,449 - INFO - Capturing initial guarantee value
+2024-06-25 09:46:05,649 - ERROR - Error list: TimeoutException
+2024-06-25 09:46:05,698 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-25 09:46:05,698 - ERROR - Error while processing document 06474296917, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-25 09:46:05,698 - INFO - Appending error object for document: 06474296917
+2024-06-25 09:46:05,838 - INFO - Processed document 06474296917, index: 4
+2024-06-25 09:46:06,831 - INFO - Navigating to the dashboard page
+2024-06-25 09:46:09,797 - INFO - Selecting agreement
+2024-06-25 09:46:11,153 - INFO - Selecting institution
+2024-06-25 09:46:12,196 - INFO - Selecting state
+2024-06-25 09:46:12,424 - INFO - Entering CPF for document: 00022860762
+2024-06-25 09:46:15,029 - INFO - Clicking on consult button
+2024-06-25 09:46:15,128 - INFO - Clicking on new operation button
+2024-06-25 09:46:18,317 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 09:46:18,919 - INFO - Capturing phone number
+2024-06-25 09:46:19,958 - INFO - Capturing name
+2024-06-25 09:46:19,983 - INFO - Capturing initial guarantee value
+2024-06-25 09:46:55,216 - ERROR - Error list: TimeoutException
+2024-06-25 09:46:55,274 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:46:55,274 - ERROR - Error while processing document 00022860762, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:46:55,274 - INFO - Appending error object for document: 00022860762
+2024-06-25 09:46:55,416 - INFO - Processed document 00022860762, index: 5
+2024-06-25 09:46:56,395 - INFO - Navigating to the dashboard page
+2024-06-25 09:46:59,777 - INFO - Selecting agreement
+2024-06-25 09:47:01,088 - INFO - Selecting institution
+2024-06-25 09:47:02,645 - INFO - Selecting state
+2024-06-25 09:47:02,906 - INFO - Entering CPF for document: 01663308098
+2024-06-25 09:47:05,160 - INFO - Clicking on consult button
+2024-06-25 09:47:05,308 - INFO - Clicking on new operation button
+2024-06-25 09:47:09,314 - INFO - Capturing phone number
+2024-06-25 09:47:09,868 - INFO - Capturing name
+2024-06-25 09:47:09,887 - INFO - Capturing initial guarantee value
+2024-06-25 09:47:45,325 - ERROR - Error list: TimeoutException
+2024-06-25 09:47:45,374 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:47:45,374 - ERROR - Error while processing document 01663308098, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:47:45,374 - INFO - Appending error object for document: 01663308098
+2024-06-25 09:47:45,513 - INFO - Processed document 01663308098, index: 6
+2024-06-25 09:47:46,504 - INFO - Navigating to the dashboard page
+2024-06-25 09:47:49,724 - INFO - Selecting agreement
+2024-06-25 09:47:51,020 - INFO - Selecting institution
+2024-06-25 09:47:52,054 - INFO - Selecting state
+2024-06-25 09:47:52,290 - INFO - Entering CPF for document: 08001327930
+2024-06-25 09:47:55,513 - INFO - Clicking on consult button
+2024-06-25 09:47:55,617 - INFO - Clicking on new operation button
+2024-06-25 09:47:58,112 - INFO - Capturing phone number
+2024-06-25 09:47:59,155 - INFO - Capturing name
+2024-06-25 09:47:59,179 - INFO - Capturing initial guarantee value
+2024-06-25 09:48:34,231 - ERROR - Error list: TimeoutException
+2024-06-25 09:48:34,274 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:48:34,274 - ERROR - Error while processing document 08001327930, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:48:34,275 - INFO - Appending error object for document: 08001327930
+2024-06-25 09:48:34,415 - INFO - Processed document 08001327930, index: 7
+2024-06-25 09:48:35,392 - INFO - Navigating to the dashboard page
+2024-06-25 09:48:37,866 - INFO - Selecting agreement
+2024-06-25 09:48:39,859 - INFO - Selecting institution
+2024-06-25 09:48:40,895 - INFO - Selecting state
+2024-06-25 09:48:41,124 - INFO - Entering CPF for document: 01893809005
+2024-06-25 09:48:43,845 - INFO - Clicking on consult button
+2024-06-25 09:48:43,934 - INFO - Clicking on new operation button
+2024-06-25 09:48:46,430 - INFO - Capturing phone number
+2024-06-25 09:48:47,017 - INFO - Capturing name
+2024-06-25 09:48:47,037 - INFO - Capturing initial guarantee value
+2024-06-25 09:48:56,695 - ERROR - Error list: Exception
+2024-06-25 09:48:56,725 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-25 09:48:56,726 - ERROR - Error while processing document 01893809005, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-25 09:48:56,726 - INFO - Appending error object for document: 01893809005
+2024-06-25 09:48:56,865 - INFO - Processed document 01893809005, index: 8
+2024-06-25 09:48:57,857 - INFO - Navigating to the dashboard page
+2024-06-25 09:49:01,443 - INFO - Selecting agreement
+2024-06-25 09:49:02,517 - INFO - Selecting institution
+2024-06-25 09:49:04,082 - INFO - Selecting state
+2024-06-25 09:49:04,296 - INFO - Entering CPF for document: 11570193908
+2024-06-25 09:49:07,235 - INFO - Clicking on consult button
+2024-06-25 09:49:07,326 - INFO - Clicking on new operation button
+2024-06-25 09:49:10,483 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 09:49:10,571 - INFO - Capturing phone number
+2024-06-25 09:49:11,135 - INFO - Capturing name
+2024-06-25 09:49:11,154 - INFO - Capturing initial guarantee value
+2024-06-25 09:49:19,806 - ERROR - Error list: Exception
+2024-06-25 09:49:19,835 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-25 09:49:19,835 - ERROR - Error while processing document 11570193908, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-06-25 09:49:19,835 - INFO - Appending error object for document: 11570193908
+2024-06-25 09:49:19,977 - INFO - Processed document 11570193908, index: 9
+2024-06-25 09:49:20,978 - INFO - Navigating to the dashboard page
+2024-06-25 09:49:23,601 - INFO - Selecting agreement
+2024-06-25 09:49:25,405 - INFO - Selecting institution
+2024-06-25 09:49:26,478 - INFO - Selecting state
+2024-06-25 09:49:26,719 - INFO - Entering CPF for document: 03440929760
+2024-06-25 09:49:28,573 - INFO - Clicking on consult button
+2024-06-25 09:49:28,687 - INFO - Clicking on new operation button
+2024-06-25 09:49:31,067 - INFO - Capturing phone number
+2024-06-25 09:49:31,665 - INFO - Capturing name
+2024-06-25 09:49:31,692 - INFO - Capturing initial guarantee value
+2024-06-25 09:50:06,825 - ERROR - Error list: TimeoutException
+2024-06-25 09:50:06,868 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:50:06,869 - ERROR - Error while processing document 03440929760, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-06-25 09:50:06,869 - INFO - Appending error object for document: 03440929760
+2024-06-25 09:50:07,008 - INFO - Processed document 03440929760, index: 10
+2024-06-25 09:50:07,008 - INFO - Finalizing campaign
+2024-06-25 09:50:07,008 - INFO - Finalizing campaign 36 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '11367527902', 'name': 'Manoel Goncalves de Farias Neto', 'phone': '(48) 99614-5894', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '01030218927', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'De acordo com as politicas do banco Mercantil, não é possivel digitar uma operação para o cpf informado.'}, {'company': 'Novo Rumo Empréstimos', 'document': '33171048809', 'name': 'Priscila Aparecida de Oliveira dos Santos', 'phone': '(16) 99134-0446', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06474296917', 'name': 'Jaqueline da Silva Neves', 'phone': '(44) 99733-3106', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00022860762', 'name': 'Paulo Sergio Martins de Oliveira', 'phone': '(24) 99991-9279', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '01663308098', 'name': 'Tiago Vargas Deboni', 'phone': '(54) 99193-8750', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '08001327930', 'name': 'Raquel Tamires Reis da Silva', 'phone': '(47) 99162-4170', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '01893809005', 'name': 'Filipe Doyll Ferreira', 'phone': '(48) 99861-4581', 'guarantee_value': 31.84, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '11570193908', 'name': 'Pablo Henrique Soares', 'phone': '(42) 99125-6787', 'guarantee_value': 24.1, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '03440929760', 'name': 'Sandra Mara Pereira de Sousa', 'phone': '(21) 97526-5493', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-06-25 09:50:08,565 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '11367527902', 'name': 'Manoel Goncalves de Farias Neto', 'phone': '(48) 99614-5894', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '01030218927', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'De acordo com as politicas do banco Mercantil, não é possivel digitar uma operação para o cpf informado.'}, {'company': 'Novo Rumo Empréstimos', 'document': '33171048809', 'name': 'Priscila Aparecida de Oliveira dos Santos', 'phone': '(16) 99134-0446', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06474296917', 'name': 'Jaqueline da Silva Neves', 'phone': '(44) 99733-3106', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00022860762', 'name': 'Paulo Sergio Martins de Oliveira', 'phone': '(24) 99991-9279', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '01663308098', 'name': 'Tiago Vargas Deboni', 'phone': '(54) 99193-8750', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '08001327930', 'name': 'Raquel Tamires Reis da Silva', 'phone': '(47) 99162-4170', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '01893809005', 'name': 'Filipe Doyll Ferreira', 'phone': '(48) 99861-4581', 'guarantee_value': 31.84, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '11570193908', 'name': 'Pablo Henrique Soares', 'phone': '(42) 99125-6787', 'guarantee_value': 24.1, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '03440929760', 'name': 'Sandra Mara Pereira de Sousa', 'phone': '(21) 97526-5493', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '25/06/2024 09:41:01', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-06-25 11:02:30,343 - INFO - Starting webdriver_chrome_mercantil context
+2024-06-25 11:02:30,817 - INFO - ====== WebDriver manager ======
+2024-06-25 11:02:31,772 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:02:31,891 - INFO - Starting webdriver_chrome_mercantil context
+2024-06-25 11:02:32,552 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:02:33,290 - INFO - Starting webdriver_chrome_mercantil context
+2024-06-25 11:02:33,304 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-06-25 11:02:33,476 - INFO - ====== WebDriver manager ======
+2024-06-25 11:02:34,290 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:02:34,543 - INFO - Navigating to the login page
+2024-06-25 11:02:34,686 - INFO - Starting webdriver_chrome_mercantil context
+2024-06-25 11:02:34,842 - INFO - ====== WebDriver manager ======
+2024-06-25 11:02:35,045 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:02:35,784 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:02:35,804 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-06-25 11:02:36,253 - INFO - ====== WebDriver manager ======
+2024-06-25 11:02:36,527 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:02:36,979 - INFO - Navigating to the login page
+2024-06-25 11:02:37,287 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-06-25 11:02:37,540 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:02:38,286 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:02:38,369 - INFO - Navigating to the login page
+2024-06-25 11:02:39,055 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-06-25 11:02:40,303 - INFO - Navigating to the login page
+2024-06-25 11:02:53,773 - INFO - Filling in login details
+2024-06-25 11:02:53,792 - INFO - Typed text 'LEV.MARIDSILVV' into element <selenium.webdriver.remote.webelement.WebElement (session="2e7883ad77febebcfe4574b47d22d426", element="f.D97D872FC2071B7F3E5F0C570455BF0E.d.EE7B5A778847A0AD35776A5DDBBFED8C.e.5")>
+2024-06-25 11:02:55,453 - INFO - Filling in login details
+2024-06-25 11:02:55,474 - INFO - Typed text 'X-MARIANA16081' into element <selenium.webdriver.remote.webelement.WebElement (session="7c942de1689baa41c380340468fe9ad3", element="f.99624C46A09D091B6BD41EA62EB8FCCF.d.96B22F152E4CD0A0159ABAB134903748.e.5")>
+2024-06-25 11:02:57,084 - INFO - Typed text '9X0zzZpt' into element <selenium.webdriver.remote.webelement.WebElement (session="2e7883ad77febebcfe4574b47d22d426", element="f.D97D872FC2071B7F3E5F0C570455BF0E.d.EE7B5A778847A0AD35776A5DDBBFED8C.e.3")>
+2024-06-25 11:02:58,638 - INFO - Filling in login details
+2024-06-25 11:02:58,657 - INFO - Typed text '10115LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="6418c1c99642716dd708d53817fb45cf", element="f.960232090C288E8ED81494073E2BDB30.d.0B8B637AACB7A9538C2D939F1553DB1A.e.5")>
+2024-06-25 11:02:58,667 - INFO - Typed text '3i3ZcLXH' into element <selenium.webdriver.remote.webelement.WebElement (session="7c942de1689baa41c380340468fe9ad3", element="f.99624C46A09D091B6BD41EA62EB8FCCF.d.96B22F152E4CD0A0159ABAB134903748.e.3")>
+2024-06-25 11:02:58,816 - INFO - Waiting for the dashboard page to load
+2024-06-25 11:02:59,343 - INFO - Filling in login details
+2024-06-25 11:02:59,365 - INFO - Typed text 'LEV.RODIMARFERMB' into element <selenium.webdriver.remote.webelement.WebElement (session="b0c17134533fbca5ac08473c4066dd1a", element="f.951C4072F455FF21D5D34C867F640B25.d.D073DD53578B83DE11FEE0B0838A27A9.e.5")>
+2024-06-25 11:03:00,316 - INFO - Waiting for the dashboard page to load
+2024-06-25 11:03:00,856 - INFO - Typed text 'ZMi3379V' into element <selenium.webdriver.remote.webelement.WebElement (session="6418c1c99642716dd708d53817fb45cf", element="f.960232090C288E8ED81494073E2BDB30.d.0B8B637AACB7A9538C2D939F1553DB1A.e.3")>
+2024-06-25 11:03:02,963 - INFO - Waiting for the dashboard page to load
+2024-06-25 11:03:03,168 - INFO - Typed text 'qNdl1P9F' into element <selenium.webdriver.remote.webelement.WebElement (session="b0c17134533fbca5ac08473c4066dd1a", element="f.951C4072F455FF21D5D34C867F640B25.d.D073DD53578B83DE11FEE0B0838A27A9.e.3")>
+2024-06-25 11:03:04,943 - INFO - Waiting for the dashboard page to load
+2024-06-25 11:04:47,937 - INFO - Navigating to the dashboard page
+2024-06-25 11:04:51,217 - INFO - Navigating to the dashboard page
+2024-06-25 11:04:55,923 - INFO - Navigating to the dashboard page
+2024-06-25 11:04:57,595 - INFO - Navigating to the dashboard page
+2024-06-25 11:05:08,831 - INFO - Selecting agreement
+2024-06-25 11:05:13,439 - INFO - Selecting agreement
+2024-06-25 11:05:15,423 - INFO - Selecting agreement
+2024-06-25 11:05:16,130 - INFO - Selecting institution
+2024-06-25 11:05:17,234 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:05:18,180 - INFO - Selecting agreement
+2024-06-25 11:05:18,504 - INFO - Selecting institution
+2024-06-25 11:05:18,543 - INFO - Selecting state
+2024-06-25 11:05:18,806 - INFO - Entering CPF for document: 11880140993
+2024-06-25 11:05:19,671 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:05:19,982 - INFO - Selecting state
+2024-06-25 11:05:20,645 - INFO - Entering CPF for document: 00384442323
+2024-06-25 11:05:21,444 - INFO - Clicking on consult button
+2024-06-25 11:05:21,566 - INFO - Clicking on new operation button
+2024-06-25 11:05:23,790 - INFO - Clicking on consult button
+2024-06-25 11:05:23,963 - INFO - Clicking on new operation button
+2024-06-25 11:05:25,542 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:05:25,811 - INFO - Capturing phone number
+2024-06-25 11:05:27,431 - INFO - Capturing name
+2024-06-25 11:05:27,490 - INFO - Capturing initial guarantee value
+2024-06-25 11:05:28,241 - INFO - Capturing phone number
+2024-06-25 11:05:31,659 - WARNING - Retry clicking element: //*[@id="mat-select-0"]
+2024-06-25 11:05:31,667 - WARNING - Retry clicking element: //*[@id="mat-select-0"]
+2024-06-25 11:05:31,670 - WARNING - Retry clicking element: //*[@id="mat-select-0"]
+2024-06-25 11:05:31,673 - WARNING - Retry clicking element: //*[@id="mat-option-6"]/span
+2024-06-25 11:05:31,676 - WARNING - Retry clicking element: //*[@id="mat-option-6"]/span
+2024-06-25 11:05:31,678 - WARNING - Retry clicking element: //*[@id="mat-option-6"]/span
+2024-06-25 11:05:31,678 - INFO - Selecting institution
+2024-06-25 11:05:31,681 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:05:31,703 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:05:31,707 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:05:31,711 - WARNING - Retry clicking element: //*[@id="mat-option-4"]/span
+2024-06-25 11:05:31,714 - WARNING - Retry clicking element: //*[@id="mat-option-4"]/span
+2024-06-25 11:05:31,717 - WARNING - Retry clicking element: //*[@id="mat-option-4"]/span
+2024-06-25 11:05:31,717 - INFO - Selecting state
+2024-06-25 11:05:31,719 - WARNING - Retry clicking element: //*[@id="mat-select-2"]
+2024-06-25 11:05:31,720 - WARNING - Retry clicking element: //*[@id="mat-select-2"]
+2024-06-25 11:05:31,722 - WARNING - Retry clicking element: //*[@id="mat-select-2"]
+2024-06-25 11:05:31,731 - WARNING - Retry clicking element: //*[@id="mat-option-32"]/span
+2024-06-25 11:05:31,734 - WARNING - Retry clicking element: //*[@id="mat-option-32"]/span
+2024-06-25 11:05:31,738 - WARNING - Retry clicking element: //*[@id="mat-option-32"]/span
+2024-06-25 11:05:31,739 - INFO - Entering CPF for document: 03283567948
+2024-06-25 11:05:31,741 - WARNING - Retry sending keys to element: //*[@id="mat-input-1"]
+2024-06-25 11:05:31,743 - WARNING - Retry sending keys to element: //*[@id="mat-input-1"]
+2024-06-25 11:05:31,745 - WARNING - Retry sending keys to element: //*[@id="mat-input-1"]
+2024-06-25 11:05:32,538 - WARNING - Retry clicking element: //*[@id="mat-select-0"]
+2024-06-25 11:05:32,542 - WARNING - Retry clicking element: //*[@id="mat-select-0"]
+2024-06-25 11:05:32,543 - WARNING - Retry clicking element: //*[@id="mat-select-0"]
+2024-06-25 11:05:32,545 - WARNING - Retry clicking element: //*[@id="mat-option-6"]/span
+2024-06-25 11:05:32,546 - WARNING - Retry clicking element: //*[@id="mat-option-6"]/span
+2024-06-25 11:05:32,547 - WARNING - Retry clicking element: //*[@id="mat-option-6"]/span
+2024-06-25 11:05:32,547 - INFO - Selecting institution
+2024-06-25 11:05:32,548 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:05:32,549 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:05:32,550 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:05:32,550 - WARNING - Retry clicking element: //*[@id="mat-option-4"]/span
+2024-06-25 11:05:32,551 - WARNING - Retry clicking element: //*[@id="mat-option-4"]/span
+2024-06-25 11:05:32,552 - WARNING - Retry clicking element: //*[@id="mat-option-4"]/span
+2024-06-25 11:05:32,552 - INFO - Selecting state
+2024-06-25 11:05:32,552 - WARNING - Retry clicking element: //*[@id="mat-select-2"]
+2024-06-25 11:05:32,553 - WARNING - Retry clicking element: //*[@id="mat-select-2"]
+2024-06-25 11:05:32,554 - WARNING - Retry clicking element: //*[@id="mat-select-2"]
+2024-06-25 11:05:32,554 - WARNING - Retry clicking element: //*[@id="mat-option-32"]/span
+2024-06-25 11:05:32,555 - WARNING - Retry clicking element: //*[@id="mat-option-32"]/span
+2024-06-25 11:05:32,556 - WARNING - Retry clicking element: //*[@id="mat-option-32"]/span
+2024-06-25 11:05:32,556 - INFO - Entering CPF for document: 10812093992
+2024-06-25 11:05:32,556 - WARNING - Retry sending keys to element: //*[@id="mat-input-1"]
+2024-06-25 11:05:32,557 - WARNING - Retry sending keys to element: //*[@id="mat-input-1"]
+2024-06-25 11:05:32,559 - WARNING - Retry sending keys to element: //*[@id="mat-input-1"]
+2024-06-25 11:05:33,049 - INFO - Clicking on consult button
+2024-06-25 11:05:33,052 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div/div[1]/div[3]/button
+2024-06-25 11:05:33,055 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div/div[1]/div[3]/button
+2024-06-25 11:05:33,060 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div/div[1]/div[3]/button
+2024-06-25 11:05:33,060 - INFO - Clicking on new operation button
+2024-06-25 11:05:33,062 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:05:33,064 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:05:33,066 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:05:33,068 - ERROR - Error list: NoSuchWindowException
+2024-06-25 11:05:33,069 - INFO - Processed document 03283567948, index: 0
+2024-06-25 11:05:33,070 - CRITICAL - Critical error in main process
+2024-06-25 11:05:33,070 - ERROR - Error: NoSuchWindowException
+2024-06-25 11:05:33,071 - INFO - Set instance status to LIVRE for instance ID: 2
+2024-06-25 11:05:33,389 - INFO - Database commit completed
+2024-06-25 11:05:33,572 - ERROR - Error list: NoSuchWindowException
+2024-06-25 11:05:33,573 - INFO - Processed document 11880140993, index: 0
+2024-06-25 11:05:33,573 - CRITICAL - Critical error in main process
+2024-06-25 11:05:33,573 - ERROR - Error: NoSuchWindowException
+2024-06-25 11:05:33,573 - INFO - Set instance status to LIVRE for instance ID: 1
+2024-06-25 11:05:33,878 - INFO - Database commit completed
+2024-06-25 11:05:33,945 - INFO - Clicking on consult button
+2024-06-25 11:05:33,946 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div/div[1]/div[3]/button
+2024-06-25 11:05:33,947 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div/div[1]/div[3]/button
+2024-06-25 11:05:33,948 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div/div[1]/div[3]/button
+2024-06-25 11:05:33,948 - INFO - Clicking on new operation button
+2024-06-25 11:05:33,949 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:05:33,949 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:05:33,950 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:05:33,950 - ERROR - Error list: NoSuchWindowException
+2024-06-25 11:05:33,951 - INFO - Processed document 10812093992, index: 0
+2024-06-25 11:05:33,951 - CRITICAL - Critical error in main process
+2024-06-25 11:05:33,951 - ERROR - Error: NoSuchWindowException
+2024-06-25 11:05:33,952 - INFO - Set instance status to LIVRE for instance ID: 4
+2024-06-25 11:05:34,255 - INFO - Database commit completed
+2024-06-25 11:05:34,959 - ERROR - Error list: AttributeError
+2024-06-25 11:05:34,960 - INFO - Processed document 00384442323, index: 0
+2024-06-25 11:05:34,960 - CRITICAL - Critical error in main process
+2024-06-25 11:05:34,960 - ERROR - Error: NoSuchWindowException
+2024-06-25 11:05:34,960 - INFO - Set instance status to LIVRE for instance ID: 3
+2024-06-25 11:05:35,265 - INFO - Database commit completed
+2024-06-25 11:05:35,521 - INFO - Closed Selenium page
+2024-06-25 11:05:35,521 - INFO - Database session closed
+2024-06-25 11:05:35,971 - INFO - Closed Selenium page
+2024-06-25 11:05:35,971 - INFO - Database session closed
+2024-06-25 11:05:36,408 - INFO - Closed Selenium page
+2024-06-25 11:05:36,408 - INFO - Database session closed
+2024-06-25 11:05:37,354 - INFO - Closed Selenium page
+2024-06-25 11:05:37,354 - INFO - Database session closed
+2024-06-25 11:05:39,639 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D938590>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2e7883ad77febebcfe4574b47d22d426
+2024-06-25 11:05:40,047 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D939210>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/6418c1c99642716dd708d53817fb45cf
+2024-06-25 11:05:40,471 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D939950>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/7c942de1689baa41c380340468fe9ad3
+2024-06-25 11:05:41,436 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D93A0D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/b0c17134533fbca5ac08473c4066dd1a
+2024-06-25 11:05:43,697 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D938A90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2e7883ad77febebcfe4574b47d22d426
+2024-06-25 11:05:44,135 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D93B410>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/6418c1c99642716dd708d53817fb45cf
+2024-06-25 11:05:44,537 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D93BC10>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/7c942de1689baa41c380340468fe9ad3
+2024-06-25 11:05:45,536 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D935550>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/b0c17134533fbca5ac08473c4066dd1a
+2024-06-25 11:05:47,777 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D935FD0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2e7883ad77febebcfe4574b47d22d426
+2024-06-25 11:05:48,229 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D936A10>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/6418c1c99642716dd708d53817fb45cf
+2024-06-25 11:05:48,633 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D9374D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/7c942de1689baa41c380340468fe9ad3
+2024-06-25 11:05:49,614 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D937ED0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/b0c17134533fbca5ac08473c4066dd1a
+2024-06-25 11:05:55,898 - INFO - Closed Selenium page
+2024-06-25 11:05:56,333 - INFO - Closed Selenium page
+2024-06-25 11:05:56,754 - INFO - Closed Selenium page
+2024-06-25 11:05:57,749 - INFO - Closed Selenium page
+2024-06-25 11:28:43,895 - INFO - Starting webdriver_chrome_mercantil context
+2024-06-25 11:28:44,352 - INFO - ====== WebDriver manager ======
+2024-06-25 11:28:45,298 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:28:45,449 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:28:45,542 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-06-25 11:28:46,878 - INFO - Navigating to the login page
+2024-06-25 11:28:48,220 - INFO - Filling in login details
+2024-06-25 11:28:48,224 - CRITICAL - Critical error in main process
+2024-06-25 11:28:48,224 - ERROR - Error: NoSuchWindowException
+2024-06-25 11:28:48,224 - INFO - Set instance status to LIVRE for instance ID: 2
+2024-06-25 11:28:48,530 - INFO - Database commit completed
+2024-06-25 11:28:50,655 - INFO - Closed Selenium page
+2024-06-25 11:28:50,656 - INFO - Database session closed
+2024-06-25 11:28:54,716 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24DFA4890>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f0fe9c2040fa77722f6416a67e446328
+2024-06-25 11:28:58,786 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24DFA6310>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f0fe9c2040fa77722f6416a67e446328
+2024-06-25 11:29:00,536 - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\routes.py", line 40, in start_simulation
+    array_response = find_differences(campaign.file_data, campaign.query_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\utils.py", line 10, in find_differences
+    cpfs_array2 = set(obj['document'] for obj in array2)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+2024-06-25 11:29:02,868 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24DFA6A10>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f0fe9c2040fa77722f6416a67e446328
+2024-06-25 11:29:06,237 - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\routes.py", line 40, in start_simulation
+    array_response = find_differences(campaign.file_data, campaign.query_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\utils.py", line 10, in find_differences
+    cpfs_array2 = set(obj['document'] for obj in array2)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+2024-06-25 11:29:11,060 - INFO - Closed Selenium page
+2024-06-25 11:29:15,453 - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\routes.py", line 40, in start_simulation
+    array_response = find_differences(campaign.file_data, campaign.query_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\utils.py", line 10, in find_differences
+    cpfs_array2 = set(obj['document'] for obj in array2)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+2024-06-25 11:50:15,859 - INFO - Starting webdriver_chrome_mercantil context
+2024-06-25 11:50:16,320 - INFO - ====== WebDriver manager ======
+2024-06-25 11:50:17,065 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:50:17,085 - INFO - Starting webdriver_chrome_mercantil context
+2024-06-25 11:50:17,144 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:50:17,229 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-06-25 11:50:17,552 - INFO - ====== WebDriver manager ======
+2024-06-25 11:50:18,315 - INFO - Navigating to the login page
+2024-06-25 11:50:18,679 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:50:18,765 - INFO - Get LATEST chromedriver version for google-chrome
+2024-06-25 11:50:18,862 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-06-25 11:50:19,975 - INFO - Navigating to the login page
+2024-06-25 11:50:20,187 - INFO - Filling in login details
+2024-06-25 11:50:20,224 - INFO - Typed text 'LEV.RODIMARFERMB' into element <selenium.webdriver.remote.webelement.WebElement (session="45d71b8d48bb5278e03534bf251760b7", element="f.0A2CE952A748CF8E0F5D04DD35A9CED3.d.990FD60FF57C856084019FDD21ED4453.e.7")>
+2024-06-25 11:50:21,617 - INFO - Filling in login details
+2024-06-25 11:50:21,635 - INFO - Typed text 'LEV.MARIDSILVV' into element <selenium.webdriver.remote.webelement.WebElement (session="1940480487f150facebe8780c95b6099", element="f.74F860CC1072633E75C028C67D23A5E9.d.64812A55391207E2F364AFC5959D7AEA.e.7")>
+2024-06-25 11:50:23,561 - INFO - Typed text 'qNdl1P9F' into element <selenium.webdriver.remote.webelement.WebElement (session="45d71b8d48bb5278e03534bf251760b7", element="f.0A2CE952A748CF8E0F5D04DD35A9CED3.d.990FD60FF57C856084019FDD21ED4453.e.3")>
+2024-06-25 11:50:25,014 - INFO - Typed text '9X0zzZpt' into element <selenium.webdriver.remote.webelement.WebElement (session="1940480487f150facebe8780c95b6099", element="f.74F860CC1072633E75C028C67D23A5E9.d.64812A55391207E2F364AFC5959D7AEA.e.3")>
+2024-06-25 11:50:25,224 - INFO - Waiting for the dashboard page to load
+2024-06-25 11:50:26,665 - INFO - Waiting for the dashboard page to load
+2024-06-25 11:50:40,449 - INFO - Navigating to the dashboard page
+2024-06-25 11:50:42,312 - INFO - Navigating to the dashboard page
+2024-06-25 11:50:45,732 - INFO - Selecting agreement
+2024-06-25 11:50:49,387 - INFO - Selecting institution
+2024-06-25 11:50:49,489 - INFO - Selecting agreement
+2024-06-25 11:50:50,451 - INFO - Selecting state
+2024-06-25 11:50:50,790 - INFO - Entering CPF for document: 03283567948
+2024-06-25 11:50:52,400 - INFO - Clicking on consult button
+2024-06-25 11:50:52,506 - INFO - Clicking on new operation button
+2024-06-25 11:50:55,674 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:50:55,803 - INFO - Capturing phone number
+2024-06-25 11:50:56,853 - INFO - Capturing name
+2024-06-25 11:50:56,877 - INFO - Capturing initial guarantee value
+2024-06-25 11:51:11,667 - ERROR - Error list: NoSuchWindowException
+2024-06-25 11:51:11,668 - INFO - Processed document 03283567948, index: 0
+2024-06-25 11:51:11,668 - CRITICAL - Critical error in main process
+2024-06-25 11:51:11,668 - ERROR - Error: NoSuchWindowException
+2024-06-25 11:51:11,668 - INFO - Set instance status to LIVRE for instance ID: 3
+2024-06-25 11:51:11,972 - INFO - Database commit completed
+2024-06-25 11:51:13,473 - WARNING - Retry clicking element: //*[@id="mat-select-0"]
+2024-06-25 11:51:13,474 - WARNING - Retry clicking element: //*[@id="mat-select-0"]
+2024-06-25 11:51:13,475 - WARNING - Retry clicking element: //*[@id="mat-select-0"]
+2024-06-25 11:51:13,475 - WARNING - Retry clicking element: //*[@id="mat-option-6"]/span
+2024-06-25 11:51:13,476 - WARNING - Retry clicking element: //*[@id="mat-option-6"]/span
+2024-06-25 11:51:13,477 - WARNING - Retry clicking element: //*[@id="mat-option-6"]/span
+2024-06-25 11:51:13,477 - INFO - Selecting institution
+2024-06-25 11:51:13,477 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:51:13,478 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:51:13,480 - WARNING - Retry clicking element: //*[@id="mat-select-4"]
+2024-06-25 11:51:13,485 - WARNING - Retry clicking element: //*[@id="mat-option-4"]/span
+2024-06-25 11:51:13,487 - WARNING - Retry clicking element: //*[@id="mat-option-4"]/span
+2024-06-25 11:51:13,488 - WARNING - Retry clicking element: //*[@id="mat-option-4"]/span
+2024-06-25 11:51:13,488 - INFO - Selecting state
+2024-06-25 11:51:13,489 - WARNING - Retry clicking element: //*[@id="mat-select-2"]
+2024-06-25 11:51:13,490 - WARNING - Retry clicking element: //*[@id="mat-select-2"]
+2024-06-25 11:51:13,491 - WARNING - Retry clicking element: //*[@id="mat-select-2"]
+2024-06-25 11:51:13,491 - WARNING - Retry clicking element: //*[@id="mat-option-32"]/span
+2024-06-25 11:51:13,492 - WARNING - Retry clicking element: //*[@id="mat-option-32"]/span
+2024-06-25 11:51:13,493 - WARNING - Retry clicking element: //*[@id="mat-option-32"]/span
+2024-06-25 11:51:13,493 - INFO - Entering CPF for document: 11880140993
+2024-06-25 11:51:13,494 - WARNING - Retry sending keys to element: //*[@id="mat-input-1"]
+2024-06-25 11:51:13,494 - WARNING - Retry sending keys to element: //*[@id="mat-input-1"]
+2024-06-25 11:51:13,495 - WARNING - Retry sending keys to element: //*[@id="mat-input-1"]
+2024-06-25 11:51:14,053 - INFO - Closed Selenium page
+2024-06-25 11:51:14,053 - INFO - Database session closed
+2024-06-25 11:51:16,078 - INFO - Clicking on consult button
+2024-06-25 11:51:16,079 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div/div[1]/div[3]/button
+2024-06-25 11:51:16,080 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div/div[1]/div[3]/button
+2024-06-25 11:51:16,080 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div/div[1]/div[3]/button
+2024-06-25 11:51:16,081 - INFO - Clicking on new operation button
+2024-06-25 11:51:16,081 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:51:16,082 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:51:16,083 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-06-25 11:51:16,084 - ERROR - Error list: NoSuchWindowException
+2024-06-25 11:51:16,084 - INFO - Processed document 11880140993, index: 0
+2024-06-25 11:51:16,085 - CRITICAL - Critical error in main process
+2024-06-25 11:51:16,085 - ERROR - Error: NoSuchWindowException
+2024-06-25 11:51:16,085 - INFO - Set instance status to LIVRE for instance ID: 2
+2024-06-25 11:51:16,395 - INFO - Database commit completed
+2024-06-25 11:51:18,157 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24D822350>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/45d71b8d48bb5278e03534bf251760b7
+2024-06-25 11:51:18,469 - INFO - Closed Selenium page
+2024-06-25 11:51:18,469 - INFO - Database session closed
+2024-06-25 11:51:22,261 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24DF68850>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/45d71b8d48bb5278e03534bf251760b7
+2024-06-25 11:51:22,557 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24DF68DD0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/1940480487f150facebe8780c95b6099
+2024-06-25 11:51:26,348 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24DF69710>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/45d71b8d48bb5278e03534bf251760b7
+2024-06-25 11:51:26,645 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24DF69E10>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/1940480487f150facebe8780c95b6099
+2024-06-25 11:51:30,715 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24DF6AD90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/1940480487f150facebe8780c95b6099
+2024-06-25 11:51:34,527 - INFO - Closed Selenium page
+2024-06-25 11:51:38,898 - INFO - Closed Selenium page

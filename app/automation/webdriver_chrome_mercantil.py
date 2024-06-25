@@ -76,12 +76,12 @@ def finalize_campaign(session, instance, id_campaign, array_consult):
     campaign = session.query(TbCampaigns).filter_by(id=id_campaign).first()
     session.refresh(campaign)
 
-    append_to_campaign_data(session, campaign, array_consult)
-
     if len(json.loads(campaign.query_data)) == campaign.records:
         campaign.status = "CONCLUÍDA"
     else:
         campaign.status = "PARCIAL"
+
+    append_to_campaign_data(session, campaign, array_consult)
 
     session.commit()
 
