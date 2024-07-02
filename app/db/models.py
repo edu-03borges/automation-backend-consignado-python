@@ -1,4 +1,3 @@
-import uuid
 from app import db
 from datetime import datetime
 
@@ -23,5 +22,14 @@ class TbInstances(db.Model):
     password = db.Column(db.String, nullable=True)
     status = db.Column(db.String, nullable=True)
     instance = db.Column(db.Integer, nullable=True)
+    created_at = db.Column(db.DateTime, nullable=True, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, nullable=True, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+class TbCompanys(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    uuid = db.Column(db.String, nullable=True)
+    code = db.Column(db.Integer, nullable=True)
+    name = db.Column(db.String, nullable=True)
+    public_url = db.Column(db.String, nullable=True)
     created_at = db.Column(db.DateTime, nullable=True, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, nullable=True, default=datetime.utcnow, onupdate=datetime.utcnow)

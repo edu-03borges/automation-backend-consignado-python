@@ -859,3 +859,43 @@ TypeError: 'NoneType' object is not iterable
 2024-06-25 11:51:30,715 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B24DF6AD90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/1940480487f150facebe8780c95b6099
 2024-06-25 11:51:34,527 - INFO - Closed Selenium page
 2024-06-25 11:51:38,898 - INFO - Closed Selenium page
+2024-07-01 22:41:39,362 - INFO - Serving on http://[::1]:5000
+2024-07-01 22:41:39,362 - INFO - Serving on http://127.0.0.1:5000
+2024-07-01 22:41:52,259 - INFO - Serving on http://[::1]:5000
+2024-07-01 22:41:52,259 - INFO - Serving on http://127.0.0.1:5000
+2024-07-01 22:58:31,484 - INFO - Serving on http://[::1]:5000
+2024-07-01 22:58:31,484 - INFO - Serving on http://127.0.0.1:5000
+2024-07-01 22:59:40,126 - INFO - t=2024-07-01T22:59:40-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-01 22:59:40,127 - INFO - t=2024-07-01T22:59:40-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-01 22:59:40,127 - INFO - t=2024-07-01T22:59:40-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=fc6667a96745 err="reconnecting session closed"
+2024-07-01 22:59:40,127 - INFO - t=2024-07-01T22:59:40-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-01 23:04:55,273 - INFO - Serving on http://[::1]:5000
+2024-07-01 23:04:55,273 - INFO - Serving on http://127.0.0.1:5000
+2024-07-01 23:05:10,798 - INFO - t=2024-07-01T23:05:10-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-01 23:05:10,798 - INFO - t=2024-07-01T23:05:10-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-01 23:05:10,798 - INFO - t=2024-07-01T23:05:10-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=89e7e8b36a8b err="reconnecting session closed"
+2024-07-01 23:05:10,798 - INFO - t=2024-07-01T23:05:10-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-01 23:05:10,798 - INFO - t=2024-07-01T23:05:10-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=75678509eab148d2a4ff414d9e96c16f
+2024-07-01 23:05:10,798 - WARNING - t=2024-07-01T23:05:10-0300 lvl=warn msg="Stopping forwarder" name=http-5000-230ccf73-75a7-4b60-8152-60ccb443bf91 acceptErr="failed to accept connection: Listener closed"
+2024-07-01 23:08:06,604 - INFO - Serving on http://[::1]:5000
+2024-07-01 23:08:06,604 - INFO - Serving on http://127.0.0.1:5000
+2024-07-01 23:08:07,841 - INFO - t=2024-07-01T23:08:07-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-01 23:08:07,842 - INFO - t=2024-07-01T23:08:07-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-01 23:08:07,842 - INFO - t=2024-07-01T23:08:07-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=308eddae4ba5 err="reconnecting session closed"
+2024-07-01 23:08:07,842 - INFO - t=2024-07-01T23:08:07-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-01 23:08:07,842 - INFO - t=2024-07-01T23:08:07-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=15e804299727b619edc3f4b32e5bea55
+2024-07-01 23:08:07,842 - WARNING - t=2024-07-01T23:08:07-0300 lvl=warn msg="Stopping forwarder" name=http-5000-565b92b3-8869-4e98-a325-d7f668380f5d acceptErr="failed to accept connection: Listener closed"
+2024-07-01 23:08:22,205 - INFO - Serving on http://[::1]:5000
+2024-07-01 23:08:22,205 - INFO - Serving on http://127.0.0.1:5000
+2024-07-01 23:08:23,343 - INFO - t=2024-07-01T23:08:23-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-01 23:08:23,343 - INFO - t=2024-07-01T23:08:23-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-01 23:08:23,343 - INFO - t=2024-07-01T23:08:23-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=4c57f89ad7cf err="reconnecting session closed"
+2024-07-01 23:08:23,343 - INFO - t=2024-07-01T23:08:23-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=39750ddbf0a745139640627d242de07b
+2024-07-01 23:08:23,343 - WARNING - t=2024-07-01T23:08:23-0300 lvl=warn msg="Stopping forwarder" name=http-5000-ae49596c-2eb6-4b7d-8972-394d97dbd5d3 acceptErr="failed to accept connection: Listener closed"
+2024-07-01 23:09:08,346 - INFO - Serving on http://[::1]:5000
+2024-07-01 23:09:08,346 - INFO - Serving on http://127.0.0.1:5000
+2024-07-01 23:09:10,391 - INFO - t=2024-07-01T23:09:10-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-01 23:09:10,391 - INFO - t=2024-07-01T23:09:10-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-01 23:09:10,391 - INFO - t=2024-07-01T23:09:10-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=dbcb85594e39 err="reconnecting session closed"
+2024-07-01 23:09:10,391 - INFO - t=2024-07-01T23:09:10-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-01 23:09:10,391 - INFO - t=2024-07-01T23:09:10-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=03543a1a429d113973ef0463878cf96e
