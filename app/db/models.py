@@ -25,7 +25,7 @@ class TbInstances(db.Model):
     created_at = db.Column(db.DateTime, nullable=True, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, nullable=True, default=datetime.utcnow, onupdate=datetime.utcnow)
 
-class TbCompanys(db.Model):
+class TbCompanies(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     uuid = db.Column(db.String, nullable=True)
     code = db.Column(db.Integer, nullable=True)

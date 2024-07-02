@@ -13,13 +13,12 @@ def create_app():
     db.init_app(app)
 
     public_url = ngrok.ngrok_http(5000)
-    print(public_url)
 
     with app.app_context():
         from app import routes
-        from app.db.models import TbCompanys
+        from app.db.models import TbCompanies
 
-        company = db.session.query(TbCompanys).filter_by(code=1).first()
+        company = db.session.query(TbCompanies).filter_by(code=1).first()
         db.session.refresh(company)
 
         company.public_url = public_url
