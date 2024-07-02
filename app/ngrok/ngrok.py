@@ -1,5 +1,7 @@
 from pyngrok import ngrok
 
+ngrok.set_auth_token("7JecAB3n5F1i5XninZwxS_7tfKLrtogUpZJnMJ7joGa")
+
 def ngrok_http(port):
   try:
     http_tunnel = ngrok.connect(port, "http")
