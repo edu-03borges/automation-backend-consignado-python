@@ -899,3 +899,1899 @@ TypeError: 'NoneType' object is not iterable
 2024-07-01 23:09:10,391 - INFO - t=2024-07-01T23:09:10-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=dbcb85594e39 err="reconnecting session closed"
 2024-07-01 23:09:10,391 - INFO - t=2024-07-01T23:09:10-0300 lvl=info msg="no more state changes" obj=tunnels.session
 2024-07-01 23:09:10,391 - INFO - t=2024-07-01T23:09:10-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=03543a1a429d113973ef0463878cf96e
+2024-07-03 09:32:36,684 - INFO - t=2024-07-03T09:32:36-0300 lvl=info msg="update available" obj=updater
+2024-07-03 09:32:50,971 - INFO - t=2024-07-03T09:32:50-0300 lvl=info msg="update available" obj=updater
+2024-07-03 09:33:38,164 - INFO - t=2024-07-03T09:33:38-0300 lvl=info msg="update available" obj=updater
+2024-07-03 09:34:07,330 - INFO - t=2024-07-03T09:34:07-0300 lvl=info msg="update available" obj=updater
+2024-07-03 09:34:10,836 - INFO - Serving on http://[::1]:5000
+2024-07-03 09:34:10,836 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 09:34:21,706 - INFO - t=2024-07-03T09:34:21-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 09:34:21,706 - INFO - t=2024-07-03T09:34:21-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 09:34:21,706 - INFO - t=2024-07-03T09:34:21-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=e399b9024523 err="reconnecting session closed"
+2024-07-03 09:34:21,707 - INFO - t=2024-07-03T09:34:21-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 09:34:21,707 - INFO - t=2024-07-03T09:34:21-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=4d1ba4f1d6c810bfd36ecb595478eb0f
+2024-07-03 09:34:21,707 - WARNING - t=2024-07-03T09:34:21-0300 lvl=warn msg="Stopping forwarder" name=http-5000-d362238e-b827-4457-8665-be943d618dac acceptErr="failed to accept connection: Listener closed"
+2024-07-03 09:34:25,173 - INFO - t=2024-07-03T09:34:25-0300 lvl=info msg="update available" obj=updater
+2024-07-03 09:34:43,728 - INFO - t=2024-07-03T09:34:43-0300 lvl=info msg="update available" obj=updater
+2024-07-03 09:34:47,080 - INFO - Serving on http://[::1]:5000
+2024-07-03 09:34:47,081 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 09:34:49,225 - INFO - t=2024-07-03T09:34:49-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 09:34:49,226 - INFO - t=2024-07-03T09:34:49-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 09:34:49,226 - INFO - t=2024-07-03T09:34:49-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=fde4ac946b6d err="reconnecting session closed"
+2024-07-03 09:34:49,226 - INFO - t=2024-07-03T09:34:49-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 09:34:49,226 - INFO - t=2024-07-03T09:34:49-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=9f0842625a1a8387d1f67e41011a028c
+2024-07-03 09:34:49,226 - WARNING - t=2024-07-03T09:34:49-0300 lvl=warn msg="Stopping forwarder" name=http-5000-242cb084-295b-442f-8ad0-89dac4e1589d acceptErr="failed to accept connection: Listener closed"
+2024-07-03 10:50:06,437 - INFO - Serving on http://[::1]:5000
+2024-07-03 10:50:06,438 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 10:50:06,587 - WARNING - t=2024-07-03T10:50:06-0300 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context deadline exceeded"
+2024-07-03 11:16:23,607 - INFO - t=2024-07-03T11:16:23-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 11:16:23,608 - INFO - t=2024-07-03T11:16:23-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 11:16:23,608 - INFO - t=2024-07-03T11:16:23-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=00e69456c364 err="reconnecting session closed"
+2024-07-03 11:16:23,608 - INFO - t=2024-07-03T11:16:23-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 11:16:26,689 - INFO - t=2024-07-03T11:16:26-0300 lvl=info msg="update available" obj=updater
+2024-07-03 11:16:30,637 - INFO - Serving on http://[::1]:5000
+2024-07-03 11:16:30,637 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:25:38,689 - INFO - t=2024-07-03T14:25:38-0300 lvl=info msg="update available" obj=updater
+2024-07-03 14:25:42,351 - INFO - Serving on http://[::1]:5000
+2024-07-03 14:25:42,351 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:25:54,512 - INFO - t=2024-07-03T14:25:54-0300 lvl=info msg="join connections" obj=join id=2ad43f00e02d l=[::1]:5000 r=177.74.67.56:63982
+2024-07-03 14:25:54,866 - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedFunction: operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\routes.py", line 33, in start_simulation
+    company = db.session.query(TbCompanies).filter_by(uuid=data['idUser']).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT tb_companies.id AS tb_companies_id, tb_companies.uuid AS tb_companies_uuid, tb_companies.iduser AS tb_companies_iduser, tb_companies.name AS tb_companies_name, tb_companies.public_url AS tb_companies_public_url, tb_companies.created_at AS tb_companies_created_at, tb_companies.updated_at AS tb_companies_updated_at 
+FROM tb_companies 
+WHERE tb_companies.uuid = %(uuid_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'uuid_1': 5, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-03 14:26:14,513 - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedFunction: operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\routes.py", line 33, in start_simulation
+    company = db.session.query(TbCompanies).filter_by(uuid=data['idUser']).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT tb_companies.id AS tb_companies_id, tb_companies.uuid AS tb_companies_uuid, tb_companies.iduser AS tb_companies_iduser, tb_companies.name AS tb_companies_name, tb_companies.public_url AS tb_companies_public_url, tb_companies.created_at AS tb_companies_created_at, tb_companies.updated_at AS tb_companies_updated_at 
+FROM tb_companies 
+WHERE tb_companies.uuid = %(uuid_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'uuid_1': 5, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-03 14:27:00,927 - INFO - t=2024-07-03T14:27:00-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 14:27:00,927 - INFO - t=2024-07-03T14:27:00-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 14:27:00,927 - INFO - t=2024-07-03T14:27:00-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=9a78d14a5a05 err="reconnecting session closed"
+2024-07-03 14:27:00,927 - INFO - t=2024-07-03T14:27:00-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 14:27:00,928 - INFO - t=2024-07-03T14:27:00-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=fcf3ae1f4f59ab3133a1da73297e58c6
+2024-07-03 14:27:00,928 - WARNING - t=2024-07-03T14:27:00-0300 lvl=warn msg="Stopping forwarder" name=http-5000-80428940-a05b-4417-9146-727ee6633f3b acceptErr="failed to accept connection: Listener closed"
+2024-07-03 14:27:06,091 - INFO - t=2024-07-03T14:27:06-0300 lvl=info msg="update available" obj=updater
+2024-07-03 14:27:07,011 - INFO - Serving on http://[::1]:5000
+2024-07-03 14:27:07,011 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:27:22,184 - INFO - t=2024-07-03T14:27:22-0300 lvl=info msg="join connections" obj=join id=0d7199c61298 l=[::1]:5000 r=177.74.67.56:64072
+2024-07-03 14:27:22,496 - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedFunction: operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\routes.py", line 33, in start_simulation
+    company = db.session.query(TbCompanies).filter_by(uuid=data['idUser']).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT tb_companies.id AS tb_companies_id, tb_companies.uuid AS tb_companies_uuid, tb_companies.iduser AS tb_companies_iduser, tb_companies.name AS tb_companies_name, tb_companies.public_url AS tb_companies_public_url, tb_companies.created_at AS tb_companies_created_at, tb_companies.updated_at AS tb_companies_updated_at 
+FROM tb_companies 
+WHERE tb_companies.uuid = %(uuid_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'uuid_1': 5, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-03 14:28:12,207 - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedFunction: operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\routes.py", line 33, in start_simulation
+    company = db.session.query(TbCompanies).filter_by(uuid=data['idUser']).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT tb_companies.id AS tb_companies_id, tb_companies.uuid AS tb_companies_uuid, tb_companies.iduser AS tb_companies_iduser, tb_companies.name AS tb_companies_name, tb_companies.public_url AS tb_companies_public_url, tb_companies.created_at AS tb_companies_created_at, tb_companies.updated_at AS tb_companies_updated_at 
+FROM tb_companies 
+WHERE tb_companies.uuid = %(uuid_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'uuid_1': 5, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-03 14:28:32,906 - ERROR - Exception on /start [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedFunction: operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\Desktop\CRM Consignado\automation-backend-consignado-python\app\routes.py", line 33, in start_simulation
+    company = db.session.query(TbCompanies).filter_by(uuid=data['idUser']).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Marcos-PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT tb_companies.id AS tb_companies_id, tb_companies.uuid AS tb_companies_uuid, tb_companies.iduser AS tb_companies_iduser, tb_companies.name AS tb_companies_name, tb_companies.public_url AS tb_companies_public_url, tb_companies.created_at AS tb_companies_created_at, tb_companies.updated_at AS tb_companies_updated_at 
+FROM tb_companies 
+WHERE tb_companies.uuid = %(uuid_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'uuid_1': 5, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-03 14:31:45,487 - INFO - t=2024-07-03T14:31:45-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 14:31:45,487 - INFO - t=2024-07-03T14:31:45-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 14:31:45,487 - INFO - t=2024-07-03T14:31:45-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=6ee3fc230715 err="reconnecting session closed"
+2024-07-03 14:31:45,487 - INFO - t=2024-07-03T14:31:45-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 14:31:48,502 - INFO - t=2024-07-03T14:31:48-0300 lvl=info msg="update available" obj=updater
+2024-07-03 14:31:52,281 - INFO - Serving on http://[::1]:5000
+2024-07-03 14:31:52,281 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:31:59,029 - INFO - t=2024-07-03T14:31:59-0300 lvl=info msg="join connections" obj=join id=4d302aa95567 l=[::1]:5000 r=177.74.67.56:64338
+2024-07-03 14:31:59,356 - ERROR - Erro ao iniciar a simulação: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT tb_companies.id AS tb_companies_id, tb_companies.uuid AS tb_companies_uuid, tb_companies.iduser AS tb_companies_iduser, tb_companies.name AS tb_companies_name, tb_companies.public_url AS tb_companies_public_url, tb_companies.created_at AS tb_companies_created_at, tb_companies.updated_at AS tb_companies_updated_at 
+FROM tb_companies 
+WHERE tb_companies.uuid = %(uuid_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'uuid_1': 5, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-03 14:32:41,253 - INFO - t=2024-07-03T14:32:41-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 14:32:41,253 - INFO - t=2024-07-03T14:32:41-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 14:32:41,254 - INFO - t=2024-07-03T14:32:41-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=4887ce14cacf err="reconnecting session closed"
+2024-07-03 14:32:41,254 - INFO - t=2024-07-03T14:32:41-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 14:32:41,254 - INFO - t=2024-07-03T14:32:41-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=1c991d8464110c3be367cf427ba7134a
+2024-07-03 14:32:41,254 - WARNING - t=2024-07-03T14:32:41-0300 lvl=warn msg="Stopping forwarder" name=http-5000-0988668c-b341-4ae4-bac2-d4886a595ae9 acceptErr="failed to accept connection: Listener closed"
+2024-07-03 14:33:51,850 - INFO - Serving on http://[::1]:5000
+2024-07-03 14:33:51,850 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:34:06,137 - INFO - t=2024-07-03T14:34:06-0300 lvl=info msg="join connections" obj=join id=78692b773ead l=[::1]:5000 r=177.74.67.56:64476
+2024-07-03 14:34:06,453 - ERROR - Erro ao iniciar a simulação: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT tb_companies.id AS tb_companies_id, tb_companies.uuid AS tb_companies_uuid, tb_companies.iduser AS tb_companies_iduser, tb_companies.name AS tb_companies_name, tb_companies.public_url AS tb_companies_public_url, tb_companies.created_at AS tb_companies_created_at, tb_companies.updated_at AS tb_companies_updated_at 
+FROM tb_companies 
+WHERE tb_companies.uuid = %(uuid_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'uuid_1': 5, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-03 14:35:08,039 - INFO - t=2024-07-03T14:35:08-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 14:35:08,040 - INFO - t=2024-07-03T14:35:08-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 14:35:08,040 - INFO - t=2024-07-03T14:35:08-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=349e25f188d5 err="reconnecting session closed"
+2024-07-03 14:35:08,040 - INFO - t=2024-07-03T14:35:08-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 14:35:08,040 - INFO - t=2024-07-03T14:35:08-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=fe51f9a0db7534c31d37ae638e2430d0
+2024-07-03 14:35:08,041 - WARNING - t=2024-07-03T14:35:08-0300 lvl=warn msg="Stopping forwarder" name=http-5000-b7cc72af-edb7-45d2-a682-db643af7aeee acceptErr="failed to accept connection: Listener closed"
+2024-07-03 14:35:10,597 - INFO - t=2024-07-03T14:35:10-0300 lvl=info msg="update available" obj=updater
+2024-07-03 14:35:14,097 - INFO - Serving on http://[::1]:5000
+2024-07-03 14:35:14,097 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:35:18,588 - INFO - t=2024-07-03T14:35:18-0300 lvl=info msg="join connections" obj=join id=cb99b02e06a8 l=[::1]:5000 r=177.74.67.56:64592
+2024-07-03 14:35:18,918 - ERROR - Erro ao iniciar a simulação: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT tb_companies.id AS tb_companies_id, tb_companies.uuid AS tb_companies_uuid, tb_companies.iduser AS tb_companies_iduser, tb_companies.name AS tb_companies_name, tb_companies.public_url AS tb_companies_public_url, tb_companies.created_at AS tb_companies_created_at, tb_companies.updated_at AS tb_companies_updated_at 
+FROM tb_companies 
+WHERE tb_companies.uuid = %(uuid_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'uuid_1': 5, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-03 14:35:34,847 - INFO - t=2024-07-03T14:35:34-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 14:35:34,847 - INFO - t=2024-07-03T14:35:34-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 14:35:34,848 - INFO - t=2024-07-03T14:35:34-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=f52c81aedf17 err="reconnecting session closed"
+2024-07-03 14:35:34,848 - INFO - t=2024-07-03T14:35:34-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 14:35:34,848 - INFO - t=2024-07-03T14:35:34-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=2252ac35422a6bcd376e862be188ea2e
+2024-07-03 14:35:34,848 - WARNING - t=2024-07-03T14:35:34-0300 lvl=warn msg="Stopping forwarder" name=http-5000-35700786-968a-4ae3-8110-e2010e250f35 acceptErr="failed to accept connection: Listener closed"
+2024-07-03 14:35:36,903 - INFO - t=2024-07-03T14:35:36-0300 lvl=info msg="update available" obj=updater
+2024-07-03 14:35:40,450 - INFO - Serving on http://[::1]:5000
+2024-07-03 14:35:40,450 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:35:44,173 - INFO - t=2024-07-03T14:35:44-0300 lvl=info msg="join connections" obj=join id=6e199e1cdb71 l=[::1]:5000 r=177.74.67.56:64640
+2024-07-03 14:35:44,498 - ERROR - Erro ao iniciar a simulação: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT tb_companies.id AS tb_companies_id, tb_companies.uuid AS tb_companies_uuid, tb_companies.iduser AS tb_companies_iduser, tb_companies.name AS tb_companies_name, tb_companies.public_url AS tb_companies_public_url, tb_companies.created_at AS tb_companies_created_at, tb_companies.updated_at AS tb_companies_updated_at 
+FROM tb_companies 
+WHERE tb_companies.uuid = %(uuid_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'uuid_1': 5, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-03 14:36:13,917 - ERROR - Erro ao iniciar a simulação: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE tb_companies.uuid = 5 
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT tb_companies.id AS tb_companies_id, tb_companies.uuid AS tb_companies_uuid, tb_companies.iduser AS tb_companies_iduser, tb_companies.name AS tb_companies_name, tb_companies.public_url AS tb_companies_public_url, tb_companies.created_at AS tb_companies_created_at, tb_companies.updated_at AS tb_companies_updated_at 
+FROM tb_companies 
+WHERE tb_companies.uuid = %(uuid_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'uuid_1': 5, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-03 14:36:56,967 - INFO - t=2024-07-03T14:36:56-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 14:36:56,967 - INFO - t=2024-07-03T14:36:56-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 14:36:56,968 - INFO - t=2024-07-03T14:36:56-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=1a032cc4a902 err="reconnecting session closed"
+2024-07-03 14:36:56,968 - INFO - t=2024-07-03T14:36:56-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 14:36:56,968 - INFO - t=2024-07-03T14:36:56-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=8b13566f86ab99e69a1456b060041712
+2024-07-03 14:36:56,968 - WARNING - t=2024-07-03T14:36:56-0300 lvl=warn msg="Stopping forwarder" name=http-5000-51ea390d-2644-4115-bc16-a8ce1a664997 acceptErr="failed to accept connection: Listener closed"
+2024-07-03 14:37:03,836 - INFO - t=2024-07-03T14:37:03-0300 lvl=info msg="update available" obj=updater
+2024-07-03 14:37:04,203 - INFO - Serving on http://[::1]:5000
+2024-07-03 14:37:04,203 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:37:07,695 - INFO - t=2024-07-03T14:37:07-0300 lvl=info msg="join connections" obj=join id=d0c7ec64cc42 l=[::1]:5000 r=177.74.67.56:64742
+2024-07-03 14:37:22,695 - INFO - t=2024-07-03T14:37:22-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 14:37:22,695 - INFO - t=2024-07-03T14:37:22-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 14:37:22,695 - INFO - t=2024-07-03T14:37:22-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=5870e29c0376 err="reconnecting session closed"
+2024-07-03 14:37:22,696 - INFO - t=2024-07-03T14:37:22-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 14:37:22,696 - INFO - t=2024-07-03T14:37:22-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=11eec894d5c9ef88b9b6e5188310c58a
+2024-07-03 14:37:24,830 - INFO - t=2024-07-03T14:37:24-0300 lvl=info msg="update available" obj=updater
+2024-07-03 14:37:28,277 - INFO - Serving on http://[::1]:5000
+2024-07-03 14:37:28,277 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:37:30,945 - INFO - t=2024-07-03T14:37:30-0300 lvl=info msg="join connections" obj=join id=849cc613f590 l=[::1]:5000 r=177.74.67.56:64783
+2024-07-03 14:37:32,837 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 14:37:34,335 - INFO - ====== WebDriver manager ======
+2024-07-03 14:37:35,270 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 14:37:35,492 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 14:37:35,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 14:37:35,728 - INFO - WebDriver version 126.0.6478.126 selected
+2024-07-03 14:37:35,731 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 14:37:35,731 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-03 14:37:35,868 - INFO - Driver downloading response is 200
+2024-07-03 14:37:36,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 14:37:36,380 - INFO - Driver has been saved in cache [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126]
+2024-07-03 14:37:37,887 - INFO - Navigating to the login page
+2024-07-03 14:37:39,467 - INFO - Filling in login details
+2024-07-03 14:37:39,471 - CRITICAL - Critical error in main process
+2024-07-03 14:37:39,472 - ERROR - Error: NoSuchWindowException
+2024-07-03 14:37:39,472 - INFO - Set instance status to LIVRE for instance ID: 9
+2024-07-03 14:37:39,766 - INFO - Database commit completed
+2024-07-03 14:37:41,867 - INFO - Closed Selenium page
+2024-07-03 14:37:41,867 - INFO - Database session closed
+2024-07-03 14:37:45,963 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000145609E8BD0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/40d2ccd67800ead1bdb821dff5ccec38
+2024-07-03 14:37:50,045 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000145609E8090>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/40d2ccd67800ead1bdb821dff5ccec38
+2024-07-03 14:37:54,110 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000145609EB990>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/40d2ccd67800ead1bdb821dff5ccec38
+2024-07-03 14:38:02,281 - INFO - Closed Selenium page
+2024-07-03 14:39:05,487 - INFO - t=2024-07-03T14:39:05-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 14:39:05,487 - INFO - t=2024-07-03T14:39:05-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 14:39:05,487 - INFO - t=2024-07-03T14:39:05-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=61b267087951 err="reconnecting session closed"
+2024-07-03 14:39:05,487 - INFO - t=2024-07-03T14:39:05-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 14:39:10,636 - INFO - t=2024-07-03T14:39:10-0300 lvl=info msg="update available" obj=updater
+2024-07-03 14:39:14,048 - INFO - Serving on http://[::1]:5000
+2024-07-03 14:39:14,048 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:41:51,976 - INFO - t=2024-07-03T14:41:51-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 14:41:51,976 - INFO - t=2024-07-03T14:41:51-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 14:41:51,976 - INFO - t=2024-07-03T14:41:51-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=32755a8d5dd4 err="reconnecting session closed"
+2024-07-03 14:41:51,976 - INFO - t=2024-07-03T14:41:51-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 14:41:51,976 - INFO - t=2024-07-03T14:41:51-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=8bf0ea8c9f7db4851f9b69a5d2a801a8
+2024-07-03 14:41:51,976 - WARNING - t=2024-07-03T14:41:51-0300 lvl=warn msg="Stopping forwarder" name=http-5000-d345a91e-306b-461b-a738-8c6324dbb1de acceptErr="failed to accept connection: Listener closed"
+2024-07-03 14:41:54,863 - INFO - t=2024-07-03T14:41:54-0300 lvl=info msg="update available" obj=updater
+2024-07-03 14:41:58,558 - INFO - Serving on http://[::1]:5000
+2024-07-03 14:41:58,558 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 14:43:28,648 - INFO - t=2024-07-03T14:43:28-0300 lvl=info msg="join connections" obj=join id=e65044ed3f17 l=[::1]:5000 r=177.74.67.56:60539
+2024-07-03 14:43:30,491 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 14:43:31,928 - INFO - ====== WebDriver manager ======
+2024-07-03 14:43:32,666 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 14:43:32,749 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 14:43:32,821 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 14:43:33,866 - INFO - Navigating to the login page
+2024-07-03 14:43:35,579 - INFO - Filling in login details
+2024-07-03 14:43:35,608 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="5e229fe8f981221da902c2be28565884", element="f.71838CC207DAA4C9A5ACEE09FD068D9B.d.2974B46F7B41A8CE4DDFFCB98C23F22B.e.4")>
+2024-07-03 14:43:38,554 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="5e229fe8f981221da902c2be28565884", element="f.71838CC207DAA4C9A5ACEE09FD068D9B.d.2974B46F7B41A8CE4DDFFCB98C23F22B.e.2")>
+2024-07-03 14:43:40,408 - INFO - Waiting for the dashboard page to load
+2024-07-03 14:43:51,159 - INFO - Navigating to the dashboard page
+2024-07-03 14:43:54,431 - INFO - Selecting agreement
+2024-07-03 14:43:55,723 - INFO - Selecting institution
+2024-07-03 14:43:56,775 - INFO - Selecting state
+2024-07-03 14:43:57,455 - INFO - Entering CPF for document: 02574658981
+2024-07-03 14:43:59,127 - INFO - Clicking on consult button
+2024-07-03 14:43:59,206 - INFO - Clicking on new operation button
+2024-07-03 14:44:01,346 - INFO - Capturing phone number
+2024-07-03 14:44:01,882 - INFO - Capturing name
+2024-07-03 14:44:01,903 - INFO - Capturing initial guarantee value
+2024-07-03 14:44:07,641 - ERROR - Error list: Exception
+2024-07-03 14:44:09,373 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 14:44:09,373 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 14:44:09,373 - INFO - Appending error object for document: 02574658981
+2024-07-03 14:44:09,515 - INFO - Processed document 02574658981, index: 1
+2024-07-03 14:44:09,965 - INFO - Navigating to the dashboard page
+2024-07-03 14:44:12,942 - INFO - Selecting agreement
+2024-07-03 14:44:14,996 - INFO - Selecting institution
+2024-07-03 14:44:16,033 - INFO - Selecting state
+2024-07-03 14:44:16,709 - INFO - Entering CPF for document: 09968416959
+2024-07-03 14:44:18,855 - INFO - Clicking on consult button
+2024-07-03 14:44:18,924 - INFO - Clicking on new operation button
+2024-07-03 14:44:21,094 - INFO - Capturing phone number
+2024-07-03 14:44:21,624 - INFO - Capturing name
+2024-07-03 14:44:21,642 - INFO - Capturing initial guarantee value
+2024-07-03 14:44:27,311 - ERROR - Error list: Exception
+2024-07-03 14:44:27,426 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 14:44:27,426 - ERROR - Error while processing document 09968416959, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 14:44:27,426 - INFO - Appending error object for document: 09968416959
+2024-07-03 14:44:27,575 - INFO - Processed document 09968416959, index: 2
+2024-07-03 14:44:27,998 - INFO - Navigating to the dashboard page
+2024-07-03 14:44:33,643 - INFO - Selecting agreement
+2024-07-03 14:44:34,367 - INFO - Selecting institution
+2024-07-03 14:44:35,389 - INFO - Selecting state
+2024-07-03 14:44:35,590 - INFO - Entering CPF for document: 01046919997
+2024-07-03 14:44:37,993 - INFO - Clicking on consult button
+2024-07-03 14:44:38,069 - INFO - Clicking on new operation button
+2024-07-03 14:44:40,071 - INFO - Capturing phone number
+2024-07-03 14:44:41,617 - INFO - Capturing name
+2024-07-03 14:44:41,640 - INFO - Capturing initial guarantee value
+2024-07-03 14:45:16,928 - ERROR - Error list: TimeoutException
+2024-07-03 14:45:16,998 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 14:45:16,998 - ERROR - Error while processing document 01046919997, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 14:45:16,998 - INFO - Appending error object for document: 01046919997
+2024-07-03 14:45:17,141 - INFO - Processed document 01046919997, index: 3
+2024-07-03 14:45:17,593 - INFO - Navigating to the dashboard page
+2024-07-03 14:45:20,394 - INFO - Selecting agreement
+2024-07-03 14:45:22,274 - INFO - Selecting institution
+2024-07-03 14:45:23,329 - INFO - Selecting state
+2024-07-03 14:45:23,574 - INFO - Entering CPF for document: 83599649200
+2024-07-03 14:45:25,910 - INFO - Clicking on consult button
+2024-07-03 14:45:25,995 - INFO - Clicking on new operation button
+2024-07-03 14:45:28,238 - INFO - Capturing phone number
+2024-07-03 14:45:28,795 - INFO - Capturing name
+2024-07-03 14:45:28,820 - INFO - Capturing initial guarantee value
+2024-07-03 14:46:04,234 - ERROR - Error list: TimeoutException
+2024-07-03 14:46:04,277 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 14:46:04,277 - ERROR - Error while processing document 83599649200, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 14:46:04,277 - INFO - Appending error object for document: 83599649200
+2024-07-03 14:46:04,426 - INFO - Processed document 83599649200, index: 4
+2024-07-03 14:46:04,854 - INFO - Navigating to the dashboard page
+2024-07-03 14:46:07,464 - INFO - Selecting agreement
+2024-07-03 14:46:09,493 - INFO - Selecting institution
+2024-07-03 14:46:10,561 - INFO - Selecting state
+2024-07-03 14:46:10,837 - INFO - Entering CPF for document: 06372283913
+2024-07-03 14:46:12,485 - INFO - Clicking on consult button
+2024-07-03 14:46:12,572 - INFO - Clicking on new operation button
+2024-07-03 14:46:16,957 - INFO - Capturing phone number
+2024-07-03 14:46:17,491 - INFO - Capturing name
+2024-07-03 14:46:17,511 - INFO - Capturing initial guarantee value
+2024-07-03 14:46:52,871 - ERROR - Error list: TimeoutException
+2024-07-03 14:46:52,915 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 14:46:52,915 - ERROR - Error while processing document 06372283913, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 14:46:52,915 - INFO - Appending error object for document: 06372283913
+2024-07-03 14:46:53,056 - INFO - Processed document 06372283913, index: 5
+2024-07-03 14:46:53,507 - INFO - Navigating to the dashboard page
+2024-07-03 14:46:56,733 - INFO - Selecting agreement
+2024-07-03 14:46:58,295 - INFO - Selecting institution
+2024-07-03 14:46:59,343 - INFO - Selecting state
+2024-07-03 14:46:59,599 - INFO - Entering CPF for document: 02091503940
+2024-07-03 14:47:02,081 - INFO - Clicking on consult button
+2024-07-03 14:47:02,167 - INFO - Clicking on new operation button
+2024-07-03 14:47:04,513 - INFO - Capturing phone number
+2024-07-03 14:47:05,042 - INFO - Capturing name
+2024-07-03 14:47:05,063 - INFO - Capturing initial guarantee value
+2024-07-03 14:47:40,076 - ERROR - Error list: TimeoutException
+2024-07-03 14:47:40,138 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 14:47:40,138 - ERROR - Error while processing document 02091503940, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 14:47:40,138 - INFO - Appending error object for document: 02091503940
+2024-07-03 14:47:40,288 - INFO - Processed document 02091503940, index: 6
+2024-07-03 14:47:40,288 - INFO - Finalizing campaign
+2024-07-03 14:47:40,288 - INFO - Finalizing campaign 7 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 14:43:50', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 14:43:50', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 14:43:50', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 14:43:50', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 14:43:50', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 14:43:50', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 15:18:04,390 - INFO - t=2024-07-03T15:18:04-0300 lvl=info msg="join connections" obj=join id=e1628362fb74 l=[::1]:5000 r=177.74.67.56:63817
+2024-07-03 15:18:05,293 - ERROR - Erro ao iniciar a simulação: 'NoneType' object is not iterable
+2024-07-03 15:18:12,551 - INFO - t=2024-07-03T15:18:12-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 15:18:12,552 - INFO - t=2024-07-03T15:18:12-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 15:18:12,552 - INFO - t=2024-07-03T15:18:12-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=ca6ebb9bf3d5 err="reconnecting session closed"
+2024-07-03 15:18:12,552 - INFO - t=2024-07-03T15:18:12-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 15:18:12,552 - INFO - t=2024-07-03T15:18:12-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=fd219952300e6ebb0c8b96ce0a00b581
+2024-07-03 15:18:12,552 - WARNING - t=2024-07-03T15:18:12-0300 lvl=warn msg="Stopping forwarder" name=http-5000-7f7e2754-3dbf-4932-b7d6-4ddbe5fd8efd acceptErr="failed to accept connection: Listener closed"
+2024-07-03 15:18:15,057 - INFO - t=2024-07-03T15:18:15-0300 lvl=info msg="update available" obj=updater
+2024-07-03 15:18:18,497 - INFO - Serving on http://[::1]:5000
+2024-07-03 15:18:18,497 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 15:18:31,433 - INFO - t=2024-07-03T15:18:31-0300 lvl=info msg="join connections" obj=join id=a04785a4aeb9 l=[::1]:5000 r=177.74.67.56:63880
+2024-07-03 15:18:32,305 - ERROR - Erro ao iniciar a simulação: 'NoneType' object is not iterable
+2024-07-03 15:19:49,870 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 15:19:51,342 - INFO - ====== WebDriver manager ======
+2024-07-03 15:19:52,203 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:19:52,294 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:19:52,365 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 15:19:53,626 - INFO - Navigating to the login page
+2024-07-03 15:19:55,381 - INFO - Filling in login details
+2024-07-03 15:19:55,406 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="78a0ea680d2b1b274f95bedb17847ab4", element="f.8AC23DEA01E16E6F0EE192FE50CCF74C.d.380AA5F8A532F0EC5E2B683163DAE247.e.7")>
+2024-07-03 15:19:58,813 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="78a0ea680d2b1b274f95bedb17847ab4", element="f.8AC23DEA01E16E6F0EE192FE50CCF74C.d.380AA5F8A532F0EC5E2B683163DAE247.e.2")>
+2024-07-03 15:20:01,258 - INFO - Waiting for the dashboard page to load
+2024-07-03 15:20:11,778 - INFO - Navigating to the dashboard page
+2024-07-03 15:20:15,293 - INFO - Selecting agreement
+2024-07-03 15:20:15,822 - INFO - Selecting institution
+2024-07-03 15:20:16,857 - INFO - Selecting state
+2024-07-03 15:20:17,060 - INFO - Entering CPF for document: 02574658981
+2024-07-03 15:20:19,099 - INFO - Clicking on consult button
+2024-07-03 15:20:19,178 - INFO - Clicking on new operation button
+2024-07-03 15:20:21,400 - INFO - Capturing phone number
+2024-07-03 15:20:21,935 - INFO - Capturing name
+2024-07-03 15:20:21,954 - INFO - Capturing initial guarantee value
+2024-07-03 15:20:21,976 - ERROR - Error list: Exception
+2024-07-03 15:20:22,006 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:20:22,007 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:20:22,007 - INFO - Appending error object for document: 02574658981
+2024-07-03 15:20:22,148 - INFO - Processed document 02574658981, index: 1
+2024-07-03 15:20:22,567 - INFO - Navigating to the dashboard page
+2024-07-03 15:20:25,435 - INFO - Selecting agreement
+2024-07-03 15:20:26,485 - INFO - Selecting institution
+2024-07-03 15:20:27,490 - INFO - Selecting state
+2024-07-03 15:20:27,667 - INFO - Entering CPF for document: 09968416959
+2024-07-03 15:20:30,113 - INFO - Clicking on consult button
+2024-07-03 15:20:30,180 - INFO - Clicking on new operation button
+2024-07-03 15:20:32,430 - INFO - Capturing phone number
+2024-07-03 15:20:33,977 - INFO - Capturing name
+2024-07-03 15:20:33,995 - INFO - Capturing initial guarantee value
+2024-07-03 15:20:34,013 - ERROR - Error list: Exception
+2024-07-03 15:20:34,047 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:20:34,047 - ERROR - Error while processing document 09968416959, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:20:34,047 - INFO - Appending error object for document: 09968416959
+2024-07-03 15:20:34,187 - INFO - Processed document 09968416959, index: 2
+2024-07-03 15:20:34,613 - INFO - Navigating to the dashboard page
+2024-07-03 15:20:37,668 - INFO - Selecting agreement
+2024-07-03 15:20:38,511 - INFO - Selecting institution
+2024-07-03 15:20:39,519 - INFO - Selecting state
+2024-07-03 15:20:39,693 - INFO - Entering CPF for document: 01046919997
+2024-07-03 15:20:42,699 - INFO - Clicking on consult button
+2024-07-03 15:20:42,772 - INFO - Clicking on new operation button
+2024-07-03 15:20:44,785 - INFO - Capturing phone number
+2024-07-03 15:20:45,315 - INFO - Capturing name
+2024-07-03 15:20:45,332 - INFO - Capturing initial guarantee value
+2024-07-03 15:21:20,731 - ERROR - Error list: TimeoutException
+2024-07-03 15:21:20,774 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:21:20,774 - ERROR - Error while processing document 01046919997, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:21:20,774 - INFO - Appending error object for document: 01046919997
+2024-07-03 15:21:20,916 - INFO - Processed document 01046919997, index: 3
+2024-07-03 15:21:21,333 - INFO - Navigating to the dashboard page
+2024-07-03 15:21:24,353 - INFO - Selecting agreement
+2024-07-03 15:21:26,035 - INFO - Selecting institution
+2024-07-03 15:21:27,605 - INFO - Selecting state
+2024-07-03 15:21:27,866 - INFO - Entering CPF for document: 83599649200
+2024-07-03 15:21:29,694 - INFO - Clicking on consult button
+2024-07-03 15:21:29,774 - INFO - Clicking on new operation button
+2024-07-03 15:21:31,914 - INFO - Capturing phone number
+2024-07-03 15:21:32,445 - INFO - Capturing name
+2024-07-03 15:21:32,466 - INFO - Capturing initial guarantee value
+2024-07-03 15:22:07,488 - ERROR - Error list: TimeoutException
+2024-07-03 15:22:07,539 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:22:07,539 - ERROR - Error while processing document 83599649200, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:22:07,539 - INFO - Appending error object for document: 83599649200
+2024-07-03 15:22:07,677 - INFO - Processed document 83599649200, index: 4
+2024-07-03 15:22:08,103 - INFO - Navigating to the dashboard page
+2024-07-03 15:22:10,339 - INFO - Selecting agreement
+2024-07-03 15:22:12,609 - INFO - Selecting institution
+2024-07-03 15:22:13,666 - INFO - Selecting state
+2024-07-03 15:22:13,857 - INFO - Entering CPF for document: 06372283913
+2024-07-03 15:22:17,006 - INFO - Clicking on consult button
+2024-07-03 15:22:17,089 - INFO - Clicking on new operation button
+2024-07-03 15:22:19,150 - INFO - Capturing phone number
+2024-07-03 15:22:19,683 - INFO - Capturing name
+2024-07-03 15:22:19,708 - INFO - Capturing initial guarantee value
+2024-07-03 15:22:54,817 - ERROR - Error list: TimeoutException
+2024-07-03 15:22:54,859 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:22:54,859 - ERROR - Error while processing document 06372283913, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:22:54,859 - INFO - Appending error object for document: 06372283913
+2024-07-03 15:22:55,001 - INFO - Processed document 06372283913, index: 5
+2024-07-03 15:22:55,418 - INFO - Navigating to the dashboard page
+2024-07-03 15:22:57,413 - INFO - Selecting agreement
+2024-07-03 15:22:59,752 - INFO - Selecting institution
+2024-07-03 15:23:00,777 - INFO - Selecting state
+2024-07-03 15:23:00,995 - INFO - Entering CPF for document: 02091503940
+2024-07-03 15:23:02,787 - INFO - Clicking on consult button
+2024-07-03 15:23:02,864 - INFO - Clicking on new operation button
+2024-07-03 15:23:05,187 - INFO - Capturing phone number
+2024-07-03 15:23:05,719 - INFO - Capturing name
+2024-07-03 15:23:05,741 - INFO - Capturing initial guarantee value
+2024-07-03 15:23:40,812 - ERROR - Error list: TimeoutException
+2024-07-03 15:23:40,855 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:23:40,855 - ERROR - Error while processing document 02091503940, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:23:40,855 - INFO - Appending error object for document: 02091503940
+2024-07-03 15:23:40,994 - INFO - Processed document 02091503940, index: 6
+2024-07-03 15:23:40,994 - INFO - Finalizing campaign
+2024-07-03 15:23:40,994 - INFO - Finalizing campaign 8 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:20:11', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 15:20:11', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:20:11', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:20:11', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:20:11', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:20:11', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 15:28:31,040 - INFO - t=2024-07-03T15:28:31-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 15:28:31,040 - INFO - t=2024-07-03T15:28:31-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 15:28:31,040 - INFO - t=2024-07-03T15:28:31-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=6b22d55ca61f err="reconnecting session closed"
+2024-07-03 15:28:31,040 - INFO - t=2024-07-03T15:28:31-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 15:28:31,040 - INFO - t=2024-07-03T15:28:31-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=4317801824e8b07ebf9b623a34710029
+2024-07-03 15:28:34,173 - INFO - t=2024-07-03T15:28:34-0300 lvl=info msg="update available" obj=updater
+2024-07-03 15:28:37,606 - INFO - Serving on http://[::1]:5000
+2024-07-03 15:28:37,606 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 15:30:33,489 - INFO - t=2024-07-03T15:30:33-0300 lvl=info msg="join connections" obj=join id=3bd230279e49 l=[::1]:5000 r=177.74.67.56:64263
+2024-07-03 15:30:35,265 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 15:30:36,752 - INFO - ====== WebDriver manager ======
+2024-07-03 15:30:37,733 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:30:37,802 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:30:37,875 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 15:30:38,931 - INFO - Navigating to the login page
+2024-07-03 15:30:40,636 - INFO - Filling in login details
+2024-07-03 15:30:40,668 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="63e2d25b8187c9209b66748605d10dda", element="f.2CB836AAF43184CF8F27EC01E8F6D36B.d.738EA27563C0795B391A6722315FDDA3.e.6")>
+2024-07-03 15:30:43,758 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="63e2d25b8187c9209b66748605d10dda", element="f.2CB836AAF43184CF8F27EC01E8F6D36B.d.738EA27563C0795B391A6722315FDDA3.e.2")>
+2024-07-03 15:30:45,999 - INFO - Waiting for the dashboard page to load
+2024-07-03 15:31:07,021 - INFO - Navigating to the dashboard page
+2024-07-03 15:31:09,771 - INFO - Selecting agreement
+2024-07-03 15:31:11,115 - INFO - Selecting institution
+2024-07-03 15:31:12,153 - INFO - Selecting state
+2024-07-03 15:31:12,408 - INFO - Entering CPF for document: 02574658981
+2024-07-03 15:31:14,338 - INFO - Clicking on consult button
+2024-07-03 15:31:14,417 - INFO - Clicking on new operation button
+2024-07-03 15:31:17,083 - INFO - Capturing phone number
+2024-07-03 15:31:17,625 - INFO - Capturing name
+2024-07-03 15:31:17,645 - INFO - Capturing initial guarantee value
+2024-07-03 15:31:17,665 - ERROR - Error list: Exception
+2024-07-03 15:31:17,697 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:31:17,697 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:31:17,697 - INFO - Appending error object for document: 02574658981
+2024-07-03 15:31:17,843 - INFO - Processed document 02574658981, index: 1
+2024-07-03 15:31:18,275 - INFO - Navigating to the dashboard page
+2024-07-03 15:31:21,657 - INFO - Selecting agreement
+2024-07-03 15:31:22,560 - INFO - Selecting institution
+2024-07-03 15:31:23,559 - INFO - Selecting state
+2024-07-03 15:31:23,781 - INFO - Entering CPF for document: 09968416959
+2024-07-03 15:31:26,973 - INFO - Clicking on consult button
+2024-07-03 15:31:27,064 - INFO - Clicking on new operation button
+2024-07-03 15:31:29,435 - INFO - Capturing phone number
+2024-07-03 15:31:30,472 - INFO - Capturing name
+2024-07-03 15:31:30,489 - INFO - Capturing initial guarantee value
+2024-07-03 15:31:30,505 - ERROR - Error list: Exception
+2024-07-03 15:31:30,540 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:31:30,540 - ERROR - Error while processing document 09968416959, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:31:30,540 - INFO - Appending error object for document: 09968416959
+2024-07-03 15:31:30,685 - INFO - Processed document 09968416959, index: 2
+2024-07-03 15:31:31,127 - INFO - Navigating to the dashboard page
+2024-07-03 15:31:34,141 - INFO - Selecting agreement
+2024-07-03 15:31:35,588 - INFO - Selecting institution
+2024-07-03 15:31:37,142 - INFO - Selecting state
+2024-07-03 15:31:37,317 - INFO - Entering CPF for document: 01046919997
+2024-07-03 15:31:39,021 - INFO - Clicking on consult button
+2024-07-03 15:31:39,096 - INFO - Clicking on new operation button
+2024-07-03 15:31:41,035 - INFO - Capturing phone number
+2024-07-03 15:31:42,106 - INFO - Capturing name
+2024-07-03 15:31:42,120 - INFO - Capturing initial guarantee value
+2024-07-03 15:32:17,270 - ERROR - Error list: TimeoutException
+2024-07-03 15:32:17,315 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:32:17,315 - ERROR - Error while processing document 01046919997, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:32:17,315 - INFO - Appending error object for document: 01046919997
+2024-07-03 15:32:17,461 - INFO - Processed document 01046919997, index: 3
+2024-07-03 15:32:17,889 - INFO - Navigating to the dashboard page
+2024-07-03 15:32:19,852 - INFO - Selecting agreement
+2024-07-03 15:32:22,164 - INFO - Selecting institution
+2024-07-03 15:32:23,219 - INFO - Selecting state
+2024-07-03 15:32:23,408 - INFO - Entering CPF for document: 83599649200
+2024-07-03 15:32:24,730 - INFO - Clicking on consult button
+2024-07-03 15:32:24,809 - INFO - Clicking on new operation button
+2024-07-03 15:32:26,787 - INFO - Capturing phone number
+2024-07-03 15:32:27,318 - INFO - Capturing name
+2024-07-03 15:32:27,338 - INFO - Capturing initial guarantee value
+2024-07-03 15:33:02,695 - ERROR - Error list: TimeoutException
+2024-07-03 15:33:02,737 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:33:02,737 - ERROR - Error while processing document 83599649200, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:33:02,737 - INFO - Appending error object for document: 83599649200
+2024-07-03 15:33:02,880 - INFO - Processed document 83599649200, index: 4
+2024-07-03 15:33:03,319 - INFO - Navigating to the dashboard page
+2024-07-03 15:33:06,383 - INFO - Selecting agreement
+2024-07-03 15:33:07,392 - INFO - Selecting institution
+2024-07-03 15:33:08,434 - INFO - Selecting state
+2024-07-03 15:33:09,110 - INFO - Entering CPF for document: 06372283913
+2024-07-03 15:33:11,055 - INFO - Clicking on consult button
+2024-07-03 15:33:11,135 - INFO - Clicking on new operation button
+2024-07-03 15:33:13,154 - INFO - Capturing phone number
+2024-07-03 15:33:13,683 - INFO - Capturing name
+2024-07-03 15:33:13,703 - INFO - Capturing initial guarantee value
+2024-07-03 15:33:48,730 - ERROR - Error list: TimeoutException
+2024-07-03 15:33:48,772 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:33:48,772 - ERROR - Error while processing document 06372283913, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:33:48,772 - INFO - Appending error object for document: 06372283913
+2024-07-03 15:33:48,917 - INFO - Processed document 06372283913, index: 5
+2024-07-03 15:33:49,347 - INFO - Navigating to the dashboard page
+2024-07-03 15:33:52,499 - INFO - Selecting agreement
+2024-07-03 15:33:53,563 - INFO - Selecting institution
+2024-07-03 15:33:54,599 - INFO - Selecting state
+2024-07-03 15:33:54,789 - INFO - Entering CPF for document: 02091503940
+2024-07-03 15:33:56,970 - INFO - Clicking on consult button
+2024-07-03 15:33:57,051 - INFO - Clicking on new operation button
+2024-07-03 15:33:59,141 - INFO - Capturing phone number
+2024-07-03 15:33:59,672 - INFO - Capturing name
+2024-07-03 15:33:59,694 - INFO - Capturing initial guarantee value
+2024-07-03 15:34:35,099 - ERROR - Error list: TimeoutException
+2024-07-03 15:34:35,140 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:34:35,140 - ERROR - Error while processing document 02091503940, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:34:35,140 - INFO - Appending error object for document: 02091503940
+2024-07-03 15:34:35,284 - INFO - Processed document 02091503940, index: 6
+2024-07-03 15:34:35,284 - INFO - Finalizing campaign
+2024-07-03 15:34:35,284 - INFO - Finalizing campaign 9 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:31:06', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 15:31:06', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:31:06', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:31:06', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:31:06', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:31:06', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 15:37:43,849 - INFO - t=2024-07-03T15:37:43-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 15:37:43,863 - INFO - t=2024-07-03T15:37:43-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 15:37:43,863 - INFO - t=2024-07-03T15:37:43-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=5ae7ce9bd63c err="reconnecting session closed"
+2024-07-03 15:37:43,863 - INFO - t=2024-07-03T15:37:43-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 15:37:43,864 - INFO - t=2024-07-03T15:37:43-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=a32b5bb1271e624c1c9bc494c292858f
+2024-07-03 15:37:43,864 - WARNING - t=2024-07-03T15:37:43-0300 lvl=warn msg="Stopping forwarder" name=http-5000-e303f2da-d0fd-451f-906b-ecfb479a286a acceptErr="failed to accept connection: Listener closed"
+2024-07-03 15:37:47,142 - INFO - t=2024-07-03T15:37:47-0300 lvl=info msg="update available" obj=updater
+2024-07-03 15:37:50,686 - INFO - Serving on http://[::1]:5000
+2024-07-03 15:37:50,686 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 15:38:07,275 - INFO - t=2024-07-03T15:38:07-0300 lvl=info msg="join connections" obj=join id=7f7c67a34ac2 l=[::1]:5000 r=177.74.67.56:64514
+2024-07-03 15:38:09,093 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 15:38:10,556 - INFO - ====== WebDriver manager ======
+2024-07-03 15:38:11,349 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:38:11,441 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:38:11,513 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 15:38:12,574 - INFO - Navigating to the login page
+2024-07-03 15:38:14,369 - INFO - Filling in login details
+2024-07-03 15:38:14,393 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="a2246feb6f8193c81fed228920a79531", element="f.A51AB7E62A8F1B65784AA19C59611D76.d.894DA0F6473EE0D7BF8DBD5EC664BF2C.e.4")>
+2024-07-03 15:38:17,263 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="a2246feb6f8193c81fed228920a79531", element="f.A51AB7E62A8F1B65784AA19C59611D76.d.894DA0F6473EE0D7BF8DBD5EC664BF2C.e.2")>
+2024-07-03 15:38:19,576 - INFO - Waiting for the dashboard page to load
+2024-07-03 15:38:29,262 - INFO - Navigating to the dashboard page
+2024-07-03 15:38:32,174 - INFO - Selecting agreement
+2024-07-03 15:38:34,598 - INFO - Selecting institution
+2024-07-03 15:38:35,643 - INFO - Selecting state
+2024-07-03 15:38:35,874 - INFO - Entering CPF for document: 02574658981
+2024-07-03 15:38:39,202 - INFO - Clicking on consult button
+2024-07-03 15:38:39,284 - INFO - Clicking on new operation button
+2024-07-03 15:38:41,916 - INFO - Capturing phone number
+2024-07-03 15:38:42,457 - INFO - Capturing name
+2024-07-03 15:38:42,485 - INFO - Capturing initial guarantee value
+2024-07-03 15:38:42,513 - ERROR - Error list: Exception
+2024-07-03 15:38:42,553 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:38:42,553 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:38:42,553 - INFO - Appending error object for document: 02574658981
+2024-07-03 15:38:42,695 - INFO - Processed document 02574658981, index: 1
+2024-07-03 15:38:43,142 - INFO - Navigating to the dashboard page
+2024-07-03 15:38:45,382 - INFO - Selecting agreement
+2024-07-03 15:38:47,257 - INFO - Selecting institution
+2024-07-03 15:38:48,291 - INFO - Selecting state
+2024-07-03 15:38:48,541 - INFO - Entering CPF for document: 09968416959
+2024-07-03 15:38:50,326 - INFO - Clicking on consult button
+2024-07-03 15:38:50,399 - INFO - Clicking on new operation button
+2024-07-03 15:38:52,410 - INFO - Capturing phone number
+2024-07-03 15:38:53,449 - INFO - Capturing name
+2024-07-03 15:38:53,464 - INFO - Capturing initial guarantee value
+2024-07-03 15:38:53,480 - ERROR - Error list: Exception
+2024-07-03 15:38:53,513 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:38:53,513 - ERROR - Error while processing document 09968416959, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:38:53,513 - INFO - Appending error object for document: 09968416959
+2024-07-03 15:38:53,660 - INFO - Processed document 09968416959, index: 2
+2024-07-03 15:38:54,086 - INFO - Navigating to the dashboard page
+2024-07-03 15:38:56,770 - INFO - Selecting agreement
+2024-07-03 15:38:58,258 - INFO - Selecting institution
+2024-07-03 15:38:59,803 - INFO - Selecting state
+2024-07-03 15:38:59,985 - INFO - Entering CPF for document: 01046919997
+2024-07-03 15:39:01,742 - INFO - Clicking on consult button
+2024-07-03 15:39:01,813 - INFO - Clicking on new operation button
+2024-07-03 15:39:03,803 - INFO - Capturing phone number
+2024-07-03 15:39:04,842 - INFO - Capturing name
+2024-07-03 15:39:04,859 - INFO - Capturing initial guarantee value
+2024-07-03 15:39:40,228 - ERROR - Error list: TimeoutException
+2024-07-03 15:39:40,270 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:39:40,271 - ERROR - Error while processing document 01046919997, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:39:40,271 - INFO - Appending error object for document: 01046919997
+2024-07-03 15:39:40,412 - INFO - Processed document 01046919997, index: 3
+2024-07-03 15:39:40,853 - INFO - Navigating to the dashboard page
+2024-07-03 15:39:43,961 - INFO - Selecting agreement
+2024-07-03 15:39:45,388 - INFO - Selecting institution
+2024-07-03 15:39:46,395 - INFO - Selecting state
+2024-07-03 15:39:47,072 - INFO - Entering CPF for document: 83599649200
+2024-07-03 15:39:49,495 - INFO - Clicking on consult button
+2024-07-03 15:39:49,575 - INFO - Clicking on new operation button
+2024-07-03 15:39:51,516 - INFO - Capturing phone number
+2024-07-03 15:39:52,046 - INFO - Capturing name
+2024-07-03 15:39:52,065 - INFO - Capturing initial guarantee value
+2024-07-03 15:40:27,114 - ERROR - Error list: TimeoutException
+2024-07-03 15:40:27,155 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:40:27,155 - ERROR - Error while processing document 83599649200, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:40:27,155 - INFO - Appending error object for document: 83599649200
+2024-07-03 15:40:27,302 - INFO - Processed document 83599649200, index: 4
+2024-07-03 15:40:27,726 - INFO - Navigating to the dashboard page
+2024-07-03 15:40:30,544 - INFO - Selecting agreement
+2024-07-03 15:40:31,895 - INFO - Selecting institution
+2024-07-03 15:40:32,905 - INFO - Selecting state
+2024-07-03 15:40:33,096 - INFO - Entering CPF for document: 06372283913
+2024-07-03 15:40:36,209 - INFO - Clicking on consult button
+2024-07-03 15:40:36,293 - INFO - Clicking on new operation button
+2024-07-03 15:40:39,123 - INFO - Capturing phone number
+2024-07-03 15:40:39,654 - INFO - Capturing name
+2024-07-03 15:40:39,673 - INFO - Capturing initial guarantee value
+2024-07-03 15:41:14,976 - ERROR - Error list: TimeoutException
+2024-07-03 15:41:15,018 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:41:15,018 - ERROR - Error while processing document 06372283913, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:41:15,018 - INFO - Appending error object for document: 06372283913
+2024-07-03 15:41:15,160 - INFO - Processed document 06372283913, index: 5
+2024-07-03 15:41:15,606 - INFO - Navigating to the dashboard page
+2024-07-03 15:41:18,498 - INFO - Selecting agreement
+2024-07-03 15:41:19,691 - INFO - Selecting institution
+2024-07-03 15:41:21,244 - INFO - Selecting state
+2024-07-03 15:41:21,899 - INFO - Entering CPF for document: 02091503940
+2024-07-03 15:41:24,952 - INFO - Clicking on consult button
+2024-07-03 15:41:25,025 - INFO - Clicking on new operation button
+2024-07-03 15:41:27,034 - INFO - Capturing phone number
+2024-07-03 15:42:02,249 - ERROR - Error list: TimeoutException
+2024-07-03 15:42:02,297 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:42:02,297 - ERROR - Error while processing document 02091503940, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:42:02,297 - INFO - Appending error object for document: 02091503940
+2024-07-03 15:42:02,440 - INFO - Processed document 02091503940, index: 6
+2024-07-03 15:42:02,440 - INFO - Finalizing campaign
+2024-07-03 15:42:02,440 - INFO - Finalizing campaign 10 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:38:28', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 15:38:28', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:38:28', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:38:28', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:38:28', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:38:28', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 15:43:05,776 - INFO - t=2024-07-03T15:43:05-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 15:43:05,777 - INFO - t=2024-07-03T15:43:05-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 15:43:05,777 - INFO - t=2024-07-03T15:43:05-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=0b2a3b03d6a4 err="reconnecting session closed"
+2024-07-03 15:43:05,777 - INFO - t=2024-07-03T15:43:05-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 15:43:08,412 - INFO - t=2024-07-03T15:43:08-0300 lvl=info msg="update available" obj=updater
+2024-07-03 15:43:11,772 - INFO - Serving on http://[::1]:5000
+2024-07-03 15:43:11,772 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 15:43:43,892 - INFO - t=2024-07-03T15:43:43-0300 lvl=info msg="join connections" obj=join id=59b8880f5229 l=[::1]:5000 r=177.74.67.56:64676
+2024-07-03 15:43:45,620 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 15:43:47,140 - INFO - ====== WebDriver manager ======
+2024-07-03 15:43:47,845 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:43:47,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:43:47,986 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 15:43:49,041 - INFO - Navigating to the login page
+2024-07-03 15:43:50,788 - INFO - Filling in login details
+2024-07-03 15:43:50,841 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="7f5f778d317bf11336509d88ef4f51d8", element="f.63F641057CA57885C0EA647BA00A47DF.d.EA8CCD3511C07BA627BC40A77F01F072.e.4")>
+2024-07-03 15:43:53,789 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="7f5f778d317bf11336509d88ef4f51d8", element="f.63F641057CA57885C0EA647BA00A47DF.d.EA8CCD3511C07BA627BC40A77F01F072.e.2")>
+2024-07-03 15:43:56,607 - INFO - Waiting for the dashboard page to load
+2024-07-03 15:44:10,886 - INFO - Navigating to the dashboard page
+2024-07-03 15:44:13,850 - INFO - Selecting agreement
+2024-07-03 15:44:14,934 - INFO - Selecting institution
+2024-07-03 15:44:15,985 - INFO - Selecting state
+2024-07-03 15:44:16,180 - INFO - Entering CPF for document: 02574658981
+2024-07-03 15:44:19,088 - INFO - Clicking on consult button
+2024-07-03 15:44:19,173 - INFO - Clicking on new operation button
+2024-07-03 15:44:21,368 - INFO - Capturing phone number
+2024-07-03 15:44:21,903 - INFO - Capturing name
+2024-07-03 15:44:21,923 - INFO - Capturing initial guarantee value
+2024-07-03 15:44:21,942 - ERROR - Error list: Exception
+2024-07-03 15:44:21,976 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:44:21,976 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:44:21,976 - INFO - Appending error object for document: 02574658981
+2024-07-03 15:44:22,122 - INFO - Processed document 02574658981, index: 1
+2024-07-03 15:44:22,122 - INFO - Finalizing campaign
+2024-07-03 15:44:22,122 - INFO - Finalizing campaign 11 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:44:10', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-07-03 15:44:23,139 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:44:10', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-07-03 15:44:23,436 - INFO - Database session closed
+2024-07-03 15:44:25,614 - INFO - Closed Selenium page
+2024-07-03 15:46:59,736 - INFO - t=2024-07-03T15:46:59-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 15:46:59,736 - INFO - t=2024-07-03T15:46:59-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 15:46:59,736 - INFO - t=2024-07-03T15:46:59-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=a39dddf1858d err="reconnecting session closed"
+2024-07-03 15:46:59,736 - INFO - t=2024-07-03T15:46:59-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 15:47:03,614 - INFO - t=2024-07-03T15:47:03-0300 lvl=info msg="update available" obj=updater
+2024-07-03 15:47:05,404 - INFO - Serving on http://[::1]:5000
+2024-07-03 15:47:05,404 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 15:47:35,595 - INFO - t=2024-07-03T15:47:35-0300 lvl=info msg="join connections" obj=join id=b4666046672c l=[::1]:5000 r=177.74.67.56:64850
+2024-07-03 15:47:37,319 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 15:47:38,811 - INFO - ====== WebDriver manager ======
+2024-07-03 15:47:39,689 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:47:39,756 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:47:39,829 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 15:47:41,082 - INFO - Navigating to the login page
+2024-07-03 15:47:42,910 - INFO - Filling in login details
+2024-07-03 15:47:42,936 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="4990f6c47d5a9359d66c3536227c6b2a", element="f.A1F1C4EBB26E7A0D2E3F650B57687ED9.d.E0B00045D6B08AFAE7A1EBBA735B22B1.e.7")>
+2024-07-03 15:47:45,667 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="4990f6c47d5a9359d66c3536227c6b2a", element="f.A1F1C4EBB26E7A0D2E3F650B57687ED9.d.E0B00045D6B08AFAE7A1EBBA735B22B1.e.2")>
+2024-07-03 15:47:48,002 - INFO - Waiting for the dashboard page to load
+2024-07-03 15:48:02,953 - INFO - Navigating to the dashboard page
+2024-07-03 15:48:05,463 - INFO - Selecting agreement
+2024-07-03 15:48:07,045 - INFO - Selecting institution
+2024-07-03 15:48:08,084 - INFO - Selecting state
+2024-07-03 15:48:08,316 - INFO - Entering CPF for document: 02574658981
+2024-07-03 15:48:11,121 - INFO - Clicking on consult button
+2024-07-03 15:48:11,201 - INFO - Clicking on new operation button
+2024-07-03 15:48:13,027 - INFO - Capturing phone number
+2024-07-03 15:48:13,568 - INFO - Capturing name
+2024-07-03 15:48:13,590 - INFO - Capturing initial guarantee value
+2024-07-03 15:48:13,622 - ERROR - Error list: Exception
+2024-07-03 15:48:13,661 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:48:13,661 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:48:13,661 - INFO - Appending error object for document: 02574658981
+2024-07-03 15:48:13,806 - INFO - Processed document 02574658981, index: 1
+2024-07-03 15:48:13,806 - INFO - Finalizing campaign
+2024-07-03 15:48:13,806 - INFO - Finalizing campaign 12 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:48:02', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-07-03 15:48:14,805 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:48:02', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-07-03 15:48:15,662 - INFO - Database session closed
+2024-07-03 15:48:17,827 - INFO - Closed Selenium page
+2024-07-03 15:49:51,937 - INFO - t=2024-07-03T15:49:51-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 15:49:51,937 - INFO - t=2024-07-03T15:49:51-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 15:49:51,937 - INFO - t=2024-07-03T15:49:51-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=e6733f81cc96 err="reconnecting session closed"
+2024-07-03 15:49:51,937 - INFO - t=2024-07-03T15:49:51-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 15:49:51,937 - INFO - t=2024-07-03T15:49:51-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=0bcb67da90d679c57e72755c0878331b
+2024-07-03 15:49:51,938 - WARNING - t=2024-07-03T15:49:51-0300 lvl=warn msg="Stopping forwarder" name=http-5000-25f018e9-ec6a-4ea2-92d9-6153941fd803 acceptErr="failed to accept connection: Listener closed"
+2024-07-03 15:49:55,018 - INFO - t=2024-07-03T15:49:55-0300 lvl=info msg="update available" obj=updater
+2024-07-03 15:49:58,609 - INFO - Serving on http://[::1]:5000
+2024-07-03 15:49:58,609 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 15:50:14,569 - INFO - t=2024-07-03T15:50:14-0300 lvl=info msg="join connections" obj=join id=a1ebf3e06595 l=[::1]:5000 r=177.74.67.56:65029
+2024-07-03 15:50:16,393 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 15:50:17,860 - INFO - ====== WebDriver manager ======
+2024-07-03 15:50:18,705 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:50:18,806 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:50:18,886 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 15:50:19,951 - INFO - Navigating to the login page
+2024-07-03 15:50:21,603 - INFO - Filling in login details
+2024-07-03 15:50:21,636 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="571b5369cc59dc46d6481f02c4e99b74", element="f.3B1E6285800CF306496AB520E7FD90D4.d.620FAE9F11E5E85AA697674281235914.e.6")>
+2024-07-03 15:50:24,641 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="571b5369cc59dc46d6481f02c4e99b74", element="f.3B1E6285800CF306496AB520E7FD90D4.d.620FAE9F11E5E85AA697674281235914.e.2")>
+2024-07-03 15:50:26,950 - INFO - Waiting for the dashboard page to load
+2024-07-03 15:50:35,018 - INFO - Navigating to the dashboard page
+2024-07-03 15:50:37,875 - INFO - Selecting agreement
+2024-07-03 15:50:39,107 - INFO - Selecting institution
+2024-07-03 15:50:40,169 - INFO - Selecting state
+2024-07-03 15:50:40,868 - INFO - Entering CPF for document: 02574658981
+2024-07-03 15:50:42,867 - INFO - Clicking on consult button
+2024-07-03 15:50:42,957 - INFO - Clicking on new operation button
+2024-07-03 15:50:45,047 - INFO - Capturing phone number
+2024-07-03 15:50:45,583 - INFO - Capturing name
+2024-07-03 15:50:45,605 - INFO - Capturing initial guarantee value
+2024-07-03 15:50:45,625 - ERROR - Error list: Exception
+2024-07-03 15:50:45,659 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:50:45,659 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:50:45,659 - INFO - Appending error object for document: 02574658981
+2024-07-03 15:50:45,802 - INFO - Processed document 02574658981, index: 1
+2024-07-03 15:50:46,247 - INFO - Navigating to the dashboard page
+2024-07-03 15:50:48,196 - INFO - Selecting agreement
+2024-07-03 15:50:50,071 - INFO - Selecting institution
+2024-07-03 15:50:51,104 - INFO - Selecting state
+2024-07-03 15:50:51,760 - INFO - Entering CPF for document: 09968416959
+2024-07-03 15:50:53,154 - INFO - Clicking on consult button
+2024-07-03 15:50:53,223 - INFO - Clicking on new operation button
+2024-07-03 15:50:55,193 - INFO - Capturing phone number
+2024-07-03 15:50:55,735 - INFO - Capturing name
+2024-07-03 15:50:55,768 - INFO - Capturing initial guarantee value
+2024-07-03 15:50:55,785 - ERROR - Error list: Exception
+2024-07-03 15:50:55,815 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:50:55,815 - ERROR - Error while processing document 09968416959, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:50:55,816 - INFO - Appending error object for document: 09968416959
+2024-07-03 15:50:55,963 - INFO - Processed document 09968416959, index: 2
+2024-07-03 15:50:56,388 - INFO - Navigating to the dashboard page
+2024-07-03 15:50:59,188 - INFO - Selecting agreement
+2024-07-03 15:51:01,169 - INFO - Selecting institution
+2024-07-03 15:51:02,713 - INFO - Selecting state
+2024-07-03 15:51:03,378 - INFO - Entering CPF for document: 01046919997
+2024-07-03 15:51:04,816 - INFO - Clicking on consult button
+2024-07-03 15:51:04,897 - INFO - Clicking on new operation button
+2024-07-03 15:51:07,492 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-07-03 15:51:08,584 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-07-03 15:51:08,873 - INFO - Capturing phone number
+2024-07-03 15:51:09,445 - INFO - Capturing name
+2024-07-03 15:51:09,475 - INFO - Capturing initial guarantee value
+2024-07-03 15:51:44,680 - ERROR - Error list: TimeoutException
+2024-07-03 15:51:44,747 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:51:44,748 - ERROR - Error while processing document 01046919997, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:51:44,748 - INFO - Appending error object for document: 01046919997
+2024-07-03 15:51:44,889 - INFO - Processed document 01046919997, index: 3
+2024-07-03 15:51:45,330 - INFO - Navigating to the dashboard page
+2024-07-03 15:51:48,828 - INFO - Selecting agreement
+2024-07-03 15:51:49,554 - INFO - Selecting institution
+2024-07-03 15:51:50,576 - INFO - Selecting state
+2024-07-03 15:51:50,788 - INFO - Entering CPF for document: 83599649200
+2024-07-03 15:51:52,172 - INFO - Clicking on consult button
+2024-07-03 15:51:52,257 - INFO - Clicking on new operation button
+2024-07-03 15:51:54,196 - INFO - Capturing phone number
+2024-07-03 15:51:54,728 - INFO - Capturing name
+2024-07-03 15:51:54,751 - INFO - Capturing initial guarantee value
+2024-07-03 15:52:29,925 - ERROR - Error list: TimeoutException
+2024-07-03 15:52:29,970 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:52:29,970 - ERROR - Error while processing document 83599649200, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:52:29,970 - INFO - Appending error object for document: 83599649200
+2024-07-03 15:52:30,117 - INFO - Processed document 83599649200, index: 4
+2024-07-03 15:52:30,545 - INFO - Navigating to the dashboard page
+2024-07-03 15:52:33,783 - INFO - Selecting agreement
+2024-07-03 15:52:34,669 - INFO - Selecting institution
+2024-07-03 15:52:35,694 - INFO - Selecting state
+2024-07-03 15:52:35,901 - INFO - Entering CPF for document: 06372283913
+2024-07-03 15:52:39,136 - INFO - Clicking on consult button
+2024-07-03 15:52:39,223 - INFO - Clicking on new operation button
+2024-07-03 15:52:41,307 - INFO - Capturing phone number
+2024-07-03 15:52:41,851 - INFO - Capturing name
+2024-07-03 15:52:41,874 - INFO - Capturing initial guarantee value
+2024-07-03 15:53:17,055 - ERROR - Error list: TimeoutException
+2024-07-03 15:53:17,098 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:53:17,098 - ERROR - Error while processing document 06372283913, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:53:17,098 - INFO - Appending error object for document: 06372283913
+2024-07-03 15:53:17,239 - INFO - Processed document 06372283913, index: 5
+2024-07-03 15:53:17,682 - INFO - Navigating to the dashboard page
+2024-07-03 15:53:20,077 - INFO - Selecting agreement
+2024-07-03 15:53:21,749 - INFO - Selecting institution
+2024-07-03 15:53:23,324 - INFO - Selecting state
+2024-07-03 15:53:23,652 - INFO - Entering CPF for document: 02091503940
+2024-07-03 15:53:26,100 - INFO - Clicking on consult button
+2024-07-03 15:53:26,191 - INFO - Clicking on new operation button
+2024-07-03 15:53:29,735 - INFO - Capturing phone number
+2024-07-03 15:53:30,268 - INFO - Capturing name
+2024-07-03 15:53:30,292 - INFO - Capturing initial guarantee value
+2024-07-03 15:54:05,560 - ERROR - Error list: TimeoutException
+2024-07-03 15:54:05,604 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:54:05,604 - ERROR - Error while processing document 02091503940, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 15:54:05,604 - INFO - Appending error object for document: 02091503940
+2024-07-03 15:54:05,768 - INFO - Processed document 02091503940, index: 6
+2024-07-03 15:54:05,768 - INFO - Finalizing campaign
+2024-07-03 15:54:05,768 - INFO - Finalizing campaign 13 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 15:54:06,896 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 15:50:34', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 15:54:47,864 - INFO - t=2024-07-03T15:54:47-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 15:54:47,864 - INFO - t=2024-07-03T15:54:47-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 15:54:47,864 - INFO - t=2024-07-03T15:54:47-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=e0f91df6f28c err="reconnecting session closed"
+2024-07-03 15:54:50,633 - INFO - t=2024-07-03T15:54:50-0300 lvl=info msg="update available" obj=updater
+2024-07-03 15:54:54,755 - INFO - Serving on http://[::1]:5000
+2024-07-03 15:54:54,755 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 15:55:15,360 - INFO - t=2024-07-03T15:55:15-0300 lvl=info msg="join connections" obj=join id=e8ee03e91b40 l=[::1]:5000 r=177.74.67.56:65199
+2024-07-03 15:55:17,430 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 15:55:18,981 - INFO - ====== WebDriver manager ======
+2024-07-03 15:55:19,858 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:55:19,945 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:55:20,036 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 15:55:21,118 - INFO - Navigating to the login page
+2024-07-03 15:55:23,136 - INFO - Filling in login details
+2024-07-03 15:55:23,160 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="469af06123d856550889627fd611aee3", element="f.4255B83E7218D8B6E5C116B4605AC8D6.d.C1BE2DB5D35201850356A1C82D1C63CC.e.5")>
+2024-07-03 15:55:25,917 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="469af06123d856550889627fd611aee3", element="f.4255B83E7218D8B6E5C116B4605AC8D6.d.C1BE2DB5D35201850356A1C82D1C63CC.e.3")>
+2024-07-03 15:55:28,234 - INFO - Waiting for the dashboard page to load
+2024-07-03 15:55:39,857 - INFO - Navigating to the dashboard page
+2024-07-03 15:55:43,171 - INFO - Selecting agreement
+2024-07-03 15:55:44,467 - INFO - Selecting institution
+2024-07-03 15:55:45,510 - INFO - Selecting state
+2024-07-03 15:55:45,721 - INFO - Entering CPF for document: 02574658981
+2024-07-03 15:55:48,116 - INFO - Clicking on consult button
+2024-07-03 15:55:48,198 - INFO - Clicking on new operation button
+2024-07-03 15:55:50,192 - INFO - Capturing phone number
+2024-07-03 15:55:50,730 - INFO - Capturing name
+2024-07-03 15:55:50,754 - INFO - Capturing initial guarantee value
+2024-07-03 15:55:50,775 - ERROR - Error list: Exception
+2024-07-03 15:55:50,809 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:55:50,809 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:55:50,809 - INFO - Appending error object for document: 02574658981
+2024-07-03 15:55:50,962 - INFO - Processed document 02574658981, index: 1
+2024-07-03 15:55:50,962 - INFO - Finalizing campaign
+2024-07-03 15:55:50,962 - INFO - Finalizing campaign 14 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:55:39', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-07-03 15:55:52,093 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:55:39', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-07-03 15:55:53,076 - INFO - Database session closed
+2024-07-03 15:55:55,233 - INFO - Closed Selenium page
+2024-07-03 15:58:55,635 - INFO - t=2024-07-03T15:58:55-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 15:58:55,635 - INFO - t=2024-07-03T15:58:55-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 15:58:55,636 - INFO - t=2024-07-03T15:58:55-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=57ed487b7da7 err="reconnecting session closed"
+2024-07-03 15:58:55,636 - INFO - t=2024-07-03T15:58:55-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 15:58:55,636 - INFO - t=2024-07-03T15:58:55-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=fb6aeb8546f531939f24ddb918aca73e
+2024-07-03 15:58:55,636 - WARNING - t=2024-07-03T15:58:55-0300 lvl=warn msg="Stopping forwarder" name=http-5000-bfd86a86-8d09-4d90-8a7f-e8f66be7015b acceptErr="failed to accept connection: Listener closed"
+2024-07-03 15:58:55,637 - WARNING - t=2024-07-03T15:58:55-0300 lvl=warn msg="Error restarting forwarder" name=http-5000-bfd86a86-8d09-4d90-8a7f-e8f66be7015b err="failed to start tunnel: session closed"
+2024-07-03 15:58:58,181 - INFO - t=2024-07-03T15:58:58-0300 lvl=info msg="update available" obj=updater
+2024-07-03 15:59:01,995 - INFO - Serving on http://[::1]:5000
+2024-07-03 15:59:01,995 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 15:59:14,953 - INFO - t=2024-07-03T15:59:14-0300 lvl=info msg="join connections" obj=join id=5194dba928c8 l=[::1]:5000 r=177.74.67.56:65390
+2024-07-03 15:59:16,883 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 15:59:18,510 - INFO - ====== WebDriver manager ======
+2024-07-03 15:59:19,332 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:59:19,420 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 15:59:19,502 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 15:59:20,588 - INFO - Navigating to the login page
+2024-07-03 15:59:22,308 - INFO - Filling in login details
+2024-07-03 15:59:22,334 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="030cdca9373e569aa37ea037a06564a7", element="f.16775B869EF7AD7974359D12CFA48C12.d.2365B99818F73AD7D46AC9087C23B7EB.e.4")>
+2024-07-03 15:59:25,255 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="030cdca9373e569aa37ea037a06564a7", element="f.16775B869EF7AD7974359D12CFA48C12.d.2365B99818F73AD7D46AC9087C23B7EB.e.2")>
+2024-07-03 15:59:27,480 - INFO - Waiting for the dashboard page to load
+2024-07-03 15:59:42,463 - INFO - Navigating to the dashboard page
+2024-07-03 15:59:46,229 - INFO - Selecting agreement
+2024-07-03 15:59:49,034 - INFO - Selecting institution
+2024-07-03 15:59:50,031 - INFO - Selecting state
+2024-07-03 15:59:50,277 - INFO - Entering CPF for document: 02574658981
+2024-07-03 15:59:52,745 - INFO - Clicking on consult button
+2024-07-03 15:59:52,840 - INFO - Clicking on new operation button
+2024-07-03 15:59:54,817 - INFO - Capturing phone number
+2024-07-03 15:59:55,353 - INFO - Capturing name
+2024-07-03 15:59:55,373 - INFO - Capturing initial guarantee value
+2024-07-03 15:59:55,396 - ERROR - Error list: Exception
+2024-07-03 15:59:55,432 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:59:55,432 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 15:59:55,432 - INFO - Appending error object for document: 02574658981
+2024-07-03 15:59:55,589 - INFO - Processed document 02574658981, index: 1
+2024-07-03 15:59:55,589 - INFO - Finalizing campaign
+2024-07-03 15:59:55,589 - INFO - Finalizing campaign 15 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:59:42', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-07-03 15:59:56,693 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 15:59:42', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-07-03 15:59:57,008 - INFO - Database session closed
+2024-07-03 15:59:59,222 - INFO - Closed Selenium page
+2024-07-03 16:06:57,957 - INFO - t=2024-07-03T16:06:57-0300 lvl=info msg="join connections" obj=join id=ba59b2a860cb l=[::1]:5000 r=177.74.67.56:49215
+2024-07-03 16:06:59,917 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 16:07:00,526 - INFO - ====== WebDriver manager ======
+2024-07-03 16:07:01,357 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:07:01,441 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:07:01,528 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 16:07:02,600 - INFO - Navigating to the login page
+2024-07-03 16:07:04,482 - INFO - Filling in login details
+2024-07-03 16:07:04,540 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="9786ac6dd51c698c77eb3a421f201a8d", element="f.6CAC0410CD4ECA1C8DEA96EEA3B72685.d.9AAE5A4F70674FD46B8542E1DD9FFC39.e.4")>
+2024-07-03 16:07:07,462 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="9786ac6dd51c698c77eb3a421f201a8d", element="f.6CAC0410CD4ECA1C8DEA96EEA3B72685.d.9AAE5A4F70674FD46B8542E1DD9FFC39.e.2")>
+2024-07-03 16:07:09,282 - INFO - Waiting for the dashboard page to load
+2024-07-03 16:07:20,517 - INFO - Navigating to the dashboard page
+2024-07-03 16:07:24,138 - INFO - Selecting agreement
+2024-07-03 16:07:25,034 - INFO - Selecting institution
+2024-07-03 16:07:26,095 - INFO - Selecting state
+2024-07-03 16:07:26,303 - INFO - Entering CPF for document: 02574658981
+2024-07-03 16:07:29,742 - INFO - Clicking on consult button
+2024-07-03 16:07:29,821 - INFO - Clicking on new operation button
+2024-07-03 16:07:32,163 - INFO - Capturing phone number
+2024-07-03 16:07:32,757 - INFO - Capturing name
+2024-07-03 16:07:32,809 - INFO - Capturing initial guarantee value
+2024-07-03 16:07:32,860 - ERROR - Error list: Exception
+2024-07-03 16:07:32,947 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 16:07:32,947 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 16:07:32,947 - INFO - Appending error object for document: 02574658981
+2024-07-03 16:07:33,108 - INFO - Processed document 02574658981, index: 1
+2024-07-03 16:07:33,580 - INFO - Navigating to the dashboard page
+2024-07-03 16:07:36,203 - INFO - Selecting agreement
+2024-07-03 16:07:38,969 - INFO - Selecting institution
+2024-07-03 16:07:40,022 - INFO - Selecting state
+2024-07-03 16:07:40,234 - INFO - Entering CPF for document: 09968416959
+2024-07-03 16:07:42,623 - INFO - Clicking on consult button
+2024-07-03 16:07:42,693 - INFO - Clicking on new operation button
+2024-07-03 16:07:45,532 - INFO - Capturing phone number
+2024-07-03 16:07:46,059 - INFO - Capturing name
+2024-07-03 16:07:46,076 - INFO - Capturing initial guarantee value
+2024-07-03 16:07:46,094 - ERROR - Error list: Exception
+2024-07-03 16:07:46,127 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 16:07:46,127 - ERROR - Error while processing document 09968416959, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 16:07:46,127 - INFO - Appending error object for document: 09968416959
+2024-07-03 16:07:46,284 - INFO - Processed document 09968416959, index: 2
+2024-07-03 16:07:46,765 - INFO - Navigating to the dashboard page
+2024-07-03 16:07:49,531 - INFO - Selecting agreement
+2024-07-03 16:07:51,726 - INFO - Selecting institution
+2024-07-03 16:07:52,746 - INFO - Selecting state
+2024-07-03 16:07:52,937 - INFO - Entering CPF for document: 01046919997
+2024-07-03 16:07:55,270 - INFO - Clicking on consult button
+2024-07-03 16:07:55,340 - INFO - Clicking on new operation button
+2024-07-03 16:07:58,305 - INFO - Capturing phone number
+2024-07-03 16:07:58,887 - INFO - Capturing name
+2024-07-03 16:07:58,936 - INFO - Capturing initial guarantee value
+2024-07-03 16:08:34,058 - ERROR - Error list: TimeoutException
+2024-07-03 16:08:34,099 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:08:34,099 - ERROR - Error while processing document 01046919997, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:08:34,099 - INFO - Appending error object for document: 01046919997
+2024-07-03 16:08:34,258 - INFO - Processed document 01046919997, index: 3
+2024-07-03 16:08:34,728 - INFO - Navigating to the dashboard page
+2024-07-03 16:08:37,601 - INFO - Selecting agreement
+2024-07-03 16:08:39,521 - INFO - Selecting institution
+2024-07-03 16:08:40,576 - INFO - Selecting state
+2024-07-03 16:08:40,768 - INFO - Entering CPF for document: 83599649200
+2024-07-03 16:08:43,106 - INFO - Clicking on consult button
+2024-07-03 16:08:43,206 - INFO - Clicking on new operation button
+2024-07-03 16:08:45,160 - INFO - Capturing phone number
+2024-07-03 16:08:45,689 - INFO - Capturing name
+2024-07-03 16:08:45,710 - INFO - Capturing initial guarantee value
+2024-07-03 16:09:20,913 - ERROR - Error list: TimeoutException
+2024-07-03 16:09:20,957 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:09:20,958 - ERROR - Error while processing document 83599649200, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:09:20,958 - INFO - Appending error object for document: 83599649200
+2024-07-03 16:09:21,114 - INFO - Processed document 83599649200, index: 4
+2024-07-03 16:09:21,595 - INFO - Navigating to the dashboard page
+2024-07-03 16:09:23,885 - INFO - Selecting agreement
+2024-07-03 16:09:26,157 - INFO - Selecting institution
+2024-07-03 16:09:27,184 - INFO - Selecting state
+2024-07-03 16:09:27,895 - INFO - Entering CPF for document: 06372283913
+2024-07-03 16:09:30,821 - INFO - Clicking on consult button
+2024-07-03 16:09:30,912 - INFO - Clicking on new operation button
+2024-07-03 16:09:32,917 - INFO - Capturing phone number
+2024-07-03 16:09:33,448 - INFO - Capturing name
+2024-07-03 16:09:33,469 - INFO - Capturing initial guarantee value
+2024-07-03 16:10:08,582 - ERROR - Error list: TimeoutException
+2024-07-03 16:10:08,625 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:10:08,625 - ERROR - Error while processing document 06372283913, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:10:08,625 - INFO - Appending error object for document: 06372283913
+2024-07-03 16:10:08,788 - INFO - Processed document 06372283913, index: 5
+2024-07-03 16:10:09,258 - INFO - Navigating to the dashboard page
+2024-07-03 16:10:12,092 - INFO - Selecting agreement
+2024-07-03 16:10:14,016 - INFO - Selecting institution
+2024-07-03 16:10:15,035 - INFO - Selecting state
+2024-07-03 16:10:15,217 - INFO - Entering CPF for document: 02091503940
+2024-07-03 16:10:17,117 - INFO - Clicking on consult button
+2024-07-03 16:10:17,190 - INFO - Clicking on new operation button
+2024-07-03 16:10:19,371 - INFO - Capturing phone number
+2024-07-03 16:10:20,406 - INFO - Capturing name
+2024-07-03 16:10:20,424 - INFO - Capturing initial guarantee value
+2024-07-03 16:10:55,726 - ERROR - Error list: TimeoutException
+2024-07-03 16:10:55,775 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:10:55,775 - ERROR - Error while processing document 02091503940, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:10:55,775 - INFO - Appending error object for document: 02091503940
+2024-07-03 16:10:55,931 - INFO - Processed document 02091503940, index: 6
+2024-07-03 16:10:55,931 - INFO - Finalizing campaign
+2024-07-03 16:10:55,931 - INFO - Finalizing campaign 16 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 16:10:57,047 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:07:20', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 16:10:57,364 - INFO - Database session closed
+2024-07-03 16:10:59,589 - INFO - Closed Selenium page
+2024-07-03 16:20:47,554 - INFO - t=2024-07-03T16:20:47-0300 lvl=info msg="join connections" obj=join id=a6669541d5a2 l=[::1]:5000 r=177.74.67.56:50332
+2024-07-03 16:20:49,834 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 16:20:50,303 - INFO - ====== WebDriver manager ======
+2024-07-03 16:20:51,214 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:20:51,305 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:20:51,387 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 16:20:52,497 - INFO - Navigating to the login page
+2024-07-03 16:20:53,613 - INFO - Filling in login details
+2024-07-03 16:20:53,615 - CRITICAL - Critical error in main process
+2024-07-03 16:20:53,615 - ERROR - Error: NoSuchWindowException
+2024-07-03 16:20:53,615 - INFO - Set instance status to LIVRE for instance ID: 10
+2024-07-03 16:20:53,934 - INFO - Database commit completed
+2024-07-03 16:20:55,987 - INFO - Closed Selenium page
+2024-07-03 16:20:55,987 - INFO - Database session closed
+2024-07-03 16:21:00,082 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000138E109D650>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/c3581cec6ab907c012d68cd5234d99b1
+2024-07-03 16:21:04,171 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000138E109E2D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/c3581cec6ab907c012d68cd5234d99b1
+2024-07-03 16:21:08,258 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000138E10682D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/c3581cec6ab907c012d68cd5234d99b1
+2024-07-03 16:21:13,149 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 16:21:13,621 - INFO - ====== WebDriver manager ======
+2024-07-03 16:21:14,376 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:21:14,500 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:21:14,574 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 16:21:15,654 - INFO - Navigating to the login page
+2024-07-03 16:21:16,448 - INFO - Closed Selenium page
+2024-07-03 16:21:17,349 - INFO - Filling in login details
+2024-07-03 16:21:17,369 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="624a474b3727b032699826f6179c3300", element="f.93E4A58A18E658049130C5961BFB7991.d.4080DF0DC7A8CF4C703A7768C76E2E1E.e.4")>
+2024-07-03 16:21:19,983 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="624a474b3727b032699826f6179c3300", element="f.93E4A58A18E658049130C5961BFB7991.d.4080DF0DC7A8CF4C703A7768C76E2E1E.e.2")>
+2024-07-03 16:21:22,315 - INFO - Waiting for the dashboard page to load
+2024-07-03 16:21:32,398 - INFO - Navigating to the dashboard page
+2024-07-03 16:21:35,091 - INFO - Selecting agreement
+2024-07-03 16:21:36,702 - INFO - Selecting institution
+2024-07-03 16:21:37,757 - INFO - Selecting state
+2024-07-03 16:21:37,964 - INFO - Entering CPF for document: 02574658981
+2024-07-03 16:21:40,731 - INFO - Clicking on consult button
+2024-07-03 16:21:40,811 - INFO - Clicking on new operation button
+2024-07-03 16:21:43,023 - INFO - Capturing phone number
+2024-07-03 16:21:43,557 - INFO - Capturing name
+2024-07-03 16:21:43,578 - INFO - Capturing initial guarantee value
+2024-07-03 16:21:43,595 - ERROR - Error list: Exception
+2024-07-03 16:21:43,629 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 16:21:43,629 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 16:21:43,629 - INFO - Appending error object for document: 02574658981
+2024-07-03 16:21:43,785 - INFO - Processed document 02574658981, index: 1
+2024-07-03 16:21:44,266 - INFO - Navigating to the dashboard page
+2024-07-03 16:21:47,385 - INFO - Selecting agreement
+2024-07-03 16:21:48,367 - INFO - Selecting institution
+2024-07-03 16:21:49,383 - INFO - Selecting state
+2024-07-03 16:21:49,562 - INFO - Entering CPF for document: 09968416959
+2024-07-03 16:21:52,462 - INFO - Clicking on consult button
+2024-07-03 16:21:52,537 - INFO - Clicking on new operation button
+2024-07-03 16:21:54,394 - INFO - Capturing phone number
+2024-07-03 16:21:54,929 - INFO - Capturing name
+2024-07-03 16:21:54,954 - INFO - Capturing initial guarantee value
+2024-07-03 16:21:54,976 - ERROR - Error list: Exception
+2024-07-03 16:21:55,022 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 16:21:55,022 - ERROR - Error while processing document 09968416959, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 16:21:55,022 - INFO - Appending error object for document: 09968416959
+2024-07-03 16:21:55,183 - INFO - Processed document 09968416959, index: 2
+2024-07-03 16:21:55,656 - INFO - Navigating to the dashboard page
+2024-07-03 16:21:58,009 - INFO - Selecting agreement
+2024-07-03 16:22:00,314 - INFO - Selecting institution
+2024-07-03 16:22:01,316 - INFO - Selecting state
+2024-07-03 16:22:01,986 - INFO - Entering CPF for document: 01046919997
+2024-07-03 16:22:03,714 - INFO - Clicking on consult button
+2024-07-03 16:22:03,784 - INFO - Clicking on new operation button
+2024-07-03 16:22:05,859 - INFO - Capturing phone number
+2024-07-03 16:22:06,387 - INFO - Capturing name
+2024-07-03 16:22:06,406 - INFO - Capturing initial guarantee value
+2024-07-03 16:22:41,786 - ERROR - Error list: TimeoutException
+2024-07-03 16:22:41,830 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:22:41,830 - ERROR - Error while processing document 01046919997, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:22:41,830 - INFO - Appending error object for document: 01046919997
+2024-07-03 16:22:41,987 - INFO - Processed document 01046919997, index: 3
+2024-07-03 16:22:42,465 - INFO - Navigating to the dashboard page
+2024-07-03 16:22:44,946 - INFO - Selecting agreement
+2024-07-03 16:22:46,755 - INFO - Selecting institution
+2024-07-03 16:22:47,766 - INFO - Selecting state
+2024-07-03 16:22:47,960 - INFO - Entering CPF for document: 83599649200
+2024-07-03 16:22:50,760 - INFO - Clicking on consult button
+2024-07-03 16:22:50,843 - INFO - Clicking on new operation button
+2024-07-03 16:22:52,894 - INFO - Capturing phone number
+2024-07-03 16:22:53,424 - INFO - Capturing name
+2024-07-03 16:22:53,447 - INFO - Capturing initial guarantee value
+2024-07-03 16:23:28,843 - ERROR - Error list: TimeoutException
+2024-07-03 16:23:28,884 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:23:28,884 - ERROR - Error while processing document 83599649200, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:23:28,884 - INFO - Appending error object for document: 83599649200
+2024-07-03 16:23:29,044 - INFO - Processed document 83599649200, index: 4
+2024-07-03 16:23:29,519 - INFO - Navigating to the dashboard page
+2024-07-03 16:23:32,472 - INFO - Selecting agreement
+2024-07-03 16:23:33,935 - INFO - Selecting institution
+2024-07-03 16:23:35,463 - INFO - Selecting state
+2024-07-03 16:23:36,131 - INFO - Entering CPF for document: 06372283913
+2024-07-03 16:23:38,335 - INFO - Clicking on consult button
+2024-07-03 16:23:38,430 - INFO - Clicking on new operation button
+2024-07-03 16:23:40,382 - INFO - Capturing phone number
+2024-07-03 16:23:40,911 - INFO - Capturing name
+2024-07-03 16:23:40,931 - INFO - Capturing initial guarantee value
+2024-07-03 16:24:16,352 - ERROR - Error list: TimeoutException
+2024-07-03 16:24:16,399 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:24:16,399 - ERROR - Error while processing document 06372283913, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:24:16,399 - INFO - Appending error object for document: 06372283913
+2024-07-03 16:24:16,556 - INFO - Processed document 06372283913, index: 5
+2024-07-03 16:24:17,040 - INFO - Navigating to the dashboard page
+2024-07-03 16:24:19,242 - INFO - Selecting agreement
+2024-07-03 16:24:21,252 - INFO - Selecting institution
+2024-07-03 16:24:22,273 - INFO - Selecting state
+2024-07-03 16:24:22,484 - INFO - Entering CPF for document: 02091503940
+2024-07-03 16:24:25,201 - INFO - Clicking on consult button
+2024-07-03 16:24:25,283 - INFO - Clicking on new operation button
+2024-07-03 16:24:28,389 - INFO - Capturing phone number
+2024-07-03 16:24:28,917 - INFO - Capturing name
+2024-07-03 16:24:28,938 - INFO - Capturing initial guarantee value
+2024-07-03 16:25:04,267 - ERROR - Error list: TimeoutException
+2024-07-03 16:25:04,312 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:25:04,312 - ERROR - Error while processing document 02091503940, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 16:25:04,312 - INFO - Appending error object for document: 02091503940
+2024-07-03 16:25:04,472 - INFO - Processed document 02091503940, index: 6
+2024-07-03 16:25:04,472 - INFO - Finalizing campaign
+2024-07-03 16:25:04,473 - INFO - Finalizing campaign 17 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 16:25:05,576 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 16:21:32', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 16:25:05,900 - INFO - Database session closed
+2024-07-03 16:25:08,125 - INFO - Closed Selenium page
+2024-07-03 16:25:33,682 - INFO - t=2024-07-03T16:25:33-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 16:25:33,683 - INFO - t=2024-07-03T16:25:33-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 16:25:33,683 - INFO - t=2024-07-03T16:25:33-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=0e734cd9b9de err="reconnecting session closed"
+2024-07-03 16:25:33,683 - INFO - t=2024-07-03T16:25:33-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 16:25:33,684 - INFO - t=2024-07-03T16:25:33-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=4f5ae47b1a45b08315c615d783e10466
+2024-07-03 16:25:36,215 - INFO - t=2024-07-03T16:25:36-0300 lvl=info msg="update available" obj=updater
+2024-07-03 16:25:40,017 - INFO - Serving on http://[::1]:5000
+2024-07-03 16:25:40,017 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 16:25:50,503 - INFO - t=2024-07-03T16:25:50-0300 lvl=info msg="join connections" obj=join id=66ce9b556c56 l=[::1]:5000 r=177.74.67.56:50659
+2024-07-03 16:25:52,596 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 16:25:54,216 - INFO - ====== WebDriver manager ======
+2024-07-03 16:25:54,920 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:25:55,005 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:25:55,082 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 16:25:56,153 - INFO - Navigating to the login page
+2024-07-03 16:25:57,726 - INFO - Filling in login details
+2024-07-03 16:25:57,727 - CRITICAL - Critical error in main process
+2024-07-03 16:25:57,728 - ERROR - Error: NoSuchWindowException
+2024-07-03 16:25:57,728 - INFO - Set instance status to LIVRE for instance ID: 10
+2024-07-03 16:25:58,041 - INFO - Database commit completed
+2024-07-03 16:26:00,100 - INFO - Closed Selenium page
+2024-07-03 16:26:00,100 - INFO - Finalizing campaign
+2024-07-03 16:26:00,100 - INFO - Finalizing campaign 16 with data: []
+2024-07-03 16:26:01,218 - INFO - Appending data to campaign: []
+2024-07-03 16:26:01,530 - INFO - Database session closed
+2024-07-03 16:26:05,630 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029D9BB3E0D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/917501032da1d9a4f8d1ee9094421360
+2024-07-03 16:26:09,724 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029D9BB29790>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/917501032da1d9a4f8d1ee9094421360
+2024-07-03 16:26:13,815 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029D9BB2A290>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/917501032da1d9a4f8d1ee9094421360
+2024-07-03 16:26:22,012 - INFO - Closed Selenium page
+2024-07-03 16:26:36,154 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 16:26:36,618 - INFO - ====== WebDriver manager ======
+2024-07-03 16:26:37,357 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:26:41,537 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:26:41,626 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 16:26:42,713 - INFO - Navigating to the login page
+2024-07-03 16:26:44,371 - INFO - Filling in login details
+2024-07-03 16:26:44,394 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="292058b57bf4d21bd62237130318e87e", element="f.4681E13320F0B88DF7F37333E785CD0A.d.6B4660CB50D86AEB6C6B5B2120A30282.e.4")>
+2024-07-03 16:26:47,618 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="292058b57bf4d21bd62237130318e87e", element="f.4681E13320F0B88DF7F37333E785CD0A.d.6B4660CB50D86AEB6C6B5B2120A30282.e.2")>
+2024-07-03 16:26:49,819 - INFO - Waiting for the dashboard page to load
+2024-07-03 16:26:52,854 - CRITICAL - Critical error in main process
+2024-07-03 16:26:52,854 - ERROR - Error: NoSuchWindowException
+2024-07-03 16:26:52,856 - INFO - Set instance status to LIVRE for instance ID: 10
+2024-07-03 16:26:53,165 - INFO - Database commit completed
+2024-07-03 16:26:55,242 - INFO - Closed Selenium page
+2024-07-03 16:26:55,242 - INFO - Finalizing campaign
+2024-07-03 16:26:55,242 - INFO - Finalizing campaign 16 with data: []
+2024-07-03 16:26:56,331 - INFO - Appending data to campaign: []
+2024-07-03 16:26:56,641 - INFO - Database session closed
+2024-07-03 16:27:00,738 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029D9BB43510>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/292058b57bf4d21bd62237130318e87e
+2024-07-03 16:27:04,841 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029D9BB41710>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/292058b57bf4d21bd62237130318e87e
+2024-07-03 16:27:08,939 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029D9BB43810>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/292058b57bf4d21bd62237130318e87e
+2024-07-03 16:27:17,140 - INFO - Closed Selenium page
+2024-07-03 16:27:32,298 - INFO - t=2024-07-03T16:27:32-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 16:27:32,298 - INFO - t=2024-07-03T16:27:32-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 16:27:32,298 - INFO - t=2024-07-03T16:27:32-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=ff3a980eb5d6 err="reconnecting session closed"
+2024-07-03 16:27:32,298 - INFO - t=2024-07-03T16:27:32-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 16:28:38,653 - INFO - t=2024-07-03T16:28:38-0300 lvl=info msg="update available" obj=updater
+2024-07-03 16:28:42,585 - INFO - Serving on http://[::1]:5000
+2024-07-03 16:28:42,585 - INFO - Serving on http://127.0.0.1:5000
+2024-07-03 16:28:53,591 - INFO - t=2024-07-03T16:28:53-0300 lvl=info msg="join connections" obj=join id=e955aa2112b2 l=[::1]:5000 r=177.74.67.56:50994
+2024-07-03 16:28:55,882 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 16:28:57,583 - INFO - ====== WebDriver manager ======
+2024-07-03 16:28:58,354 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:28:58,448 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 16:28:58,541 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 16:28:59,652 - INFO - Navigating to the login page
+2024-07-03 16:29:01,513 - INFO - Filling in login details
+2024-07-03 16:29:01,539 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="4f247072a7e8084260e42c1dc0bcc1db", element="f.ABEFF62358870F90D08F71B4E05B360F.d.BFC1426D94589B5C9765F777AA9DD58B.e.4")>
+2024-07-03 16:29:03,637 - CRITICAL - Critical error in main process
+2024-07-03 16:29:03,637 - ERROR - Error: NoSuchWindowException
+2024-07-03 16:29:03,637 - INFO - Set instance status to LIVRE for instance ID: 10
+2024-07-03 16:29:03,967 - INFO - Database commit completed
+2024-07-03 16:29:06,016 - INFO - Closed Selenium page
+2024-07-03 16:29:06,016 - INFO - Finalizing campaign
+2024-07-03 16:29:06,016 - INFO - Finalizing campaign 16 with data: []
+2024-07-03 16:29:07,148 - INFO - Appending data to campaign: []
+2024-07-03 16:29:07,481 - INFO - Database session closed
+2024-07-03 16:29:11,582 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A962E93650>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4f247072a7e8084260e42c1dc0bcc1db
+2024-07-03 16:29:15,676 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A962E92250>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4f247072a7e8084260e42c1dc0bcc1db
+2024-07-03 16:29:19,755 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A962E91690>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4f247072a7e8084260e42c1dc0bcc1db
+2024-07-03 16:29:27,934 - INFO - Closed Selenium page
+2024-07-03 17:06:46,699 - INFO - t=2024-07-03T17:06:46-0300 lvl=info msg="join connections" obj=join id=547967328a7c l=[::1]:5000 r=177.74.67.56:51511
+2024-07-03 17:06:52,791 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 17:06:53,283 - INFO - ====== WebDriver manager ======
+2024-07-03 17:06:53,914 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 17:06:54,042 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:06:54,151 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:06:54,238 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 17:06:55,321 - INFO - Navigating to the login page
+2024-07-03 17:06:55,620 - INFO - ====== WebDriver manager ======
+2024-07-03 17:06:56,828 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:06:56,921 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:06:57,011 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 17:06:57,212 - INFO - Filling in login details
+2024-07-03 17:06:57,232 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="b1f2ba04a383f23bb11638c1e7203ee0", element="f.75A7EA4795E5C678ACE096CEB1F48AD1.d.3377A0A34F5751A5EF925DCC456B0D2B.e.6")>
+2024-07-03 17:06:58,080 - INFO - Navigating to the login page
+2024-07-03 17:06:59,916 - INFO - Filling in login details
+2024-07-03 17:06:59,946 - INFO - Typed text '10115LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="b934efda5b7827e1b7bb0158a0eaaa64", element="f.C136941E8D7EE66FAA7797C8BA081E98.d.EA9AFBF3025822FA02CAD5DC7D386259.e.6")>
+2024-07-03 17:07:00,646 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="b1f2ba04a383f23bb11638c1e7203ee0", element="f.75A7EA4795E5C678ACE096CEB1F48AD1.d.3377A0A34F5751A5EF925DCC456B0D2B.e.2")>
+2024-07-03 17:07:02,560 - INFO - Typed text 'ZMi3379V' into element <selenium.webdriver.remote.webelement.WebElement (session="b934efda5b7827e1b7bb0158a0eaaa64", element="f.C136941E8D7EE66FAA7797C8BA081E98.d.EA9AFBF3025822FA02CAD5DC7D386259.e.2")>
+2024-07-03 17:07:02,929 - INFO - Waiting for the dashboard page to load
+2024-07-03 17:07:04,527 - INFO - Waiting for the dashboard page to load
+2024-07-03 17:07:18,444 - INFO - Navigating to the dashboard page
+2024-07-03 17:07:21,829 - INFO - Selecting agreement
+2024-07-03 17:07:22,882 - INFO - Selecting institution
+2024-07-03 17:07:23,946 - INFO - Selecting state
+2024-07-03 17:07:24,381 - INFO - Navigating to the dashboard page
+2024-07-03 17:07:24,489 - INFO - Entering CPF for document: 02574658981
+2024-07-03 17:07:26,624 - INFO - Clicking on consult button
+2024-07-03 17:07:26,724 - INFO - Clicking on new operation button
+2024-07-03 17:07:27,382 - INFO - Selecting agreement
+2024-07-03 17:07:28,785 - INFO - Capturing phone number
+2024-07-03 17:07:29,324 - INFO - Capturing name
+2024-07-03 17:07:29,346 - INFO - Capturing initial guarantee value
+2024-07-03 17:07:29,370 - ERROR - Error list: Exception
+2024-07-03 17:07:29,404 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 17:07:29,404 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 17:07:29,405 - INFO - Appending error object for document: 02574658981
+2024-07-03 17:07:29,568 - INFO - Processed document 02574658981, index: 1
+2024-07-03 17:07:30,055 - INFO - Navigating to the dashboard page
+2024-07-03 17:07:32,267 - INFO - Selecting agreement
+2024-07-03 17:07:34,373 - INFO - Selecting institution
+2024-07-03 17:07:35,412 - INFO - Selecting state
+2024-07-03 17:07:35,669 - INFO - Entering CPF for document: 09968416959
+2024-07-03 17:07:35,933 - INFO - Selecting institution
+2024-07-03 17:07:37,596 - INFO - Selecting state
+2024-07-03 17:07:38,030 - INFO - Entering CPF for document: 83599649200
+2024-07-03 17:07:38,907 - INFO - Clicking on consult button
+2024-07-03 17:07:38,979 - INFO - Clicking on new operation button
+2024-07-03 17:07:40,722 - INFO - Clicking on consult button
+2024-07-03 17:07:40,915 - INFO - Clicking on new operation button
+2024-07-03 17:07:41,049 - INFO - Capturing phone number
+2024-07-03 17:07:41,579 - INFO - Capturing name
+2024-07-03 17:07:41,596 - INFO - Capturing initial guarantee value
+2024-07-03 17:07:41,615 - ERROR - Error list: Exception
+2024-07-03 17:07:41,648 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 17:07:41,648 - ERROR - Error while processing document 09968416959, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 17:07:41,648 - INFO - Appending error object for document: 09968416959
+2024-07-03 17:07:41,806 - INFO - Processed document 09968416959, index: 2
+2024-07-03 17:07:42,300 - INFO - Navigating to the dashboard page
+2024-07-03 17:07:45,053 - INFO - Capturing phone number
+2024-07-03 17:07:45,242 - INFO - Selecting agreement
+2024-07-03 17:07:45,778 - INFO - Capturing name
+2024-07-03 17:07:45,839 - INFO - Capturing initial guarantee value
+2024-07-03 17:07:47,008 - INFO - Selecting institution
+2024-07-03 17:07:48,048 - INFO - Selecting state
+2024-07-03 17:07:48,743 - INFO - Entering CPF for document: 01046919997
+2024-07-03 17:07:51,349 - INFO - Clicking on consult button
+2024-07-03 17:07:51,422 - INFO - Clicking on new operation button
+2024-07-03 17:07:53,710 - INFO - Capturing phone number
+2024-07-03 17:07:55,289 - INFO - Capturing name
+2024-07-03 17:07:55,329 - INFO - Capturing initial guarantee value
+2024-07-03 17:08:21,279 - ERROR - Error list: TimeoutException
+2024-07-03 17:08:21,327 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:08:21,327 - ERROR - Error while processing document 83599649200, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:08:21,327 - INFO - Appending error object for document: 83599649200
+2024-07-03 17:08:21,490 - INFO - Processed document 83599649200, index: 1
+2024-07-03 17:08:21,968 - INFO - Navigating to the dashboard page
+2024-07-03 17:08:24,764 - INFO - Selecting agreement
+2024-07-03 17:08:30,790 - ERROR - Error list: TimeoutException
+2024-07-03 17:08:30,836 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:08:30,836 - ERROR - Error while processing document 01046919997, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:08:30,836 - INFO - Appending error object for document: 01046919997
+2024-07-03 17:08:31,005 - INFO - Processed document 01046919997, index: 3
+2024-07-03 17:08:31,005 - INFO - Finalizing campaign
+2024-07-03 17:08:31,005 - INFO - Finalizing campaign 18 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:18', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:18', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:18', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 17:08:32,154 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:18', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:18', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': 'Thiago Wickboldt Prieto', 'phone': '(48) 99628-0868', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:18', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 17:08:32,485 - INFO - Database session closed
+2024-07-03 17:08:34,732 - INFO - Closed Selenium page
+2024-07-03 17:08:35,152 - INFO - Selecting institution
+2024-07-03 17:08:35,890 - INFO - Selecting state
+2024-07-03 17:08:36,354 - INFO - Entering CPF for document: 06372283913
+2024-07-03 17:08:38,778 - INFO - Clicking on consult button
+2024-07-03 17:08:38,991 - INFO - Clicking on new operation button
+2024-07-03 17:08:41,218 - INFO - Capturing phone number
+2024-07-03 17:08:42,446 - INFO - Capturing name
+2024-07-03 17:08:42,466 - INFO - Capturing initial guarantee value
+2024-07-03 17:09:17,857 - ERROR - Error list: TimeoutException
+2024-07-03 17:09:17,992 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:09:17,992 - ERROR - Error while processing document 06372283913, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:09:17,992 - INFO - Appending error object for document: 06372283913
+2024-07-03 17:09:18,155 - INFO - Processed document 06372283913, index: 2
+2024-07-03 17:09:18,645 - INFO - Navigating to the dashboard page
+2024-07-03 17:09:20,776 - INFO - Selecting agreement
+2024-07-03 17:09:21,168 - INFO - Selecting institution
+2024-07-03 17:09:30,425 - INFO - Selecting state
+2024-07-03 17:09:30,883 - INFO - Entering CPF for document: 02091503940
+2024-07-03 17:09:34,244 - INFO - Clicking on consult button
+2024-07-03 17:09:34,405 - INFO - Clicking on new operation button
+2024-07-03 17:09:36,558 - INFO - Capturing phone number
+2024-07-03 17:09:37,172 - INFO - Capturing name
+2024-07-03 17:09:37,196 - INFO - Capturing initial guarantee value
+2024-07-03 17:10:12,571 - ERROR - Error list: TimeoutException
+2024-07-03 17:10:12,612 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:10:12,612 - ERROR - Error while processing document 02091503940, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:10:12,612 - INFO - Appending error object for document: 02091503940
+2024-07-03 17:10:12,776 - INFO - Processed document 02091503940, index: 3
+2024-07-03 17:10:12,776 - INFO - Finalizing campaign
+2024-07-03 17:10:12,776 - INFO - Finalizing campaign 18 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:24', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:24', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:24', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 17:10:13,914 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': 'Luciana de Jesus Santos', 'phone': '(94) 99912-9119', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:24', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:24', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': 'Verluze Goncalves Padilha', 'phone': '(48) 99608-6836', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:07:24', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 17:10:14,238 - INFO - Database session closed
+2024-07-03 17:10:16,432 - INFO - Closed Selenium page
+2024-07-03 17:11:18,540 - INFO - t=2024-07-03T17:11:18-0300 lvl=info msg="join connections" obj=join id=230f8b33da10 l=[::1]:5000 r=177.74.67.56:51511
+2024-07-03 17:11:20,545 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 17:11:21,033 - INFO - ====== WebDriver manager ======
+2024-07-03 17:11:21,675 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 17:11:21,982 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:11:22,077 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:11:22,154 - INFO - ====== WebDriver manager ======
+2024-07-03 17:11:22,169 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 17:11:23,316 - INFO - Navigating to the login page
+2024-07-03 17:11:23,358 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:11:23,440 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:11:23,530 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 17:11:24,631 - INFO - Navigating to the login page
+2024-07-03 17:11:25,304 - INFO - Filling in login details
+2024-07-03 17:11:25,350 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="d59a9ccb3970d11561d9f75def395735", element="f.9B2A7F99DEEB22287D80B8C2BA61B3EC.d.8CDBDEA5FE3C5846D144924B524A81CF.e.7")>
+2024-07-03 17:11:26,637 - INFO - Filling in login details
+2024-07-03 17:11:26,667 - CRITICAL - Critical error in main process
+2024-07-03 17:11:26,668 - ERROR - Error: NoSuchWindowException
+2024-07-03 17:11:26,668 - INFO - Set instance status to LIVRE for instance ID: 10
+2024-07-03 17:11:26,677 - INFO - Typed text '10115LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="953fea68652d41b86d6be9f3be83d47f", element="f.0766E2FF263A15FD2FE25DAE00FA0614.d.C767239C7D918E5498D10812359A036A.e.4")>
+2024-07-03 17:11:26,997 - INFO - Database commit completed
+2024-07-03 17:11:28,254 - CRITICAL - Critical error in main process
+2024-07-03 17:11:28,254 - ERROR - Error: NoSuchWindowException
+2024-07-03 17:11:28,255 - INFO - Set instance status to LIVRE for instance ID: 11
+2024-07-03 17:11:28,574 - INFO - Database commit completed
+2024-07-03 17:11:29,054 - INFO - Closed Selenium page
+2024-07-03 17:11:29,054 - INFO - Finalizing campaign
+2024-07-03 17:11:29,054 - INFO - Finalizing campaign 19 with data: []
+2024-07-03 17:11:30,194 - INFO - Appending data to campaign: []
+2024-07-03 17:11:30,526 - INFO - Database session closed
+2024-07-03 17:11:30,613 - INFO - Closed Selenium page
+2024-07-03 17:11:30,614 - INFO - Finalizing campaign
+2024-07-03 17:11:30,614 - INFO - Finalizing campaign 19 with data: []
+2024-07-03 17:11:31,747 - INFO - Appending data to campaign: []
+2024-07-03 17:11:32,077 - INFO - Database session closed
+2024-07-03 17:11:34,623 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A962EF6E50>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d59a9ccb3970d11561d9f75def395735
+2024-07-03 17:11:36,152 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A962EF71D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/953fea68652d41b86d6be9f3be83d47f
+2024-07-03 17:11:38,727 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A962EF5C10>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d59a9ccb3970d11561d9f75def395735
+2024-07-03 17:11:40,235 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A962EF6210>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/953fea68652d41b86d6be9f3be83d47f
+2024-07-03 17:11:42,807 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A962EF5B90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d59a9ccb3970d11561d9f75def395735
+2024-07-03 17:11:44,327 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A962EF0DD0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/953fea68652d41b86d6be9f3be83d47f
+2024-07-03 17:11:45,493 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 17:11:45,986 - INFO - ====== WebDriver manager ======
+2024-07-03 17:11:46,620 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-03 17:11:46,704 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:11:46,794 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:11:46,875 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 17:11:47,109 - INFO - ====== WebDriver manager ======
+2024-07-03 17:11:47,950 - INFO - Navigating to the login page
+2024-07-03 17:11:48,158 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:11:48,252 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-03 17:11:48,333 - INFO - Driver [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-03 17:11:49,507 - INFO - Navigating to the login page
+2024-07-03 17:11:49,863 - INFO - Filling in login details
+2024-07-03 17:11:49,936 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="8bc8cae8a5c1de5777bacd76cbb36443", element="f.DDE3C990CAC31E1DABBE5FBC5E3A266F.d.9959066B1C7CD65927C2D6EC04E26136.e.4")>
+2024-07-03 17:11:50,995 - INFO - Closed Selenium page
+2024-07-03 17:11:51,526 - INFO - Filling in login details
+2024-07-03 17:11:51,553 - INFO - Typed text '10115LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="7b35dbe603e82fce984e6d17742c3142", element="f.75D9AAD2810CF9A05A9B79416A9515BF.d.AB1FE064E7E17C72210CCF8FD3C2D2EA.e.4")>
+2024-07-03 17:11:52,491 - INFO - Closed Selenium page
+2024-07-03 17:11:53,274 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="8bc8cae8a5c1de5777bacd76cbb36443", element="f.DDE3C990CAC31E1DABBE5FBC5E3A266F.d.9959066B1C7CD65927C2D6EC04E26136.e.2")>
+2024-07-03 17:11:53,804 - INFO - Typed text 'ZMi3379V' into element <selenium.webdriver.remote.webelement.WebElement (session="7b35dbe603e82fce984e6d17742c3142", element="f.75D9AAD2810CF9A05A9B79416A9515BF.d.AB1FE064E7E17C72210CCF8FD3C2D2EA.e.2")>
+2024-07-03 17:11:55,510 - INFO - Waiting for the dashboard page to load
+2024-07-03 17:11:55,748 - INFO - Waiting for the dashboard page to load
+2024-07-03 17:12:04,441 - INFO - Navigating to the dashboard page
+2024-07-03 17:12:06,999 - INFO - Selecting agreement
+2024-07-03 17:12:08,525 - INFO - Selecting institution
+2024-07-03 17:12:09,544 - INFO - Selecting state
+2024-07-03 17:12:10,229 - INFO - Entering CPF for document: 09968416959
+2024-07-03 17:12:12,076 - INFO - Clicking on consult button
+2024-07-03 17:12:12,155 - INFO - Clicking on new operation button
+2024-07-03 17:12:14,445 - INFO - Capturing phone number
+2024-07-03 17:12:14,993 - INFO - Capturing name
+2024-07-03 17:12:15,018 - INFO - Capturing initial guarantee value
+2024-07-03 17:12:15,042 - ERROR - Error list: Exception
+2024-07-03 17:12:15,079 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 17:12:15,079 - ERROR - Error while processing document 09968416959, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 17:12:15,079 - INFO - Appending error object for document: 09968416959
+2024-07-03 17:12:15,242 - INFO - Processed document 09968416959, index: 1
+2024-07-03 17:12:15,723 - INFO - Navigating to the dashboard page
+2024-07-03 17:12:16,877 - INFO - Navigating to the dashboard page
+2024-07-03 17:12:18,948 - INFO - Selecting agreement
+2024-07-03 17:12:19,213 - INFO - Selecting agreement
+2024-07-03 17:12:20,818 - INFO - Selecting institution
+2024-07-03 17:12:21,857 - INFO - Selecting state
+2024-07-03 17:12:22,049 - INFO - Entering CPF for document: 02091503940
+2024-07-03 17:12:23,708 - INFO - Clicking on consult button
+2024-07-03 17:12:23,782 - INFO - Clicking on new operation button
+2024-07-03 17:12:25,988 - INFO - Capturing phone number
+2024-07-03 17:12:28,296 - INFO - Selecting institution
+2024-07-03 17:12:29,578 - INFO - Selecting state
+2024-07-03 17:12:29,970 - INFO - Entering CPF for document: 01046919997
+2024-07-03 17:12:31,876 - INFO - Clicking on consult button
+2024-07-03 17:12:32,038 - INFO - Clicking on new operation button
+2024-07-03 17:13:01,142 - ERROR - Error list: TimeoutException
+2024-07-03 17:13:01,173 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:13:01,174 - ERROR - Error while processing document 02091503940, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:13:01,174 - INFO - Appending error object for document: 02091503940
+2024-07-03 17:13:01,336 - INFO - Processed document 02091503940, index: 2
+2024-07-03 17:13:01,831 - INFO - Navigating to the dashboard page
+2024-07-03 17:13:05,678 - INFO - Selecting agreement
+2024-07-03 17:13:06,143 - INFO - Selecting institution
+2024-07-03 17:13:07,154 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-07-03 17:13:07,165 - INFO - Selecting state
+2024-07-03 17:13:07,359 - INFO - Entering CPF for document: 02574658981
+2024-07-03 17:13:08,774 - INFO - Clicking on consult button
+2024-07-03 17:13:08,852 - INFO - Clicking on new operation button
+2024-07-03 17:13:10,830 - INFO - Capturing phone number
+2024-07-03 17:13:11,361 - INFO - Capturing name
+2024-07-03 17:13:11,384 - INFO - Capturing initial guarantee value
+2024-07-03 17:13:11,409 - ERROR - Error list: Exception
+2024-07-03 17:13:11,454 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 17:13:11,454 - ERROR - Error while processing document 02574658981, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-07-03 17:13:11,454 - INFO - Appending error object for document: 02574658981
+2024-07-03 17:13:11,620 - INFO - Processed document 02574658981, index: 3
+2024-07-03 17:13:11,620 - INFO - Finalizing campaign
+2024-07-03 17:13:11,620 - INFO - Finalizing campaign 19 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:04', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:04', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:04', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-07-03 17:13:12,753 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '09968416959', 'name': 'Vinicius da Cruz', 'phone': '(47) 99289-8244', 'guarantee_value': 86.04, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:04', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '02091503940', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:04', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '02574658981', 'name': 'Nelci Oliveira Davila', 'phone': '(49) 99944-9960', 'guarantee_value': 0.0, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:04', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-07-03 17:13:13,085 - INFO - Database session closed
+2024-07-03 17:13:15,262 - INFO - Closed Selenium page
+2024-07-03 17:13:42,332 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-07-03 17:14:17,396 - WARNING - Retry clicking element: /html/body/app-root/div/app-main-layout/main/app-simular-proposta/div/div/mat-card/mat-card-content/div[2]/a
+2024-07-03 17:14:17,459 - INFO - Capturing phone number
+2024-07-03 17:14:52,647 - ERROR - Error list: TimeoutException
+2024-07-03 17:14:52,709 - INFO - Determined status: Erro no reCAPTCHA. Tente novamente mais tarde.
+2024-07-03 17:14:52,709 - ERROR - Error while processing document 01046919997, Status: Erro no reCAPTCHA. Tente novamente mais tarde.
+2024-07-03 17:14:52,709 - INFO - Appending error object for document: 01046919997
+2024-07-03 17:14:52,872 - INFO - Processed document 01046919997, index: 1
+2024-07-03 17:14:53,355 - INFO - Navigating to the dashboard page
+2024-07-03 17:14:55,636 - INFO - Selecting agreement
+2024-07-03 17:15:05,249 - INFO - Selecting institution
+2024-07-03 17:15:06,950 - INFO - Selecting state
+2024-07-03 17:15:07,319 - INFO - Entering CPF for document: 06372283913
+2024-07-03 17:15:10,822 - INFO - Clicking on consult button
+2024-07-03 17:15:10,987 - INFO - Clicking on new operation button
+2024-07-03 17:15:14,261 - INFO - Capturing phone number
+2024-07-03 17:15:14,890 - INFO - Capturing name
+2024-07-03 17:15:14,918 - INFO - Capturing initial guarantee value
+2024-07-03 17:15:50,230 - ERROR - Error list: TimeoutException
+2024-07-03 17:15:50,271 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:15:50,271 - ERROR - Error while processing document 06372283913, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:15:50,271 - INFO - Appending error object for document: 06372283913
+2024-07-03 17:15:50,432 - INFO - Processed document 06372283913, index: 2
+2024-07-03 17:15:50,924 - INFO - Navigating to the dashboard page
+2024-07-03 17:15:53,692 - INFO - Selecting agreement
+2024-07-03 17:15:53,798 - INFO - Selecting institution
+2024-07-03 17:15:55,272 - INFO - Selecting state
+2024-07-03 17:15:55,876 - INFO - Entering CPF for document: 83599649200
+2024-07-03 17:15:58,742 - INFO - Clicking on consult button
+2024-07-03 17:15:58,785 - INFO - Clicking on new operation button
+2024-07-03 17:16:01,469 - INFO - Capturing phone number
+2024-07-03 17:16:36,879 - ERROR - Error list: TimeoutException
+2024-07-03 17:16:36,923 - INFO - Determined status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:16:36,923 - ERROR - Error while processing document 83599649200, Status: Cliente não autorizou a instituição a realizar a operação fiduciária.
+2024-07-03 17:16:36,923 - INFO - Appending error object for document: 83599649200
+2024-07-03 17:16:37,085 - INFO - Processed document 83599649200, index: 3
+2024-07-03 17:16:37,085 - INFO - Finalizing campaign
+2024-07-03 17:16:37,085 - INFO - Finalizing campaign 19 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:16', 'status': 'Erro no reCAPTCHA. Tente novamente mais tarde.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:16', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:16', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 17:16:38,213 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '01046919997', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:16', 'status': 'Erro no reCAPTCHA. Tente novamente mais tarde.'}, {'company': 'Novo Rumo Empréstimos', 'document': '06372283913', 'name': 'Richard Mendes', 'phone': '(48) 99115-8719', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:16', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '83599649200', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '03/07/2024 17:12:16', 'status': 'Cliente não autorizou a instituição a realizar a operação fiduciária.'}]
+2024-07-03 17:16:38,532 - INFO - Database session closed
+2024-07-03 17:16:40,763 - INFO - Closed Selenium page
+2024-07-03 17:17:22,666 - INFO - t=2024-07-03T17:17:22-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-03 17:17:22,667 - INFO - t=2024-07-03T17:17:22-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-03 17:17:22,667 - INFO - t=2024-07-03T17:17:22-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=074c151eaad8 err="reconnecting session closed"
+2024-07-03 17:17:22,667 - INFO - t=2024-07-03T17:17:22-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-03 17:17:22,668 - INFO - t=2024-07-03T17:17:22-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=299cc052c054d9ad4fca62ad06a2ad51
+2024-07-03 17:17:22,668 - WARNING - t=2024-07-03T17:17:22-0300 lvl=warn msg="Stopping forwarder" name=http-5000-7fcdc177-e355-46b7-8597-2bf9ffb3d51e acceptErr="failed to accept connection: Listener closed"

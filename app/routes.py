@@ -1,77 +1,101 @@
 from flask import request, jsonify, current_app as app
 import threading
 from app.automation.webdriver_chrome_mercantil import webdriver_chrome_mercantil
-from app.db.models import TbCampaigns, TbInstances
+from app.db.models import TbCampaigns, TbInstances, TbCompanies
 from app.utils import split_into_parts, find_differences
 from app import db
 import json
 import uuid
-import time
 
 @app.before_request
 def before_request():
-    # Abre a sessão do banco de dados antes de cada requisição
+    """Abre a sessão do banco de dados antes de cada requisição."""
     db.session()
 
 @app.teardown_request
 def teardown_request(exception=None):
-    # Fecha a sessão do banco de dados após cada requisição
+    """Fecha a sessão do banco de dados após cada requisição."""
     db.session.remove()
 
 @app.route('/start', methods=['POST'])
 def start_simulation():
-    data = request.json
+    try:
+        data = request.json
 
-    required_fields = ['continue', 'instances']
-    if not all(field in data for field in required_fields):
-        return jsonify({"error": "Missing required fields"}), 400
-    
-    array_response = []
-    campaign = TbCampaigns()
-    instances = data['instances']
+        # Validação de campos obrigatórios
+        required_fields = ['continue', 'instances']
+        if not all(field in data for field in required_fields):
+            return jsonify({"error": "Missing required fields"}), 400
+        
+        # Obtenção da empresa associada ao usuário
+        company = db.session.query(TbCompanies).filter_by(iduser=data['idUser']).first()
+
+        if not company:
+            return jsonify({"error": "Company not found"}), 404
+
+        # Tratamento de campanha existente ou nova
+        campaign, array_response = handle_campaign(data, company)
+
+        # Dividir os dados em partes para cada instância
+        split_parts = split_into_parts(array_response, len(data['instances']))
+
+        # Iniciar threads para cada instância
+        start_threads(data['instances'], company, campaign, split_parts)
+
+        return jsonify({"message": "Simulação iniciada"}), 200
+
+    except Exception as e:
+        app.logger.error(f"Erro ao iniciar a simulação: {str(e)}")
+        return jsonify({"error": "Internal server error"}), 500
+
+def handle_campaign(data, company):
+    """Trata a lógica de campanha existente ou nova."""
 
     if data['continue']:
-      campaign = db.session.query(TbCampaigns).filter_by(uuid=data['uuid']).first()
-      db.session.refresh(campaign)
-
-      # campaign.status = "PROCESSANDO"
-      db.session.commit()
-
-      array_response = find_differences(campaign.file_data, campaign.query_data)
-    else:
-      array_response = json.loads(data['file_data'])
-
-      new_campaign = TbCampaigns(
-          uuid=uuid.uuid4(),
-          name=data['name'],
-          company=data['company'],
-          records=data['records'],
-          file_data=data['file_data']
-      )
-
-      db.session.add(new_campaign)
-
-      db.session.commit()
-
-      campaign = new_campaign
-    
-    split_parts = split_into_parts(array_response, len(instances))
-
-    index = 0
-
-    for instance in instances:
-
-        instanceSelect = db.session.query(TbInstances).filter_by(id=instance['id']).first()
-
-        instanceSelect.status = "EM USO"
+        # Continuação de uma campanha existente
+        campaign = db.session.query(TbCampaigns).filter_by(uuid=data['uuid']).first()
+        if not campaign:
+            raise ValueError("Campaign not found")
+        campaign.status = "PROCESSANDO"
         db.session.commit()
-        
-        # Inicia a função em um novo thread
-        threading.Thread(target=webdriver_chrome_mercantil, args=(app._get_current_object(), instance['user'], instance['password'], campaign.company, instanceSelect.id, split_parts[index], campaign.id)).start()
+        array_response = find_differences(campaign.file_data, campaign.query_data)
+    else:
+        # Criação de uma nova campanha
+        array_response = json.loads(data['file_data'])
+        campaign = TbCampaigns(
+            uuid=uuid.uuid4(),
+            iduser=data['idUser'],
+            name=data['name'],
+            records=data['records'],
+            file_data=data['file_data'],
+            query_data="[]",
+        )
+        db.session.add(campaign)
+        db.session.commit()
+    return campaign, array_response
 
-        index += 1
-    
-    return jsonify({"message": "Simulação iniciada"}), 200
+def start_threads(instances, company, campaign, split_parts):
+    """Inicia threads para cada instância de simulação."""
+
+    for index, instance in enumerate(instances):
+        instance_select = db.session.query(TbInstances).filter_by(uuid=instance['uuid']).first()
+        if not instance_select:
+            raise ValueError(f"Instance {instance['uuid']} not found")
+        instance_select.status = "EM USO"
+        db.session.commit()
+
+        threading.Thread(
+            target=webdriver_chrome_mercantil,
+            args=(
+                app._get_current_object(),
+                instance['user'],
+                instance['password'],
+                company.name,
+                instance_select.id,
+                campaign.id,
+                split_parts[index],
+            )
+        ).start()
 
 if __name__ == '__main__':
     app.run(debug=True)

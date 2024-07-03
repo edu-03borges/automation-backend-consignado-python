@@ -47,6 +47,12 @@ def append_to_campaign_data(session, campaign, array_consult):
     campaign.query_data = json.dumps(combined_json)
 
     campaign.records_consulted = len(json.loads(campaign.query_data))
+
+    if campaign.records_consulted == campaign.records:
+        campaign.status = "CONCLUÍDA"
+    else:
+        campaign.status = "PARCIAL"
+    
     session.commit()
 
 def handle_selenium_exception(session, page, exception, instance, id_campaign):
@@ -75,11 +81,6 @@ def finalize_campaign(session, instance, id_campaign, array_consult):
 
     campaign = session.query(TbCampaigns).filter_by(id=id_campaign).first()
     session.refresh(campaign)
-
-    if len(json.loads(campaign.query_data)) == campaign.records:
-        campaign.status = "CONCLUÍDA"
-    else:
-        campaign.status = "PARCIAL"
 
     append_to_campaign_data(session, campaign, array_consult)
 
@@ -123,7 +124,7 @@ def determine_status(page):
     return status
 
 @contextmanager
-def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, array_documents, id_campaign):
+def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, id_campaign, array_documents):
     logging.info("Starting webdriver_chrome_mercantil context")
 
     with flask_app.app_context():
@@ -154,7 +155,6 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
 
         array_consult = []
         index = 0
-        success = False
 
         try:
             # Navega até a página de login
@@ -350,16 +350,13 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
                 finally:
                     logging.info(f"Processed document {document['cpf']}, index: {index}")
 
-            success = True
-
         except Exception as e:
             logging.critical(f"Critical error in main process")
             handle_selenium_exception(db.session, page, e, instance, id_campaign)
 
         finally:
-            if success:
-                logging.info("Finalizing campaign")
-                finalize_campaign(db.session, instance, id_campaign, array_consult)
+            logging.info("Finalizing campaign")
+            finalize_campaign(db.session, instance, id_campaign, array_consult)
 
             db.session.close()
             logging.info("Database session closed")

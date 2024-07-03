@@ -18,12 +18,13 @@ def create_app():
         from app import routes
         from app.db.models import TbCompanies
 
-        company = db.session.query(TbCompanies).filter_by(code=1).first()
-        db.session.refresh(company)
+        # Processo manual
+        company = db.session.query(TbCompanies).filter_by(iduser=5).first()
 
-        company.public_url = public_url
-        
-        db.session.commit()
+        if company:
+          company.public_url = public_url
+      
+          db.session.commit()
 
         db.create_all()
         
