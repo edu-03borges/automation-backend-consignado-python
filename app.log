@@ -2795,3 +2795,68 @@ WHERE tb_companies.uuid = %(uuid_1)s
 2024-07-03 17:17:22,667 - INFO - t=2024-07-03T17:17:22-0300 lvl=info msg="no more state changes" obj=tunnels.session
 2024-07-03 17:17:22,668 - INFO - t=2024-07-03T17:17:22-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=299cc052c054d9ad4fca62ad06a2ad51
 2024-07-03 17:17:22,668 - WARNING - t=2024-07-03T17:17:22-0300 lvl=warn msg="Stopping forwarder" name=http-5000-7fcdc177-e355-46b7-8597-2bf9ffb3d51e acceptErr="failed to accept connection: Listener closed"
+2024-07-29 13:58:23,787 - INFO - Serving on http://[::1]:5000
+2024-07-29 13:58:23,793 - INFO - Serving on http://127.0.0.1:5000
+2024-07-29 13:58:47,875 - INFO - t=2024-07-29T13:58:47-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2024-07-29 13:58:47,894 - INFO - t=2024-07-29T13:58:47-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+2024-07-29 13:58:47,895 - INFO - t=2024-07-29T13:58:47-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=fd70e58a8b6f err="reconnecting session closed"
+2024-07-29 13:58:47,977 - INFO - t=2024-07-29T13:58:47-0300 lvl=info msg="no more state changes" obj=tunnels.session
+2024-07-29 13:58:47,977 - INFO - t=2024-07-29T13:58:47-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=a17e658cbfb81f881ca0d301225fc691
+2024-07-29 13:58:47,978 - WARNING - t=2024-07-29T13:58:47-0300 lvl=warn msg="Stopping forwarder" name=http-5000-bacb4c5a-2d35-4817-93c8-14c6b98f2325 acceptErr="failed to accept connection: Listener closed"
+2024-07-29 13:58:47,978 - WARNING - t=2024-07-29T13:58:47-0300 lvl=warn msg="Error restarting forwarder" name=http-5000-bacb4c5a-2d35-4817-93c8-14c6b98f2325 err="failed to start tunnel: session closed"
+2024-07-29 14:00:25,744 - INFO - Serving on http://[::1]:5000
+2024-07-29 14:00:25,746 - INFO - Serving on http://127.0.0.1:5000
+2024-07-29 14:09:56,012 - INFO - Serving on http://[::1]:5000
+2024-07-29 14:09:56,012 - INFO - Serving on http://127.0.0.1:5000
+2024-07-29 14:10:09,728 - INFO - Serving on http://[::1]:5000
+2024-07-29 14:10:09,728 - INFO - Serving on http://127.0.0.1:5000
+2024-07-29 15:13:16,180 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-29 15:14:17,026 - INFO - Serving on http://[::1]:5000
+2024-07-29 15:14:17,026 - INFO - Serving on http://127.0.0.1:5000
+2024-07-29 15:14:41,475 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-29 15:14:43,059 - INFO - ====== WebDriver manager ======
+2024-07-29 15:14:44,645 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-29 15:14:44,810 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-29 15:14:44,874 - INFO - There is no [win64] chromedriver "127.0.6533.72" for browser google-chrome "127.0.6533" in cache
+2024-07-29 15:14:44,874 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-29 15:14:45,045 - INFO - WebDriver version 127.0.6533.72 selected
+2024-07-29 15:14:45,045 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.72/win32/chromedriver-win32.zip
+2024-07-29 15:14:45,045 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.72/win32/chromedriver-win32.zip
+2024-07-29 15:14:45,178 - INFO - Driver downloading response is 200
+2024-07-29 15:14:45,395 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-29 15:14:45,630 - INFO - Driver has been saved in cache [C:\Users\Marcos-PC\.wdm\drivers\chromedriver\win64\127.0.6533.72]
+2024-07-29 15:15:34,779 - INFO - Serving on http://[::1]:5000
+2024-07-29 15:15:34,779 - INFO - Serving on http://127.0.0.1:5000
+2024-07-29 15:15:56,565 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-29 15:19:08,241 - INFO - Serving on http://[::1]:5000
+2024-07-29 15:19:08,241 - INFO - Serving on http://127.0.0.1:5000
+2024-07-29 15:19:11,261 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-29 15:19:20,461 - INFO - Navigating to the login page
+2024-07-29 15:19:22,140 - INFO - Filling in login details
+2024-07-29 15:19:22,165 - INFO - Typed text '21845CF.LAIZE' into element <selenium.webdriver.remote.webelement.WebElement (session="5ba5ff78dad3ca3bf8702956ed1ed51a", element="f.D0F879BEC75640D78374617BD4463D4A.d.81BF38007C8F3DB7E59545B5BDDD5CCF.e.3")>
+2024-07-29 15:19:25,015 - INFO - Typed text 'w*1ask532y' into element <selenium.webdriver.remote.webelement.WebElement (session="5ba5ff78dad3ca3bf8702956ed1ed51a", element="f.D0F879BEC75640D78374617BD4463D4A.d.81BF38007C8F3DB7E59545B5BDDD5CCF.e.2")>
+2024-07-29 15:19:25,015 - CRITICAL - Critical error in main process
+2024-07-29 15:19:25,015 - ERROR - Error: NoSuchWindowException
+2024-07-29 15:19:25,016 - INFO - Set instance status to LIVRE for instance ID: 10
+2024-07-29 15:19:25,319 - INFO - Database commit completed
+2024-07-29 15:19:27,377 - INFO - Closed Selenium page
+2024-07-29 15:19:27,377 - INFO - Finalizing campaign
+2024-07-29 15:19:27,377 - INFO - Finalizing campaign 44 with data: []
+2024-07-29 15:19:28,847 - INFO - Appending data to campaign: []
+2024-07-29 15:19:29,655 - INFO - Database session closed
+2024-07-29 15:19:33,699 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231A9398AD0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/5ba5ff78dad3ca3bf8702956ed1ed51a
+2024-07-29 15:19:37,755 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231A9399C50>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/5ba5ff78dad3ca3bf8702956ed1ed51a
+2024-07-29 15:19:41,808 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231A939AF50>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/5ba5ff78dad3ca3bf8702956ed1ed51a
+2024-07-29 15:20:01,868 - INFO - Serving on http://[::1]:5000
+2024-07-29 15:20:01,869 - INFO - Serving on http://127.0.0.1:5000
+2024-07-29 15:20:20,076 - INFO - Starting webdriver_chrome_mercantil context
+2024-07-29 15:20:22,651 - INFO - Navigating to the login page
+2024-07-29 15:20:24,359 - INFO - Filling in login details
+2024-07-29 15:20:24,387 - INFO - Typed text 'LEV.RODIMARFERMB' into element <selenium.webdriver.remote.webelement.WebElement (session="0b097d81625102c6c9534fd2702928cc", element="f.EAC209C8B6A765BC45F84F50195F30B1.d.647BD74FD4E8454168929137181D4F77.e.3")>
+2024-07-29 15:20:25,280 - CRITICAL - Critical error in main process
+2024-07-29 15:20:25,280 - ERROR - Error: NoSuchWindowException
+2024-07-29 15:20:25,280 - INFO - Set instance status to LIVRE for instance ID: 14
+2024-07-29 15:20:25,567 - INFO - Database commit completed
+2024-07-29 15:20:27,636 - INFO - Closed Selenium page
+2024-07-29 15:20:27,636 - INFO - Finalizing campaign
+2024-07-29 15:20:27,636 - INFO - Finalizing campaign 47 with data: []

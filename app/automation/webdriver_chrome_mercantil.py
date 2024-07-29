@@ -132,7 +132,9 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
         db.session.refresh(instance)
 
         # Configura o serviço do ChromeDriver
-        service = Service(ChromeDriverManager().install())
+        driver_path = './chromedriver.exe'
+        service = Service(executable_path=driver_path)
+        # service = Service(ChromeDriverManager().install())
 
         # Configura as opções do Chrome
         options = webdriver.ChromeOptions()
@@ -143,6 +145,7 @@ def webdriver_chrome_mercantil(flask_app, user, password, company, id_instance, 
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
 
         # Inicializa o driver do Chrome com o serviço e as opções configuradas
+        
         page = webdriver.Chrome(service=service, options=options)
         page.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
             "source": """
