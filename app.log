@@ -2860,3 +2860,977 @@ WHERE tb_companies.uuid = %(uuid_1)s
 2024-07-29 15:20:27,636 - INFO - Closed Selenium page
 2024-07-29 15:20:27,636 - INFO - Finalizing campaign
 2024-07-29 15:20:27,636 - INFO - Finalizing campaign 47 with data: []
+2024-08-13 09:40:12,692 - INFO - Serving on http://[::1]:5000
+2024-08-13 09:40:12,692 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 09:43:17,286 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 09:43:20,202 - INFO - Navigating to the login page
+2024-08-13 09:43:20,395 - INFO - Filling in login details
+2024-08-13 09:43:20,448 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="02864fe55156de7be2d46e02f806fe4a", element="f.CC1B930C23B77E729B81A20219893CC2.d.DEFB42EC10A1ABBE15D3FDF97F3E2517.e.8")>
+2024-08-13 09:43:25,405 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="02864fe55156de7be2d46e02f806fe4a", element="f.CC1B930C23B77E729B81A20219893CC2.d.DEFB42EC10A1ABBE15D3FDF97F3E2517.e.16")>
+2024-08-13 09:43:27,288 - INFO - Waiting for the dashboard page to load
+2024-08-13 09:43:30,825 - CRITICAL - Critical error in main process
+2024-08-13 09:43:30,825 - ERROR - Error: NoSuchWindowException
+2024-08-13 09:43:30,825 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-08-13 09:43:31,110 - INFO - Database commit completed
+2024-08-13 09:43:33,202 - INFO - Closed Selenium page
+2024-08-13 09:43:33,202 - INFO - Finalizing campaign
+2024-08-13 09:43:33,202 - INFO - Finalizing campaign 62 with data: []
+2024-08-13 09:43:34,260 - INFO - Appending data to campaign: []
+2024-08-13 09:43:34,551 - INFO - Database session closed
+2024-08-13 09:43:38,664 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000144CC98E890>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/02864fe55156de7be2d46e02f806fe4a
+2024-08-13 09:43:42,752 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000144CC98FF90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/02864fe55156de7be2d46e02f806fe4a
+2024-08-13 09:43:46,827 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000144CC994C10>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/02864fe55156de7be2d46e02f806fe4a
+2024-08-13 09:44:48,323 - INFO - Serving on http://[::1]:5000
+2024-08-13 09:44:48,323 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 09:44:52,530 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 09:44:55,129 - INFO - Navigating to the login page
+2024-08-13 09:44:55,366 - INFO - Filling in login details
+2024-08-13 09:44:55,437 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="a10f1a646c10ad852cc10787de16d302", element="f.246D9553FEB3F9C18C954F222943405C.d.0CEDFD24B3912C93D05A6B4D585757D9.e.8")>
+2024-08-13 09:45:00,476 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="a10f1a646c10ad852cc10787de16d302", element="f.246D9553FEB3F9C18C954F222943405C.d.0CEDFD24B3912C93D05A6B4D585757D9.e.16")>
+2024-08-13 09:45:02,447 - INFO - Waiting for the dashboard page to load
+2024-08-13 09:49:56,346 - INFO - Navigating to the dashboard page
+2024-08-13 09:49:57,552 - INFO - Entering CPF for document: 58198202900
+2024-08-13 09:49:57,802 - INFO - Clicking on consult button
+2024-08-13 09:49:58,896 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 09:49:59,981 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 09:50:01,071 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 09:50:01,071 - INFO - Selecting agreement
+2024-08-13 09:50:36,184 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 09:51:11,228 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 09:51:46,274 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 09:51:46,274 - INFO - Input Select
+2024-08-13 09:51:46,283 - ERROR - Error list: NoSuchElementException
+2024-08-13 09:51:46,334 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 09:51:46,335 - ERROR - Error while processing document 58198202900, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 09:51:46,335 - INFO - Appending error object for document: 58198202900
+2024-08-13 09:51:46,483 - INFO - Processed document 58198202900, index: 1
+2024-08-13 09:51:46,927 - INFO - Navigating to the dashboard page
+2024-08-13 09:51:49,849 - INFO - Entering CPF for document: 08585627905
+2024-08-13 09:51:49,917 - INFO - Clicking on consult button
+2024-08-13 09:51:49,956 - INFO - Selecting agreement
+2024-08-13 09:51:55,596 - INFO - Input Select
+2024-08-13 09:51:55,603 - ERROR - Error list: NoSuchElementException
+2024-08-13 09:51:55,635 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 09:51:55,635 - ERROR - Error while processing document 08585627905, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 09:51:55,635 - INFO - Appending error object for document: 08585627905
+2024-08-13 09:51:55,774 - INFO - Processed document 08585627905, index: 2
+2024-08-13 09:51:56,221 - INFO - Navigating to the dashboard page
+2024-08-13 09:51:57,635 - INFO - Entering CPF for document: 82370044934
+2024-08-13 09:51:57,700 - INFO - Clicking on consult button
+2024-08-13 09:51:58,792 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 09:51:59,876 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 09:52:00,977 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 09:52:00,977 - INFO - Selecting agreement
+2024-08-13 09:52:15,204 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 09:52:15,211 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 09:52:15,213 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 09:52:15,213 - INFO - Input Select
+2024-08-13 09:52:15,214 - ERROR - Error list: NoSuchWindowException
+2024-08-13 09:52:15,215 - INFO - Processed document 82370044934, index: 2
+2024-08-13 09:52:15,215 - CRITICAL - Critical error in main process
+2024-08-13 09:52:15,216 - ERROR - Error: NoSuchWindowException
+2024-08-13 09:52:15,655 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-08-13 09:52:15,802 - INFO - Database commit completed
+2024-08-13 09:52:17,999 - INFO - Closed Selenium page
+2024-08-13 09:52:17,999 - INFO - Finalizing campaign
+2024-08-13 09:52:17,999 - INFO - Finalizing campaign 62 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 09:49:56', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 09:49:56', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 09:52:19,022 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 09:49:56', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 09:49:56', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 09:52:19,327 - INFO - Database session closed
+2024-08-13 09:52:23,379 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000191BBC5EF90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/a10f1a646c10ad852cc10787de16d302
+2024-08-13 09:54:06,982 - INFO - Serving on http://[::1]:5000
+2024-08-13 09:54:06,982 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 09:54:25,422 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 09:54:28,402 - INFO - Navigating to the login page
+2024-08-13 09:54:28,846 - INFO - Filling in login details
+2024-08-13 09:54:28,881 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="05ce720b649b42993e5f4fe5752e7027", element="f.66949078DFAC5A759AFA8BC19A7520FE.d.1A0B8D127481AAF81F2959454440FF27.e.14")>
+2024-08-13 09:54:33,989 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="05ce720b649b42993e5f4fe5752e7027", element="f.66949078DFAC5A759AFA8BC19A7520FE.d.1A0B8D127481AAF81F2959454440FF27.e.9")>
+2024-08-13 09:54:35,775 - INFO - Waiting for the dashboard page to load
+2024-08-13 10:00:12,140 - INFO - Navigating to the dashboard page
+2024-08-13 10:00:15,495 - INFO - Entering CPF for document: 82370044934
+2024-08-13 10:00:15,641 - INFO - Clicking on consult button
+2024-08-13 10:00:16,738 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 10:00:17,822 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 10:00:18,910 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 10:00:18,910 - INFO - Selecting agreement
+2024-08-13 10:00:33,653 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:00:33,654 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:00:33,654 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:00:33,654 - INFO - Input Select
+2024-08-13 10:00:33,655 - ERROR - Error list: NoSuchWindowException
+2024-08-13 10:00:33,657 - INFO - Processed document 82370044934, index: 0
+2024-08-13 10:00:33,657 - CRITICAL - Critical error in main process
+2024-08-13 10:00:33,657 - ERROR - Error: NoSuchWindowException
+2024-08-13 10:00:33,657 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-08-13 10:00:33,969 - INFO - Database commit completed
+2024-08-13 10:00:36,092 - INFO - Closed Selenium page
+2024-08-13 10:00:36,092 - INFO - Finalizing campaign
+2024-08-13 10:00:36,092 - INFO - Finalizing campaign 62 with data: []
+2024-08-13 10:00:37,134 - INFO - Appending data to campaign: []
+2024-08-13 10:00:37,448 - INFO - Database session closed
+2024-08-13 10:00:41,528 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022F89579F90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/05ce720b649b42993e5f4fe5752e7027
+2024-08-13 10:01:26,973 - INFO - Serving on http://[::1]:5000
+2024-08-13 10:01:26,973 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 10:01:46,720 - INFO - Serving on http://[::1]:5000
+2024-08-13 10:01:46,720 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 10:01:59,736 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 10:02:02,458 - INFO - Navigating to the login page
+2024-08-13 10:02:02,706 - INFO - Filling in login details
+2024-08-13 10:02:02,766 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="db1c03af4fff415b6b58311adfe895a2", element="f.2BE3F8058512E204DD0EFD9E8B07D80B.d.CB7BBFFB7217DA9DF7232BBD04B4B71E.e.18")>
+2024-08-13 10:02:07,489 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="db1c03af4fff415b6b58311adfe895a2", element="f.2BE3F8058512E204DD0EFD9E8B07D80B.d.CB7BBFFB7217DA9DF7232BBD04B4B71E.e.14")>
+2024-08-13 10:02:09,552 - INFO - Waiting for the dashboard page to load
+2024-08-13 10:03:54,990 - INFO - Navigating to the dashboard page
+2024-08-13 10:03:58,155 - INFO - Entering CPF for document: 08213939794
+2024-08-13 10:03:59,595 - INFO - Clicking on consult button
+2024-08-13 10:04:00,695 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 10:04:01,780 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 10:04:02,818 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 10:04:02,818 - INFO - Selecting agreement
+2024-08-13 10:04:17,058 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:04:17,060 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:04:17,061 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:04:17,061 - INFO - Input Select
+2024-08-13 10:04:17,063 - ERROR - Error list: NoSuchWindowException
+2024-08-13 10:04:17,065 - INFO - Processed document 08213939794, index: 0
+2024-08-13 10:04:17,066 - CRITICAL - Critical error in main process
+2024-08-13 10:04:17,066 - ERROR - Error: NoSuchWindowException
+2024-08-13 10:04:17,066 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-08-13 10:04:17,380 - INFO - Database commit completed
+2024-08-13 10:04:19,535 - INFO - Closed Selenium page
+2024-08-13 10:04:19,535 - INFO - Finalizing campaign
+2024-08-13 10:04:19,535 - INFO - Finalizing campaign 62 with data: []
+2024-08-13 10:04:20,576 - INFO - Appending data to campaign: []
+2024-08-13 10:04:20,888 - INFO - Database session closed
+2024-08-13 10:04:24,961 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018F29BE8950>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/db1c03af4fff415b6b58311adfe895a2
+2024-08-13 10:04:29,057 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018F29BEA0D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/db1c03af4fff415b6b58311adfe895a2
+2024-08-13 10:04:33,126 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018F29BEA750>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/db1c03af4fff415b6b58311adfe895a2
+2024-08-13 10:04:37,051 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 10:04:38,594 - INFO - Navigating to the login page
+2024-08-13 10:04:38,770 - INFO - Filling in login details
+2024-08-13 10:04:38,833 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="c18d25208cfe093afbe8c8ec044a204e", element="f.6773D402014676FE6DA36C70E5218543.d.A43870375F9941D87E2CB3E339FB347D.e.6")>
+2024-08-13 10:04:41,317 - INFO - Closed Selenium page
+2024-08-13 10:04:43,961 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="c18d25208cfe093afbe8c8ec044a204e", element="f.6773D402014676FE6DA36C70E5218543.d.A43870375F9941D87E2CB3E339FB347D.e.14")>
+2024-08-13 10:04:46,065 - INFO - Waiting for the dashboard page to load
+2024-08-13 10:05:31,903 - INFO - Navigating to the dashboard page
+2024-08-13 10:05:35,038 - INFO - Entering CPF for document: 58198202900
+2024-08-13 10:05:36,473 - INFO - Clicking on consult button
+2024-08-13 10:05:37,574 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 10:05:38,614 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 10:05:39,704 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-08-13 10:05:39,704 - INFO - Selecting agreement
+2024-08-13 10:06:14,772 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:06:49,845 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:07:06,169 - INFO - Serving on http://[::1]:5000
+2024-08-13 10:07:06,169 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 10:07:39,130 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 10:07:41,887 - INFO - Navigating to the login page
+2024-08-13 10:07:42,143 - INFO - Filling in login details
+2024-08-13 10:07:42,239 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="6482ca8246ceb3ec33b1d4a6e66a6fbb", element="f.B98356276651018E2F7A37AB4F604C84.d.5F0F88606A3988C6DB51760E74901087.e.18")>
+2024-08-13 10:07:47,614 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="6482ca8246ceb3ec33b1d4a6e66a6fbb", element="f.B98356276651018E2F7A37AB4F604C84.d.5F0F88606A3988C6DB51760E74901087.e.14")>
+2024-08-13 10:07:49,695 - INFO - Waiting for the dashboard page to load
+2024-08-13 10:08:41,043 - INFO - Navigating to the dashboard page
+2024-08-13 10:08:43,164 - INFO - Entering CPF for document: 58198202900
+2024-08-13 10:08:46,777 - INFO - Clicking on consult button
+2024-08-13 10:08:46,824 - INFO - Selecting agreement
+2024-08-13 10:09:21,917 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:09:56,999 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:10:32,089 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:10:32,089 - INFO - Input Select
+2024-08-13 10:10:32,097 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:10:32,117 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:10:32,117 - ERROR - Error while processing document 58198202900, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:10:32,117 - INFO - Appending error object for document: 58198202900
+2024-08-13 10:10:32,275 - INFO - Processed document 58198202900, index: 1
+2024-08-13 10:10:32,732 - INFO - Navigating to the dashboard page
+2024-08-13 10:10:34,842 - INFO - Entering CPF for document: 82370044934
+2024-08-13 10:10:38,445 - INFO - Clicking on consult button
+2024-08-13 10:10:38,482 - INFO - Selecting agreement
+2024-08-13 10:10:39,029 - INFO - Input Select
+2024-08-13 10:10:39,029 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:10:39,073 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:10:39,073 - ERROR - Error while processing document 82370044934, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:10:39,073 - INFO - Appending error object for document: 82370044934
+2024-08-13 10:10:39,229 - INFO - Processed document 82370044934, index: 2
+2024-08-13 10:10:39,678 - INFO - Navigating to the dashboard page
+2024-08-13 10:10:42,017 - INFO - Entering CPF for document: 08585627905
+2024-08-13 10:10:45,611 - INFO - Clicking on consult button
+2024-08-13 10:10:45,650 - INFO - Selecting agreement
+2024-08-13 10:10:51,274 - INFO - Input Select
+2024-08-13 10:10:51,274 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:10:51,317 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:10:51,317 - ERROR - Error while processing document 08585627905, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:10:51,317 - INFO - Appending error object for document: 08585627905
+2024-08-13 10:10:51,458 - INFO - Processed document 08585627905, index: 3
+2024-08-13 10:10:51,924 - INFO - Navigating to the dashboard page
+2024-08-13 10:10:54,023 - INFO - Entering CPF for document: 08213939794
+2024-08-13 10:10:57,616 - INFO - Clicking on consult button
+2024-08-13 10:10:57,646 - INFO - Selecting agreement
+2024-08-13 10:11:03,292 - INFO - Input Select
+2024-08-13 10:11:03,298 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:11:03,333 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:11:03,333 - ERROR - Error while processing document 08213939794, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:11:03,333 - INFO - Appending error object for document: 08213939794
+2024-08-13 10:11:03,489 - INFO - Processed document 08213939794, index: 4
+2024-08-13 10:11:03,489 - INFO - Finalizing campaign
+2024-08-13 10:11:03,489 - INFO - Finalizing campaign 63 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:08:40', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '82370044934', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:08:40', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:08:40', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08213939794', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:08:40', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 10:11:04,568 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:08:40', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '82370044934', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:08:40', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:08:40', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08213939794', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:08:40', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 10:11:04,883 - INFO - Database session closed
+2024-08-13 10:11:07,095 - INFO - Closed Selenium page
+2024-08-13 10:18:14,921 - INFO - Serving on http://[::1]:5000
+2024-08-13 10:18:14,922 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 10:18:53,438 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 10:18:56,239 - INFO - Navigating to the login page
+2024-08-13 10:18:56,461 - INFO - Filling in login details
+2024-08-13 10:18:56,521 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="87950a8a218feb5de4d4dd88e023bcbe", element="f.BE268FCD5F5BB564791B946522DDDB4F.d.968E13607F142F6038309F83AC119359.e.2")>
+2024-08-13 10:19:01,685 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="87950a8a218feb5de4d4dd88e023bcbe", element="f.BE268FCD5F5BB564791B946522DDDB4F.d.968E13607F142F6038309F83AC119359.e.9")>
+2024-08-13 10:19:03,976 - INFO - Waiting for the dashboard page to load
+2024-08-13 10:20:58,053 - INFO - Navigating to the dashboard page
+2024-08-13 10:21:00,202 - INFO - Entering CPF for document: 58198202900
+2024-08-13 10:21:03,898 - INFO - Clicking on consult button
+2024-08-13 10:21:03,948 - INFO - Selecting agreement
+2024-08-13 10:21:19,212 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:21:34,455 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:21:44,456 - INFO - Input Select
+2024-08-13 10:21:44,466 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:21:44,491 - INFO - Determined status: Existe uma operação fiduciária em andamento.
+2024-08-13 10:21:44,491 - ERROR - Error while processing document 58198202900, Status: Existe uma operação fiduciária em andamento.
+2024-08-13 10:21:44,491 - INFO - Appending error object for document: 58198202900
+2024-08-13 10:21:44,648 - INFO - Processed document 58198202900, index: 1
+2024-08-13 10:21:45,099 - INFO - Navigating to the dashboard page
+2024-08-13 10:21:47,210 - INFO - Entering CPF for document: 82370044934
+2024-08-13 10:21:50,804 - INFO - Clicking on consult button
+2024-08-13 10:21:50,845 - INFO - Selecting agreement
+2024-08-13 10:22:01,409 - INFO - Input Select
+2024-08-13 10:22:01,418 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:22:01,446 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:22:01,446 - ERROR - Error while processing document 82370044934, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:22:01,446 - INFO - Appending error object for document: 82370044934
+2024-08-13 10:22:01,597 - INFO - Processed document 82370044934, index: 2
+2024-08-13 10:22:02,071 - INFO - Navigating to the dashboard page
+2024-08-13 10:22:04,185 - INFO - Entering CPF for document: 08585627905
+2024-08-13 10:22:07,867 - INFO - Clicking on consult button
+2024-08-13 10:22:07,906 - INFO - Selecting agreement
+2024-08-13 10:22:23,538 - INFO - Input Select
+2024-08-13 10:22:23,546 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:22:23,563 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:22:23,563 - ERROR - Error while processing document 08585627905, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:22:23,563 - INFO - Appending error object for document: 08585627905
+2024-08-13 10:22:23,726 - INFO - Processed document 08585627905, index: 3
+2024-08-13 10:22:24,179 - INFO - Navigating to the dashboard page
+2024-08-13 10:22:26,272 - INFO - Entering CPF for document: 08213939794
+2024-08-13 10:22:29,954 - INFO - Clicking on consult button
+2024-08-13 10:22:29,992 - INFO - Selecting agreement
+2024-08-13 10:22:40,552 - INFO - Input Select
+2024-08-13 10:22:40,552 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:22:40,584 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:22:40,584 - ERROR - Error while processing document 08213939794, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:22:40,584 - INFO - Appending error object for document: 08213939794
+2024-08-13 10:22:40,732 - INFO - Processed document 08213939794, index: 4
+2024-08-13 10:22:40,732 - INFO - Finalizing campaign
+2024-08-13 10:22:40,732 - INFO - Finalizing campaign 64 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:20:57', 'status': 'Existe uma operação fiduciária em andamento.'}, {'company': 'Novo Rumo Empréstimos', 'document': '82370044934', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:20:57', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:20:57', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08213939794', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:20:57', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 10:22:41,822 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:20:57', 'status': 'Existe uma operação fiduciária em andamento.'}, {'company': 'Novo Rumo Empréstimos', 'document': '82370044934', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:20:57', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:20:57', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08213939794', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:20:57', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 10:22:42,123 - INFO - Database session closed
+2024-08-13 10:22:44,335 - INFO - Closed Selenium page
+2024-08-13 10:24:56,528 - INFO - Serving on http://[::1]:5000
+2024-08-13 10:24:56,528 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 10:25:51,544 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 10:25:54,240 - INFO - Navigating to the login page
+2024-08-13 10:25:54,461 - INFO - Filling in login details
+2024-08-13 10:25:54,545 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="599ef70252591a25d99602313f5e5e00", element="f.7459284064F82539012194C1A8D60F33.d.5B0457F2005BC5FCF5757ED3933B636B.e.17")>
+2024-08-13 10:25:59,768 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="599ef70252591a25d99602313f5e5e00", element="f.7459284064F82539012194C1A8D60F33.d.5B0457F2005BC5FCF5757ED3933B636B.e.12")>
+2024-08-13 10:26:01,649 - INFO - Waiting for the dashboard page to load
+2024-08-13 10:33:41,434 - INFO - Navigating to the dashboard page
+2024-08-13 10:33:43,572 - INFO - Entering CPF for document: 58198202900
+2024-08-13 10:33:47,259 - INFO - Clicking on consult button
+2024-08-13 10:33:47,306 - INFO - Selecting agreement
+2024-08-13 10:34:02,567 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:34:17,826 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:34:17,826 - INFO - Input Select
+2024-08-13 10:34:17,835 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:34:17,867 - INFO - Determined status: Existe uma operação fiduciária em andamento.
+2024-08-13 10:34:17,867 - ERROR - Error while processing document 58198202900, Status: Existe uma operação fiduciária em andamento.
+2024-08-13 10:34:17,867 - INFO - Appending error object for document: 58198202900
+2024-08-13 10:34:18,008 - INFO - Processed document 58198202900, index: 1
+2024-08-13 10:34:18,481 - INFO - Navigating to the dashboard page
+2024-08-13 10:34:20,623 - INFO - Entering CPF for document: 82370044934
+2024-08-13 10:34:24,289 - INFO - Clicking on consult button
+2024-08-13 10:34:24,327 - INFO - Selecting agreement
+2024-08-13 10:34:24,871 - INFO - Input Select
+2024-08-13 10:34:24,890 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:34:24,927 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:34:24,927 - ERROR - Error while processing document 82370044934, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:34:24,927 - INFO - Appending error object for document: 82370044934
+2024-08-13 10:34:25,087 - INFO - Processed document 82370044934, index: 2
+2024-08-13 10:34:25,520 - INFO - Navigating to the dashboard page
+2024-08-13 10:34:27,630 - INFO - Entering CPF for document: 08585627905
+2024-08-13 10:34:31,301 - INFO - Clicking on consult button
+2024-08-13 10:34:31,340 - INFO - Selecting agreement
+2024-08-13 10:34:36,966 - INFO - Input Select
+2024-08-13 10:34:36,966 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:34:37,005 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:34:37,005 - ERROR - Error while processing document 08585627905, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:34:37,005 - INFO - Appending error object for document: 08585627905
+2024-08-13 10:34:37,149 - INFO - Processed document 08585627905, index: 3
+2024-08-13 10:34:37,631 - INFO - Navigating to the dashboard page
+2024-08-13 10:34:40,006 - INFO - Entering CPF for document: 08213939794
+2024-08-13 10:34:43,681 - INFO - Clicking on consult button
+2024-08-13 10:34:43,723 - INFO - Selecting agreement
+2024-08-13 10:34:44,274 - INFO - Input Select
+2024-08-13 10:34:44,277 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:34:44,312 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:34:44,312 - ERROR - Error while processing document 08213939794, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:34:44,312 - INFO - Appending error object for document: 08213939794
+2024-08-13 10:34:44,473 - INFO - Processed document 08213939794, index: 4
+2024-08-13 10:34:44,474 - INFO - Finalizing campaign
+2024-08-13 10:34:44,474 - INFO - Finalizing campaign 65 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:33:41', 'status': 'Existe uma operação fiduciária em andamento.'}, {'company': 'Novo Rumo Empréstimos', 'document': '82370044934', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:33:41', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:33:41', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08213939794', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:33:41', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 10:34:45,523 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:33:41', 'status': 'Existe uma operação fiduciária em andamento.'}, {'company': 'Novo Rumo Empréstimos', 'document': '82370044934', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:33:41', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:33:41', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08213939794', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:33:41', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 10:34:45,853 - INFO - Database session closed
+2024-08-13 10:34:48,078 - INFO - Closed Selenium page
+2024-08-13 10:35:21,789 - INFO - Serving on http://[::1]:5000
+2024-08-13 10:35:21,789 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 10:35:49,270 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 10:35:52,156 - INFO - Navigating to the login page
+2024-08-13 10:35:52,374 - INFO - Filling in login details
+2024-08-13 10:35:52,475 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="594bf257a2e18d3ee1549bb103d670a6", element="f.666BB77CD33AAD9B2AD9B388263A4441.d.9FC83339ACDF77EBE0BDB7A6B2D654C9.e.8")>
+2024-08-13 10:35:57,659 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="594bf257a2e18d3ee1549bb103d670a6", element="f.666BB77CD33AAD9B2AD9B388263A4441.d.9FC83339ACDF77EBE0BDB7A6B2D654C9.e.16")>
+2024-08-13 10:35:59,734 - INFO - Waiting for the dashboard page to load
+2024-08-13 10:36:31,417 - INFO - Navigating to the dashboard page
+2024-08-13 10:36:33,522 - INFO - Entering CPF for document: 58198202900
+2024-08-13 10:36:37,208 - INFO - Clicking on consult button
+2024-08-13 10:36:47,255 - INFO - Selecting agreement
+2024-08-13 10:37:02,520 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:37:17,781 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:37:17,781 - INFO - Input Select
+2024-08-13 10:37:17,792 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:37:17,808 - INFO - Determined status: Existe uma operação fiduciária em andamento.
+2024-08-13 10:37:17,808 - ERROR - Error while processing document 58198202900, Status: Existe uma operação fiduciária em andamento.
+2024-08-13 10:37:17,808 - INFO - Appending error object for document: 58198202900
+2024-08-13 10:37:17,975 - INFO - Processed document 58198202900, index: 1
+2024-08-13 10:37:18,442 - INFO - Navigating to the dashboard page
+2024-08-13 10:37:20,600 - INFO - Entering CPF for document: 82370044934
+2024-08-13 10:37:24,269 - INFO - Clicking on consult button
+2024-08-13 10:37:34,308 - INFO - Selecting agreement
+2024-08-13 10:37:34,363 - INFO - Input Select
+2024-08-13 10:37:34,376 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:37:34,410 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:37:34,410 - ERROR - Error while processing document 82370044934, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:37:34,410 - INFO - Appending error object for document: 82370044934
+2024-08-13 10:37:34,576 - INFO - Processed document 82370044934, index: 2
+2024-08-13 10:37:35,076 - INFO - Navigating to the dashboard page
+2024-08-13 10:37:37,299 - INFO - Entering CPF for document: 08585627905
+2024-08-13 10:37:40,940 - INFO - Clicking on consult button
+2024-08-13 10:37:50,984 - INFO - Selecting agreement
+2024-08-13 10:37:51,025 - INFO - Input Select
+2024-08-13 10:37:51,033 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:37:51,064 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:37:51,064 - ERROR - Error while processing document 08585627905, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:37:51,064 - INFO - Appending error object for document: 08585627905
+2024-08-13 10:37:51,230 - INFO - Processed document 08585627905, index: 3
+2024-08-13 10:37:51,693 - INFO - Navigating to the dashboard page
+2024-08-13 10:37:53,774 - INFO - Entering CPF for document: 08213939794
+2024-08-13 10:37:57,362 - INFO - Clicking on consult button
+2024-08-13 10:38:07,402 - INFO - Selecting agreement
+2024-08-13 10:38:07,437 - INFO - Input Select
+2024-08-13 10:38:07,444 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:38:07,478 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:38:07,478 - ERROR - Error while processing document 08213939794, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:38:07,478 - INFO - Appending error object for document: 08213939794
+2024-08-13 10:38:07,626 - INFO - Processed document 08213939794, index: 4
+2024-08-13 10:38:07,626 - INFO - Finalizing campaign
+2024-08-13 10:38:07,626 - INFO - Finalizing campaign 66 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:36:31', 'status': 'Existe uma operação fiduciária em andamento.'}, {'company': 'Novo Rumo Empréstimos', 'document': '82370044934', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:36:31', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:36:31', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08213939794', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:36:31', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 10:38:08,762 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:36:31', 'status': 'Existe uma operação fiduciária em andamento.'}, {'company': 'Novo Rumo Empréstimos', 'document': '82370044934', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:36:31', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:36:31', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08213939794', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:36:31', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 10:38:09,074 - INFO - Database session closed
+2024-08-13 10:38:11,236 - INFO - Closed Selenium page
+2024-08-13 10:38:37,320 - INFO - Serving on http://[::1]:5000
+2024-08-13 10:38:37,320 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 10:38:52,799 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 10:38:55,573 - INFO - Navigating to the login page
+2024-08-13 10:38:55,851 - INFO - Filling in login details
+2024-08-13 10:38:55,931 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="4e7fb3b5ebba510a9a0cf9c056cba72c", element="f.ECFDEDECF248720B92E4B90D8C46A159.d.FEB7F70BB4A7027910BAE50EEF54ECF9.e.2")>
+2024-08-13 10:39:01,350 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="4e7fb3b5ebba510a9a0cf9c056cba72c", element="f.ECFDEDECF248720B92E4B90D8C46A159.d.FEB7F70BB4A7027910BAE50EEF54ECF9.e.4")>
+2024-08-13 10:39:03,186 - INFO - Waiting for the dashboard page to load
+2024-08-13 10:47:38,698 - INFO - Navigating to the dashboard page
+2024-08-13 10:47:40,867 - INFO - Entering CPF for document: 58198202900
+2024-08-13 10:47:44,529 - INFO - Clicking on consult button
+2024-08-13 10:47:54,580 - INFO - Selecting agreement
+2024-08-13 10:48:09,836 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:48:25,125 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-08-13 10:48:35,125 - INFO - Input Select
+2024-08-13 10:48:35,141 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:48:35,171 - INFO - Determined status: Existe uma operação fiduciária em andamento.
+2024-08-13 10:48:35,171 - ERROR - Error while processing document 58198202900, Status: Existe uma operação fiduciária em andamento.
+2024-08-13 10:48:35,171 - INFO - Appending error object for document: 58198202900
+2024-08-13 10:48:35,317 - INFO - Processed document 58198202900, index: 1
+2024-08-13 10:48:35,786 - INFO - Navigating to the dashboard page
+2024-08-13 10:48:37,915 - INFO - Entering CPF for document: 82370044934
+2024-08-13 10:48:41,523 - INFO - Clicking on consult button
+2024-08-13 10:48:51,565 - INFO - Selecting agreement
+2024-08-13 10:49:01,612 - INFO - Input Select
+2024-08-13 10:49:01,620 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:49:01,650 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:49:01,650 - ERROR - Error while processing document 82370044934, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:49:01,650 - INFO - Appending error object for document: 82370044934
+2024-08-13 10:49:01,806 - INFO - Processed document 82370044934, index: 2
+2024-08-13 10:49:02,243 - INFO - Navigating to the dashboard page
+2024-08-13 10:49:04,340 - INFO - Entering CPF for document: 08585627905
+2024-08-13 10:49:07,944 - INFO - Clicking on consult button
+2024-08-13 10:49:17,989 - INFO - Selecting agreement
+2024-08-13 10:49:28,031 - INFO - Input Select
+2024-08-13 10:49:28,040 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:49:28,059 - INFO - Determined status: O valor de liberação deve ser maior que R$ 70,00
+2024-08-13 10:49:28,059 - ERROR - Error while processing document 08585627905, Status: O valor de liberação deve ser maior que R$ 70,00
+2024-08-13 10:49:28,059 - INFO - Appending error object for document: 08585627905
+2024-08-13 10:49:28,205 - INFO - Processed document 08585627905, index: 3
+2024-08-13 10:49:28,670 - INFO - Navigating to the dashboard page
+2024-08-13 10:49:30,746 - INFO - Entering CPF for document: 08213939794
+2024-08-13 10:49:34,340 - INFO - Clicking on consult button
+2024-08-13 10:49:44,383 - INFO - Selecting agreement
+2024-08-13 10:49:54,424 - INFO - Input Select
+2024-08-13 10:49:54,432 - ERROR - Error list: NoSuchElementException
+2024-08-13 10:49:54,461 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:49:54,461 - ERROR - Error while processing document 08213939794, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-08-13 10:49:54,461 - INFO - Appending error object for document: 08213939794
+2024-08-13 10:49:54,617 - INFO - Processed document 08213939794, index: 4
+2024-08-13 10:49:54,617 - INFO - Finalizing campaign
+2024-08-13 10:49:54,617 - INFO - Finalizing campaign 67 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:47:38', 'status': 'Existe uma operação fiduciária em andamento.'}, {'company': 'Novo Rumo Empréstimos', 'document': '82370044934', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:47:38', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:47:38', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '08213939794', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:47:38', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 10:49:55,666 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '58198202900', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:47:38', 'status': 'Existe uma operação fiduciária em andamento.'}, {'company': 'Novo Rumo Empréstimos', 'document': '82370044934', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:47:38', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '08585627905', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:47:38', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '08213939794', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '13/08/2024 10:47:38', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-08-13 10:49:56,032 - INFO - Database session closed
+2024-08-13 10:49:58,366 - INFO - Closed Selenium page
+2024-08-13 10:56:27,576 - INFO - Serving on http://[::1]:5000
+2024-08-13 10:56:27,576 - INFO - Serving on http://127.0.0.1:5000
+2024-08-13 10:56:56,756 - INFO - Starting webdriver_chrome_lotus context
+2024-08-13 10:56:59,524 - INFO - Navigating to the login page
+2024-08-13 10:56:59,771 - INFO - Filling in login details
+2024-08-13 10:56:59,866 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="194a4669e78d10731333e1e8869693e2", element="f.F57EB415D210943AAEAFA05441CACE61.d.F73911764CF0BB093A13AEC4159252DB.e.7")>
+2024-08-13 10:57:05,486 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="194a4669e78d10731333e1e8869693e2", element="f.F57EB415D210943AAEAFA05441CACE61.d.F73911764CF0BB093A13AEC4159252DB.e.15")>
+2024-08-13 10:57:07,384 - INFO - Waiting for the dashboard page to load
+2024-08-13 11:30:27,614 - CRITICAL - Critical error in main process
+2024-08-13 11:30:27,614 - ERROR - Error: TimeoutException
+2024-08-13 11:30:27,614 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-08-13 11:30:27,909 - INFO - Set campaign status to CANCELADA for campaign ID: 68
+2024-08-13 11:30:28,200 - INFO - Database commit completed
+2024-08-13 11:30:30,448 - INFO - Closed Selenium page
+2024-08-13 11:30:30,448 - INFO - Finalizing campaign
+2024-08-13 11:30:30,448 - INFO - Finalizing campaign 68 with data: []
+2024-08-13 11:30:31,494 - INFO - Appending data to campaign: []
+2024-08-13 11:30:31,789 - INFO - Database session closed
+2024-08-13 11:30:35,860 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B88D1B82D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/194a4669e78d10731333e1e8869693e2
+2024-08-13 11:30:39,943 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B88D1B9050>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/194a4669e78d10731333e1e8869693e2
+2024-08-13 11:30:44,024 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B88D1B9890>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/194a4669e78d10731333e1e8869693e2
+2024-08-13 11:30:52,207 - INFO - Closed Selenium page
+2024-08-20 10:46:07,581 - INFO - Serving on http://[::1]:5000
+2024-08-20 10:46:07,588 - INFO - Serving on http://127.0.0.1:5000
+2024-08-20 10:46:40,029 - INFO - Serving on http://[::1]:5000
+2024-08-20 10:46:40,029 - INFO - Serving on http://127.0.0.1:5000
+2024-08-20 10:50:38,122 - INFO - Starting webdriver_chrome_lotus context
+2024-08-20 10:50:41,666 - INFO - Navigating to the login page
+2024-08-20 10:50:41,923 - INFO - Filling in login details
+2024-08-20 10:50:42,031 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="2bd112e80356edcab9767387def919ba", element="f.2975A5A3919CBF448F57CE58B9166C24.d.7E4AA3A4C844C2E4D79A2EFA879537BE.e.18")>
+2024-08-20 10:50:47,610 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="2bd112e80356edcab9767387def919ba", element="f.2975A5A3919CBF448F57CE58B9166C24.d.7E4AA3A4C844C2E4D79A2EFA879537BE.e.14")>
+2024-08-20 10:50:49,781 - INFO - Waiting for the dashboard page to load
+2024-08-20 11:24:10,171 - CRITICAL - Critical error in main process
+2024-08-20 11:24:10,171 - ERROR - Error: TimeoutException
+2024-08-20 11:24:10,172 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-08-20 11:24:10,458 - INFO - Set campaign status to CANCELADA for campaign ID: 69
+2024-08-20 11:24:10,744 - INFO - Database commit completed
+2024-08-20 11:24:12,953 - INFO - Closed Selenium page
+2024-08-20 11:24:12,953 - INFO - Finalizing campaign
+2024-08-20 11:24:12,953 - INFO - Finalizing campaign 69 with data: []
+2024-08-20 11:24:13,952 - INFO - Appending data to campaign: []
+2024-08-20 11:24:14,241 - INFO - Database session closed
+2024-08-20 11:24:18,353 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011A070D87D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2bd112e80356edcab9767387def919ba
+2024-08-20 11:24:22,431 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011A070D94D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2bd112e80356edcab9767387def919ba
+2024-08-20 11:24:26,515 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011A070D9CD0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2bd112e80356edcab9767387def919ba
+2024-08-20 11:24:34,701 - INFO - Closed Selenium page
+2024-09-19 09:42:35,218 - INFO - Serving on http://[::1]:5000
+2024-09-19 09:42:35,219 - INFO - Serving on http://127.0.0.1:5000
+2024-09-19 15:14:21,496 - INFO - Starting webdriver_chrome_lotus context
+2024-09-19 15:17:52,275 - INFO - Serving on http://[::1]:5000
+2024-09-19 15:17:52,275 - INFO - Serving on http://127.0.0.1:5000
+2024-09-19 15:18:33,187 - INFO - Starting webdriver_chrome_lotus context
+2024-09-19 15:18:35,893 - INFO - Navigating to the login page
+2024-09-19 15:18:36,157 - INFO - Filling in login details
+2024-09-19 15:18:36,219 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="806ef20c923a76884086c4c319aec86f", element="f.4268EB19A94C8A3E1060448A97B67A79.d.3585E01ECBCC7E8F72A1308D31DD5B72.e.8")>
+2024-09-19 15:18:41,699 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="806ef20c923a76884086c4c319aec86f", element="f.4268EB19A94C8A3E1060448A97B67A79.d.3585E01ECBCC7E8F72A1308D31DD5B72.e.16")>
+2024-09-19 15:18:43,758 - INFO - Waiting for the dashboard page to load
+2024-09-19 15:20:07,936 - INFO - Navigating to the dashboard page
+2024-09-19 15:20:10,051 - INFO - Entering CPF for document: 00194908283
+2024-09-19 15:20:13,783 - INFO - Clicking on consult button
+2024-09-19 15:20:23,830 - INFO - Selecting agreement
+2024-09-19 15:20:39,087 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 15:20:54,348 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 15:21:04,349 - INFO - Input Select
+2024-09-19 15:21:04,359 - ERROR - Error list: NoSuchElementException
+2024-09-19 15:21:04,386 - INFO - Determined status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-19 15:21:04,386 - ERROR - Error while processing document 00194908283, Status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-19 15:21:04,386 - INFO - Appending error object for document: 00194908283
+2024-09-19 15:21:04,523 - INFO - Processed document 00194908283, index: 1
+2024-09-19 15:21:04,944 - INFO - Navigating to the dashboard page
+2024-09-19 15:21:07,029 - INFO - Entering CPF for document: 00019083912
+2024-09-19 15:21:10,646 - INFO - Clicking on consult button
+2024-09-19 15:21:20,683 - INFO - Selecting agreement
+2024-09-19 15:21:35,947 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 15:21:51,191 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 15:22:01,192 - INFO - Input Select
+2024-09-19 15:22:01,199 - ERROR - Error list: NoSuchElementException
+2024-09-19 15:22:01,222 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-19 15:22:01,223 - ERROR - Error while processing document 00019083912, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-19 15:22:01,223 - INFO - Appending error object for document: 00019083912
+2024-09-19 15:22:01,360 - INFO - Processed document 00019083912, index: 2
+2024-09-19 15:22:01,771 - INFO - Navigating to the dashboard page
+2024-09-19 15:22:03,846 - INFO - Entering CPF for document: 00218446071
+2024-09-19 15:22:07,551 - INFO - Clicking on consult button
+2024-09-19 15:22:17,593 - INFO - Selecting agreement
+2024-09-19 15:22:32,863 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 15:22:48,111 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 15:22:58,112 - INFO - Input Select
+2024-09-19 15:22:58,123 - ERROR - Error list: NoSuchElementException
+2024-09-19 15:22:58,152 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-19 15:22:58,152 - ERROR - Error while processing document 00218446071, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-19 15:22:58,152 - INFO - Appending error object for document: 00218446071
+2024-09-19 15:22:58,289 - INFO - Processed document 00218446071, index: 3
+2024-09-19 15:22:58,704 - INFO - Navigating to the dashboard page
+2024-09-19 15:23:00,813 - INFO - Entering CPF for document: 00139693904
+2024-09-19 15:23:04,445 - INFO - Clicking on consult button
+2024-09-19 15:23:14,493 - INFO - Selecting agreement
+2024-09-19 15:23:29,748 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 15:23:44,993 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 15:23:54,993 - INFO - Input Select
+2024-09-19 15:23:55,000 - ERROR - Error list: NoSuchElementException
+2024-09-19 15:23:55,020 - INFO - Determined status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-19 15:23:55,020 - ERROR - Error while processing document 00139693904, Status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-19 15:23:55,020 - INFO - Appending error object for document: 00139693904
+2024-09-19 15:23:55,158 - INFO - Processed document 00139693904, index: 4
+2024-09-19 15:23:55,568 - INFO - Navigating to the dashboard page
+2024-09-19 15:23:57,666 - INFO - Entering CPF for document: 00077489144
+2024-09-19 15:24:01,252 - INFO - Clicking on consult button
+2024-09-19 15:24:11,291 - INFO - Selecting agreement
+2024-09-19 15:24:26,545 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 15:24:41,795 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 15:24:51,796 - INFO - Input Select
+2024-09-19 15:24:51,805 - ERROR - Error list: NoSuchElementException
+2024-09-19 15:24:51,824 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-19 15:24:51,824 - ERROR - Error while processing document 00077489144, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-19 15:24:51,824 - INFO - Appending error object for document: 00077489144
+2024-09-19 15:24:51,961 - INFO - Processed document 00077489144, index: 5
+2024-09-19 15:24:51,961 - INFO - Finalizing campaign
+2024-09-19 15:24:51,961 - INFO - Finalizing campaign 89 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '00194908283', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 15:20:07', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '00019083912', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 15:20:07', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00218446071', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 15:20:07', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00139693904', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 15:20:07', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '00077489144', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 15:20:07', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-09-19 15:24:52,926 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '00194908283', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 15:20:07', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '00019083912', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 15:20:07', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00218446071', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 15:20:07', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00139693904', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 15:20:07', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '00077489144', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 15:20:07', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-09-19 15:24:53,208 - INFO - Database session closed
+2024-09-19 15:24:55,382 - INFO - Closed Selenium page
+2024-09-19 15:25:05,491 - INFO - Serving on http://[::1]:5000
+2024-09-19 15:25:05,492 - INFO - Serving on http://127.0.0.1:5000
+2024-09-19 16:40:25,947 - INFO - Starting webdriver_chrome_lotus context
+2024-09-19 16:40:29,028 - INFO - Navigating to the login page
+2024-09-19 16:40:29,450 - INFO - Filling in login details
+2024-09-19 16:40:29,583 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="ecbeaa7e37b7f5d1991bf4be4b3590df", element="f.494847C02FBE800292DF2FE6CD0769CF.d.8F2FEDD861F4731232B141C4261E0B1B.e.2")>
+2024-09-19 16:40:34,938 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="ecbeaa7e37b7f5d1991bf4be4b3590df", element="f.494847C02FBE800292DF2FE6CD0769CF.d.8F2FEDD861F4731232B141C4261E0B1B.e.11")>
+2024-09-19 16:40:37,092 - INFO - Waiting for the dashboard page to load
+2024-09-19 16:41:54,658 - INFO - Navigating to the dashboard page
+2024-09-19 16:41:56,846 - INFO - Entering CPF for document: 07674568580
+2024-09-19 16:42:00,432 - INFO - Clicking on consult button
+2024-09-19 16:42:10,500 - INFO - Selecting agreement
+2024-09-19 16:42:20,545 - INFO - Input Select
+2024-09-19 16:42:20,555 - ERROR - Error list: NoSuchElementException
+2024-09-19 16:42:20,590 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-19 16:42:20,590 - ERROR - Error while processing document 07674568580, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-19 16:42:20,590 - INFO - Appending error object for document: 07674568580
+2024-09-19 16:42:20,729 - INFO - Processed document 07674568580, index: 1
+2024-09-19 16:42:21,143 - INFO - Navigating to the dashboard page
+2024-09-19 16:42:23,208 - INFO - Entering CPF for document: 11064260969
+2024-09-19 16:42:26,817 - INFO - Clicking on consult button
+2024-09-19 16:42:36,856 - INFO - Selecting agreement
+2024-09-19 16:42:46,895 - INFO - Input Select
+2024-09-19 16:42:46,903 - ERROR - Error list: NoSuchElementException
+2024-09-19 16:42:46,933 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-19 16:42:46,933 - ERROR - Error while processing document 11064260969, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-19 16:42:46,934 - INFO - Appending error object for document: 11064260969
+2024-09-19 16:42:47,072 - INFO - Processed document 11064260969, index: 2
+2024-09-19 16:42:47,485 - INFO - Navigating to the dashboard page
+2024-09-19 16:42:49,561 - INFO - Entering CPF for document: 00019083912
+2024-09-19 16:42:53,214 - INFO - Clicking on consult button
+2024-09-19 16:43:03,254 - INFO - Selecting agreement
+2024-09-19 16:43:03,255 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 16:43:03,255 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-19 16:43:13,256 - INFO - Input Select
+2024-09-19 16:43:13,257 - ERROR - Error list: NoSuchWindowException
+2024-09-19 16:43:13,258 - INFO - Processed document 00019083912, index: 2
+2024-09-19 16:43:13,258 - CRITICAL - Critical error in main process
+2024-09-19 16:43:13,258 - ERROR - Error: NoSuchWindowException
+2024-09-19 16:43:13,673 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-09-19 16:43:13,812 - INFO - Database commit completed
+2024-09-19 16:43:15,966 - INFO - Closed Selenium page
+2024-09-19 16:43:15,966 - INFO - Finalizing campaign
+2024-09-19 16:43:15,966 - INFO - Finalizing campaign 90 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '07674568580', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 16:41:54', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '11064260969', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 16:41:54', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-09-19 16:43:16,935 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '07674568580', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 16:41:54', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '11064260969', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '19/09/2024 16:41:54', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-09-19 16:43:17,215 - INFO - Database session closed
+2024-09-19 16:43:21,341 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FE0693D450>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ecbeaa7e37b7f5d1991bf4be4b3590df
+2024-09-19 16:43:25,415 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FE0693DA90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ecbeaa7e37b7f5d1991bf4be4b3590df
+2024-09-19 16:43:29,521 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FE0693E290>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ecbeaa7e37b7f5d1991bf4be4b3590df
+2024-09-19 16:43:37,685 - INFO - Closed Selenium page
+2024-09-19 16:47:28,352 - INFO - Serving on http://[::1]:5000
+2024-09-19 16:47:28,353 - INFO - Serving on http://127.0.0.1:5000
+2024-09-23 14:18:01,426 - INFO - Serving on http://[::1]:5000
+2024-09-23 14:18:01,426 - INFO - Serving on http://127.0.0.1:5000
+2024-09-23 14:18:16,703 - INFO - Starting webdriver_chrome_lotus context
+2024-09-23 14:18:19,922 - INFO - Navigating to the login page
+2024-09-23 14:18:36,812 - INFO - Filling in login details
+2024-09-23 14:18:36,815 - CRITICAL - Critical error in main process
+2024-09-23 14:18:36,815 - ERROR - Error: NoSuchWindowException
+2024-09-23 14:18:36,815 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-09-23 14:18:37,095 - INFO - Database commit completed
+2024-09-23 14:18:39,233 - INFO - Closed Selenium page
+2024-09-23 14:18:39,234 - INFO - Finalizing campaign
+2024-09-23 14:18:39,234 - INFO - Finalizing campaign 94 with data: []
+2024-09-23 14:18:40,199 - INFO - Appending data to campaign: []
+2024-09-23 14:18:40,480 - INFO - Database session closed
+2024-09-23 14:18:44,578 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002519F5B3490>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/485d4730a5b51597e89c3120d4395704
+2024-09-23 14:18:48,678 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002519F5B3F50>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/485d4730a5b51597e89c3120d4395704
+2024-09-23 14:18:52,777 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002519F5B4B90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/485d4730a5b51597e89c3120d4395704
+2024-09-23 14:18:56,044 - INFO - Starting webdriver_chrome_lotus context
+2024-09-23 14:18:57,562 - INFO - Navigating to the login page
+2024-09-23 14:18:57,847 - INFO - Filling in login details
+2024-09-23 14:18:57,911 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="f25aad81d4d12d32facf91eb7149cdb2", element="f.1ADCEF18C39E075A8AA64F44B9A583E7.d.10CDCEBD6CEC39671014F07BD478A1FB.e.2")>
+2024-09-23 14:19:00,958 - INFO - Closed Selenium page
+2024-09-23 14:19:03,286 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="f25aad81d4d12d32facf91eb7149cdb2", element="f.1ADCEF18C39E075A8AA64F44B9A583E7.d.10CDCEBD6CEC39671014F07BD478A1FB.e.8")>
+2024-09-23 14:19:05,573 - INFO - Waiting for the dashboard page to load
+2024-09-23 14:22:10,258 - INFO - Navigating to the dashboard page
+2024-09-23 14:22:12,390 - INFO - Entering CPF for document: 07674568580
+2024-09-23 14:22:16,121 - INFO - Clicking on consult button
+2024-09-23 14:22:26,171 - INFO - Selecting agreement
+2024-09-23 14:22:41,419 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:22:59,109 - INFO - Input Select
+2024-09-23 14:22:59,128 - ERROR - Error list: NoSuchElementException
+2024-09-23 14:22:59,185 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 14:22:59,185 - ERROR - Error while processing document 07674568580, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 14:22:59,185 - INFO - Appending error object for document: 07674568580
+2024-09-23 14:22:59,326 - INFO - Processed document 07674568580, index: 1
+2024-09-23 14:22:59,779 - INFO - Navigating to the dashboard page
+2024-09-23 14:23:01,860 - INFO - Entering CPF for document: 11064260969
+2024-09-23 14:23:05,485 - INFO - Clicking on consult button
+2024-09-23 14:23:15,525 - INFO - Selecting agreement
+2024-09-23 14:23:25,569 - INFO - Input Select
+2024-09-23 14:23:25,575 - ERROR - Error list: NoSuchElementException
+2024-09-23 14:23:25,612 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 14:23:25,612 - ERROR - Error while processing document 11064260969, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 14:23:25,612 - INFO - Appending error object for document: 11064260969
+2024-09-23 14:23:25,749 - INFO - Processed document 11064260969, index: 2
+2024-09-23 14:23:26,168 - INFO - Navigating to the dashboard page
+2024-09-23 14:23:28,268 - INFO - Entering CPF for document: 00019083912
+2024-09-23 14:23:31,914 - INFO - Clicking on consult button
+2024-09-23 14:23:41,954 - INFO - Selecting agreement
+2024-09-23 14:23:57,246 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:24:12,499 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:24:22,500 - INFO - Input Select
+2024-09-23 14:24:22,507 - ERROR - Error list: NoSuchElementException
+2024-09-23 14:24:22,527 - INFO - Determined status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 14:24:22,527 - ERROR - Error while processing document 00019083912, Status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 14:24:22,527 - INFO - Appending error object for document: 00019083912
+2024-09-23 14:24:22,667 - INFO - Processed document 00019083912, index: 3
+2024-09-23 14:24:23,075 - INFO - Navigating to the dashboard page
+2024-09-23 14:24:25,190 - INFO - Entering CPF for document: 00077489144
+2024-09-23 14:24:28,792 - INFO - Clicking on consult button
+2024-09-23 14:24:38,832 - INFO - Selecting agreement
+2024-09-23 14:24:54,122 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:25:09,427 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:25:19,428 - INFO - Input Select
+2024-09-23 14:25:19,435 - ERROR - Error list: NoSuchElementException
+2024-09-23 14:25:19,478 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 14:25:19,478 - ERROR - Error while processing document 00077489144, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 14:25:19,478 - INFO - Appending error object for document: 00077489144
+2024-09-23 14:25:19,615 - INFO - Processed document 00077489144, index: 4
+2024-09-23 14:25:20,034 - INFO - Navigating to the dashboard page
+2024-09-23 14:25:22,112 - INFO - Entering CPF for document: 00139693904
+2024-09-23 14:25:37,498 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 14:25:52,884 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 14:26:08,291 - WARNING - Retry sending keys to element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 14:26:20,704 - INFO - Clicking on consult button
+2024-09-23 14:26:21,753 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-09-23 14:26:22,843 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-09-23 14:26:32,844 - INFO - Selecting agreement
+2024-09-23 14:26:46,565 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:26:46,566 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:26:56,566 - INFO - Input Select
+2024-09-23 14:26:56,567 - ERROR - Error list: NoSuchWindowException
+2024-09-23 14:26:56,568 - INFO - Processed document 00139693904, index: 4
+2024-09-23 14:26:56,568 - CRITICAL - Critical error in main process
+2024-09-23 14:26:56,568 - ERROR - Error: NoSuchWindowException
+2024-09-23 14:26:56,987 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-09-23 14:26:57,127 - INFO - Database commit completed
+2024-09-23 14:26:59,327 - INFO - Closed Selenium page
+2024-09-23 14:26:59,327 - INFO - Finalizing campaign
+2024-09-23 14:26:59,327 - INFO - Finalizing campaign 95 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '07674568580', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:22:09', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '11064260969', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:22:09', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00019083912', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:22:09', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '00077489144', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:22:09', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-09-23 14:27:00,334 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '07674568580', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:22:09', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '11064260969', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:22:09', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00019083912', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:22:09', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '00077489144', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:22:09', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}]
+2024-09-23 14:27:00,621 - INFO - Database session closed
+2024-09-23 14:27:04,725 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002519F5BA790>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f25aad81d4d12d32facf91eb7149cdb2
+2024-09-23 14:27:08,821 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002519F5C43D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f25aad81d4d12d32facf91eb7149cdb2
+2024-09-23 14:27:12,903 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002519F5C4510>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f25aad81d4d12d32facf91eb7149cdb2
+2024-09-23 14:27:21,088 - INFO - Closed Selenium page
+2024-09-23 14:31:59,452 - INFO - Serving on http://[::1]:5000
+2024-09-23 14:31:59,452 - INFO - Serving on http://127.0.0.1:5000
+2024-09-23 14:32:22,357 - INFO - Starting webdriver_chrome_lotus context
+2024-09-23 14:32:24,946 - INFO - Navigating to the login page
+2024-09-23 14:32:25,231 - INFO - Filling in login details
+2024-09-23 14:32:25,306 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="ffd0db5311fa54d4f8543cd3893ac372", element="f.A9C7EA59D1AB51415D9A8812128987CB.d.C0E13D746435BF528ACD55611D75F3EF.e.18")>
+2024-09-23 14:32:31,142 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="ffd0db5311fa54d4f8543cd3893ac372", element="f.A9C7EA59D1AB51415D9A8812128987CB.d.C0E13D746435BF528ACD55611D75F3EF.e.14")>
+2024-09-23 14:32:33,072 - INFO - Waiting for the dashboard page to load
+2024-09-23 14:33:47,112 - INFO - Navigating to the dashboard page
+2024-09-23 14:33:49,249 - INFO - Entering CPF for document: 07674568580
+2024-09-23 14:33:52,921 - INFO - Clicking on consult button
+2024-09-23 14:34:02,970 - INFO - Selecting agreement
+2024-09-23 14:34:13,062 - INFO - Input Select
+2024-09-23 14:34:13,074 - ERROR - Error list: NoSuchElementException
+2024-09-23 14:34:13,116 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 14:34:13,116 - ERROR - Error while processing document 07674568580, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 14:34:13,116 - INFO - Appending error object for document: 07674568580
+2024-09-23 14:34:13,252 - INFO - Processed document 07674568580, index: 1
+2024-09-23 14:34:13,669 - INFO - Navigating to the dashboard page
+2024-09-23 14:34:15,737 - INFO - Entering CPF for document: 11064260969
+2024-09-23 14:34:19,319 - INFO - Clicking on consult button
+2024-09-23 14:34:29,355 - INFO - Selecting agreement
+2024-09-23 14:34:39,391 - INFO - Input Select
+2024-09-23 14:34:39,398 - ERROR - Error list: NoSuchElementException
+2024-09-23 14:34:39,429 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 14:34:39,429 - ERROR - Error while processing document 11064260969, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 14:34:39,429 - INFO - Appending error object for document: 11064260969
+2024-09-23 14:34:39,567 - INFO - Processed document 11064260969, index: 2
+2024-09-23 14:34:39,976 - INFO - Navigating to the dashboard page
+2024-09-23 14:34:42,144 - INFO - Entering CPF for document: 00019083912
+2024-09-23 14:34:45,735 - INFO - Clicking on consult button
+2024-09-23 14:34:55,773 - INFO - Selecting agreement
+2024-09-23 14:35:11,180 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:35:26,538 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:35:36,539 - INFO - Input Select
+2024-09-23 14:35:36,552 - ERROR - Error list: NoSuchElementException
+2024-09-23 14:35:36,578 - INFO - Determined status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 14:35:36,578 - ERROR - Error while processing document 00019083912, Status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 14:35:36,578 - INFO - Appending error object for document: 00019083912
+2024-09-23 14:35:36,717 - INFO - Processed document 00019083912, index: 3
+2024-09-23 14:35:37,134 - INFO - Navigating to the dashboard page
+2024-09-23 14:35:39,326 - INFO - Entering CPF for document: 00077489144
+2024-09-23 14:35:43,119 - INFO - Clicking on consult button
+2024-09-23 14:35:53,200 - INFO - Selecting agreement
+2024-09-23 14:36:08,558 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:36:19,823 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:36:29,824 - INFO - Input Select
+2024-09-23 14:36:29,825 - ERROR - Error list: NoSuchWindowException
+2024-09-23 14:36:29,826 - INFO - Processed document 00077489144, index: 3
+2024-09-23 14:36:29,826 - CRITICAL - Critical error in main process
+2024-09-23 14:36:29,826 - ERROR - Error: NoSuchWindowException
+2024-09-23 14:36:30,241 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-09-23 14:36:30,381 - INFO - Database commit completed
+2024-09-23 14:36:32,508 - INFO - Closed Selenium page
+2024-09-23 14:36:32,508 - INFO - Finalizing campaign
+2024-09-23 14:36:32,508 - INFO - Finalizing campaign 96 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '07674568580', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:33:46', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '11064260969', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:33:46', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00019083912', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:33:46', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}]
+2024-09-23 14:36:33,467 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '07674568580', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:33:46', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '11064260969', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:33:46', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00019083912', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 14:33:46', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}]
+2024-09-23 14:36:33,745 - INFO - Database session closed
+2024-09-23 14:36:37,843 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD60B6DC90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ffd0db5311fa54d4f8543cd3893ac372
+2024-09-23 14:36:41,932 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD60B6E110>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ffd0db5311fa54d4f8543cd3893ac372
+2024-09-23 14:36:45,778 - INFO - Starting webdriver_chrome_lotus context
+2024-09-23 14:36:46,017 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD60B6E950>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ffd0db5311fa54d4f8543cd3893ac372
+2024-09-23 14:36:47,283 - INFO - Navigating to the login page
+2024-09-23 14:36:48,716 - INFO - Filling in login details
+2024-09-23 14:36:48,764 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="f4d31ccca4619dc6c5270cef4e6cd2e7", element="f.266ADEF45E9028FCC6DA0566402E76EB.d.9562829109333AC97A9131B891677DE6.e.6")>
+2024-09-23 14:36:53,854 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="f4d31ccca4619dc6c5270cef4e6cd2e7", element="f.266ADEF45E9028FCC6DA0566402E76EB.d.9562829109333AC97A9131B891677DE6.e.14")>
+2024-09-23 14:36:54,188 - INFO - Closed Selenium page
+2024-09-23 14:36:55,824 - INFO - Waiting for the dashboard page to load
+2024-09-23 14:40:31,507 - INFO - Navigating to the dashboard page
+2024-09-23 14:40:33,612 - INFO - Entering CPF for document: 07674568580
+2024-09-23 14:40:37,360 - INFO - Clicking on consult button
+2024-09-23 14:40:38,494 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-09-23 14:40:39,622 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-09-23 14:40:49,625 - INFO - Selecting agreement
+2024-09-23 14:40:52,169 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:40:52,169 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 14:41:02,172 - INFO - Input Select
+2024-09-23 14:41:02,172 - ERROR - Error list: NoSuchWindowException
+2024-09-23 14:41:02,172 - INFO - Processed document 07674568580, index: 0
+2024-09-23 14:41:02,172 - CRITICAL - Critical error in main process
+2024-09-23 14:41:02,172 - ERROR - Error: NoSuchWindowException
+2024-09-23 14:41:02,172 - INFO - Set instance status to LIVRE for instance ID: 20
+2024-09-23 14:41:02,436 - INFO - Database commit completed
+2024-09-23 14:41:04,554 - INFO - Closed Selenium page
+2024-09-23 14:41:04,554 - INFO - Finalizing campaign
+2024-09-23 14:41:04,554 - INFO - Finalizing campaign 97 with data: []
+2024-09-23 14:41:05,517 - INFO - Appending data to campaign: []
+2024-09-23 14:41:05,784 - INFO - Database session closed
+2024-09-23 14:41:09,841 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD60B76710>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f4d31ccca4619dc6c5270cef4e6cd2e7
+2024-09-23 14:41:13,877 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD60B785D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f4d31ccca4619dc6c5270cef4e6cd2e7
+2024-09-23 14:41:17,915 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD60B78DD0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f4d31ccca4619dc6c5270cef4e6cd2e7
+2024-09-23 14:41:25,991 - INFO - Closed Selenium page
+2024-09-23 15:19:18,644 - INFO - Starting webdriver_chrome_lotus context
+2024-09-23 15:19:20,373 - INFO - Navigating to the login page
+2024-09-23 15:19:20,663 - INFO - Filling in login details
+2024-09-23 15:19:20,734 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="19b8f7a4aa73fcdb3ed48ad02855d48c", element="f.C1FF06D794A47AF61E380000EA11F28F.d.73578BDFCCCB92BC4CF6F587648985BA.e.8")>
+2024-09-23 15:19:26,179 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="19b8f7a4aa73fcdb3ed48ad02855d48c", element="f.C1FF06D794A47AF61E380000EA11F28F.d.73578BDFCCCB92BC4CF6F587648985BA.e.10")>
+2024-09-23 15:19:28,133 - INFO - Waiting for the dashboard page to load
+2024-09-23 15:24:49,883 - INFO - Navigating to the dashboard page
+2024-09-23 15:24:52,045 - INFO - Entering CPF for document: 07674568580
+2024-09-23 15:24:55,738 - INFO - Clicking on consult button
+2024-09-23 15:25:05,797 - INFO - Selecting agreement
+2024-09-23 15:25:15,842 - INFO - Input Select
+2024-09-23 15:25:15,852 - ERROR - Error list: NoSuchElementException
+2024-09-23 15:25:15,890 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:25:15,890 - ERROR - Error while processing document 07674568580, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:25:15,890 - INFO - Appending error object for document: 07674568580
+2024-09-23 15:25:16,034 - INFO - Processed document 07674568580, index: 1
+2024-09-23 15:25:16,455 - INFO - Navigating to the dashboard page
+2024-09-23 15:25:18,530 - INFO - Entering CPF for document: 11064260969
+2024-09-23 15:25:22,221 - INFO - Clicking on consult button
+2024-09-23 15:25:32,262 - INFO - Selecting agreement
+2024-09-23 15:25:42,356 - INFO - Input Select
+2024-09-23 15:25:42,376 - ERROR - Error list: NoSuchElementException
+2024-09-23 15:25:42,420 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:25:42,420 - ERROR - Error while processing document 11064260969, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:25:42,420 - INFO - Appending error object for document: 11064260969
+2024-09-23 15:25:42,565 - INFO - Processed document 11064260969, index: 2
+2024-09-23 15:25:42,998 - INFO - Navigating to the dashboard page
+2024-09-23 15:25:45,209 - INFO - Entering CPF for document: 00019083912
+2024-09-23 15:25:49,149 - INFO - Clicking on consult button
+2024-09-23 15:25:59,217 - INFO - Selecting agreement
+2024-09-23 15:26:14,637 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:26:30,022 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:26:40,023 - INFO - Input Select
+2024-09-23 15:26:40,035 - ERROR - Error list: NoSuchElementException
+2024-09-23 15:26:40,064 - INFO - Determined status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 15:26:40,064 - ERROR - Error while processing document 00019083912, Status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 15:26:40,064 - INFO - Appending error object for document: 00019083912
+2024-09-23 15:26:40,214 - INFO - Processed document 00019083912, index: 3
+2024-09-23 15:26:40,641 - INFO - Navigating to the dashboard page
+2024-09-23 15:26:42,956 - INFO - Entering CPF for document: 00077489144
+2024-09-23 15:26:46,841 - INFO - Clicking on consult button
+2024-09-23 15:26:56,914 - INFO - Selecting agreement
+2024-09-23 15:27:12,316 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:27:27,682 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:27:37,683 - INFO - Input Select
+2024-09-23 15:27:37,699 - ERROR - Error list: NoSuchElementException
+2024-09-23 15:27:37,732 - INFO - Determined status: Instituição Fiduciária não possui autorização do Trabalhador para Operação Fiduciária.
+2024-09-23 15:27:37,732 - ERROR - Error while processing document 00077489144, Status: Instituição Fiduciária não possui autorização do Trabalhador para Operação Fiduciária.
+2024-09-23 15:27:37,732 - INFO - Appending error object for document: 00077489144
+2024-09-23 15:27:37,873 - INFO - Processed document 00077489144, index: 4
+2024-09-23 15:27:38,309 - INFO - Navigating to the dashboard page
+2024-09-23 15:27:40,572 - INFO - Entering CPF for document: 00139693904
+2024-09-23 15:27:44,440 - INFO - Clicking on consult button
+2024-09-23 15:27:54,506 - INFO - Selecting agreement
+2024-09-23 15:28:09,893 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:28:26,121 - INFO - Input Select
+2024-09-23 15:28:26,132 - ERROR - Error list: NoSuchElementException
+2024-09-23 15:28:26,171 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:28:26,171 - ERROR - Error while processing document 00139693904, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:28:26,171 - INFO - Appending error object for document: 00139693904
+2024-09-23 15:28:26,315 - INFO - Processed document 00139693904, index: 5
+2024-09-23 15:28:26,737 - INFO - Navigating to the dashboard page
+2024-09-23 15:28:29,033 - INFO - Entering CPF for document: 00194908283
+2024-09-23 15:28:32,912 - INFO - Clicking on consult button
+2024-09-23 15:28:42,983 - INFO - Selecting agreement
+2024-09-23 15:28:55,050 - INFO - Serving on http://[::1]:5000
+2024-09-23 15:28:55,051 - INFO - Serving on http://127.0.0.1:5000
+2024-09-23 15:29:26,632 - INFO - Starting webdriver_chrome_lotus context
+2024-09-23 15:29:29,400 - INFO - Navigating to the login page
+2024-09-23 15:29:29,813 - INFO - Filling in login details
+2024-09-23 15:29:29,998 - INFO - Typed text 'laize.gestao@gmail.com' into element <selenium.webdriver.remote.webelement.WebElement (session="3849310452d8edefc0d390171d98a00a", element="f.0DDDED551F4E0A80DA23F97C08E46662.d.DD109771B03477DF57BBF37C62D57117.e.7")>
+2024-09-23 15:29:35,548 - INFO - Typed text 'Promo25**' into element <selenium.webdriver.remote.webelement.WebElement (session="3849310452d8edefc0d390171d98a00a", element="f.0DDDED551F4E0A80DA23F97C08E46662.d.DD109771B03477DF57BBF37C62D57117.e.10")>
+2024-09-23 15:29:37,517 - INFO - Waiting for the dashboard page to load
+2024-09-23 15:35:13,821 - INFO - Navigating to the dashboard page
+2024-09-23 15:35:15,972 - INFO - Entering CPF for document: 07674568580
+2024-09-23 15:35:19,666 - INFO - Clicking on consult button
+2024-09-23 15:35:29,717 - INFO - Selecting agreement
+2024-09-23 15:35:39,762 - INFO - Input Select
+2024-09-23 15:35:49,857 - INFO - Capturing guarantee value
+2024-09-23 15:36:05,086 - ERROR - Error list: TimeoutException
+2024-09-23 15:36:05,127 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:36:05,127 - ERROR - Error while processing document 07674568580, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:36:05,127 - INFO - Appending error object for document: 07674568580
+2024-09-23 15:36:05,270 - INFO - Processed document 07674568580, index: 1
+2024-09-23 15:36:05,691 - INFO - Navigating to the dashboard page
+2024-09-23 15:36:07,802 - INFO - Entering CPF for document: 11064260969
+2024-09-23 15:36:11,473 - INFO - Clicking on consult button
+2024-09-23 15:36:21,512 - INFO - Selecting agreement
+2024-09-23 15:36:31,550 - INFO - Input Select
+2024-09-23 15:36:41,614 - INFO - Capturing guarantee value
+2024-09-23 15:36:56,853 - ERROR - Error list: TimeoutException
+2024-09-23 15:36:56,891 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:36:56,892 - ERROR - Error while processing document 11064260969, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:36:56,892 - INFO - Appending error object for document: 11064260969
+2024-09-23 15:36:57,033 - INFO - Processed document 11064260969, index: 2
+2024-09-23 15:36:57,462 - INFO - Navigating to the dashboard page
+2024-09-23 15:36:59,532 - INFO - Entering CPF for document: 00019083912
+2024-09-23 15:37:03,137 - INFO - Clicking on consult button
+2024-09-23 15:37:13,176 - INFO - Selecting agreement
+2024-09-23 15:37:28,424 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:37:43,671 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:37:53,672 - INFO - Input Select
+2024-09-23 15:38:08,902 - ERROR - Error list: TimeoutException
+2024-09-23 15:38:08,924 - INFO - Determined status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 15:38:08,924 - ERROR - Error while processing document 00019083912, Status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 15:38:08,924 - INFO - Appending error object for document: 00019083912
+2024-09-23 15:38:09,066 - INFO - Processed document 00019083912, index: 3
+2024-09-23 15:38:09,488 - INFO - Navigating to the dashboard page
+2024-09-23 15:38:11,580 - INFO - Entering CPF for document: 00077489144
+2024-09-23 15:38:15,176 - INFO - Clicking on consult button
+2024-09-23 15:38:25,215 - INFO - Selecting agreement
+2024-09-23 15:38:40,479 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:38:55,714 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:39:05,715 - INFO - Input Select
+2024-09-23 15:39:20,943 - ERROR - Error list: TimeoutException
+2024-09-23 15:39:20,966 - INFO - Determined status: Instituição Fiduciária não possui autorização do Trabalhador para Operação Fiduciária.
+2024-09-23 15:39:20,966 - ERROR - Error while processing document 00077489144, Status: Instituição Fiduciária não possui autorização do Trabalhador para Operação Fiduciária.
+2024-09-23 15:39:20,966 - INFO - Appending error object for document: 00077489144
+2024-09-23 15:39:21,105 - INFO - Processed document 00077489144, index: 4
+2024-09-23 15:39:21,534 - INFO - Navigating to the dashboard page
+2024-09-23 15:39:23,659 - INFO - Entering CPF for document: 00139693904
+2024-09-23 15:39:39,041 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:39:54,425 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:40:09,799 - WARNING - Retry sending keys to element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:40:21,167 - INFO - Clicking on consult button
+2024-09-23 15:40:22,317 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-09-23 15:40:23,404 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-09-23 15:40:33,405 - INFO - Selecting agreement
+2024-09-23 15:40:48,646 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:41:03,886 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:41:13,886 - INFO - Input Select
+2024-09-23 15:41:29,108 - ERROR - Error list: TimeoutException
+2024-09-23 15:41:29,165 - INFO - Determined status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 15:41:29,165 - ERROR - Error while processing document 00139693904, Status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 15:41:29,165 - INFO - Appending error object for document: 00139693904
+2024-09-23 15:41:29,307 - INFO - Processed document 00139693904, index: 5
+2024-09-23 15:41:29,729 - INFO - Navigating to the dashboard page
+2024-09-23 15:41:31,824 - INFO - Entering CPF for document: 00194908283
+2024-09-23 15:41:47,218 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:42:02,604 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:42:17,992 - WARNING - Retry sending keys to element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:42:33,408 - WARNING - Retry sending keys to element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:42:33,408 - INFO - Clicking on consult button
+2024-09-23 15:42:48,789 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-09-23 15:43:04,189 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-09-23 15:43:14,190 - INFO - Selecting agreement
+2024-09-23 15:43:29,430 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:43:44,668 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:43:54,669 - INFO - Input Select
+2024-09-23 15:44:09,908 - ERROR - Error list: TimeoutException
+2024-09-23 15:44:09,950 - INFO - Determined status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:44:09,950 - ERROR - Error while processing document 00194908283, Status: Ocorreu uma falha na consulta aos dados do cliente
+2024-09-23 15:44:09,950 - INFO - Appending error object for document: 00194908283
+2024-09-23 15:44:10,126 - INFO - Processed document 00194908283, index: 6
+2024-09-23 15:44:10,555 - INFO - Navigating to the dashboard page
+2024-09-23 15:44:12,666 - INFO - Entering CPF for document: 00218446071
+2024-09-23 15:44:28,052 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:44:43,447 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:44:58,830 - WARNING - Retry sending keys to element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:45:14,349 - WARNING - Retry sending keys to element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input
+2024-09-23 15:45:14,349 - INFO - Clicking on consult button
+2024-09-23 15:45:29,742 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-09-23 15:45:45,138 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[1]/div/div[2]/button[1]
+2024-09-23 15:45:55,139 - INFO - Selecting agreement
+2024-09-23 15:46:10,390 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:46:25,647 - WARNING - Retry clicking element: /html/body/main/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/button[2]
+2024-09-23 15:46:35,648 - INFO - Input Select
+2024-09-23 15:46:50,906 - ERROR - Error list: TimeoutException
+2024-09-23 15:46:50,961 - INFO - Determined status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 15:46:50,961 - ERROR - Error while processing document 00218446071, Status: O valor de liberação deve ser maior que R$ 70,00
+2024-09-23 15:46:50,961 - INFO - Appending error object for document: 00218446071
+2024-09-23 15:46:51,106 - INFO - Processed document 00218446071, index: 7
+2024-09-23 15:46:51,106 - INFO - Finalizing campaign
+2024-09-23 15:46:51,106 - INFO - Finalizing campaign 99 with data: [{'company': 'Novo Rumo Empréstimos', 'document': '07674568580', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '11064260969', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00019083912', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '00077489144', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'Instituição Fiduciária não possui autorização do Trabalhador para Operação Fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '00139693904', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '00194908283', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00218446071', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}]
+2024-09-23 15:46:52,112 - INFO - Appending data to campaign: [{'company': 'Novo Rumo Empréstimos', 'document': '07674568580', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '11064260969', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00019083912', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '00077489144', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'Instituição Fiduciária não possui autorização do Trabalhador para Operação Fiduciária.'}, {'company': 'Novo Rumo Empréstimos', 'document': '00139693904', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}, {'company': 'Novo Rumo Empréstimos', 'document': '00194908283', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'Ocorreu uma falha na consulta aos dados do cliente'}, {'company': 'Novo Rumo Empréstimos', 'document': '00218446071', 'name': '', 'phone': '', 'guarantee_value': 0, 'released_value': 0, 'consultation_date': '23/09/2024 15:35:13', 'status': 'O valor de liberação deve ser maior que R$ 70,00'}]
+2024-09-23 15:46:52,449 - INFO - Database session closed
+2024-09-23 15:46:54,707 - INFO - Closed Selenium page

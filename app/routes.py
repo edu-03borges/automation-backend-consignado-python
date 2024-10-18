@@ -1,6 +1,7 @@
 from flask import request, jsonify, current_app as app
 import threading
 from app.automation.webdriver_chrome_mercantil import webdriver_chrome_mercantil
+from app.automation.webdriver_chrome_lotus import webdriver_chrome_lotus
 from app.db.models import TbCampaigns, TbInstances, TbCompanies
 from app.utils import split_into_parts, find_differences
 from app import db
@@ -85,7 +86,7 @@ def start_threads(instances, company, campaign, split_parts):
         db.session.commit()
 
         threading.Thread(
-            target=webdriver_chrome_mercantil,
+            target=webdriver_chrome_lotus,
             args=(
                 app._get_current_object(),
                 instance['user'],
